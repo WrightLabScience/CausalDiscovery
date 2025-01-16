@@ -1,0 +1,4 @@
+1 iDAP or1 impute yes pc 0.05
+2 allDAP or1 impute yes pc 0.05
+3 iDAP or5 impute no pc 0.05
+4 allDAP everything impute no pc 0.05

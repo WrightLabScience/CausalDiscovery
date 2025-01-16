@@ -1,0 +1,19 @@
+universe = vanilla
+log = log_files/$(Cluster).$(Process).log
+error = log_files/$(Cluster).$(Process).err
+output = log_files/$(Cluster).$(Process).out
+
+executable = search.sh
+arguments = $(key) $(filter_var) $(select_var) $(handle_missing_var) $(include_outcome_var) $(search_alg_var) $(search_alpha_var)
+transfer_input_files = FULL_MRSA_BACT.txt, dataset_trimmer.R, causal-cmd-1.12.0-jar-with-dependencies.jar
+transfer_output_remaps = "Result_${key}_out.txt = Results/Result_${key}_out.txt"
+
+request_cpus = 1
+request_memory = 8GB
+request_disk = 8GB
+
+requirements = HAS_SINGULARITY == True && OSG_HOST_KERNEL_VERSION >= 31000 && Arch == "X86_64"
+
++SingularityImage = "/cvmfs/singularity.opensciencegrid.org/npcooley/synextend:tetrad.1.20.0"
+
+queue key filter_var select_var handle_missing_var include_outcome_var search_alg_var search_alpha_var from search.map

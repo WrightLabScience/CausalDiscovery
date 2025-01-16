@@ -1,0 +1,32 @@
+{
+"domains": [
+{
+"name": "TRT",
+"discrete": true
+},
+{
+"name": "EARLY_CULTURE",
+"discrete": true
+},
+{
+"name": "Osteomyelitis_1w",
+"discrete": true
+},
+{
+"name": "Peritonitis_1w",
+"discrete": true
+},
+{
+"name": "PulmCircDis_1m",
+"discrete": true
+},
+{
+"name": "OsteoChronic",
+"discrete": true
+},
+{
+"name": "WeightLoss",
+"discrete": true
+}
+]
+}
