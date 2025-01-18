@@ -90,7 +90,7 @@ rownames(params) <- seq_len(nrow(params))
 nrow(params)
 
 # programatically construct the .dag file
-write.table(x = params[1:3,], 
+write.table(x = params, 
             file = '~/Desktop/CausalDiscovery/job_files/search.map', 
             quote = FALSE,
             col.names = FALSE,
