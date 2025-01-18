@@ -1,5 +1,6 @@
-# setwd('~/Desktop/tetrad_cmd_files/MRSAbact/')
-cat(getwd())
+# This script takes as input the full MRSA bacteremia EHR dataset
+# and several arguments deciding how to filter and select variables
+# the only external package required is `survival`
 
 # get args from command line
 args <- commandArgs(trailingOnly = TRUE)
@@ -8,15 +9,24 @@ flags <- gsub('--', '', args[seq(1, length(args), 2)])
 vars <- args[seq(2, length(args), 2)]
 
 # assign command line arguments to variables
+job_num <- vars[flags == 'job_num']
 filter_var <- vars[flags == 'filter_var']
 select_var <- vars[flags == 'select_var']
 handle_missing_var <- vars[flags == 'handle_missing_var']
 include_outcome_var <- vars[flags == 'include_outcome_var']
 
+# check the output to ensure everything is kosher
+cat('job_num', job_num, typeof(job_num), '\n')
 cat('filter_var', filter_var, typeof(filter_var), '\n')
 cat('select_var', select_var, typeof(select_var), '\n')
 cat('handle_missing_var', handle_missing_var, typeof(handle_missing_var), '\n')
 cat('include_outcome_var', include_outcome_var, typeof(include_outcome_var), '\n\n')
+
+# job_num <- 1
+# filter_var <- 'iDAP'
+# select_var <- 'and1'
+# handle_missing_var <- 'impute'
+# include_outcome_var <- 'yes'
 
 # read in FULL dataset from home directory
 # this is the base dataset that will be passed to each worker node
@@ -62,8 +72,21 @@ if (handle_missing_var == 'impute') {
                         })
    
 } else if (handle_missing_var == 'presence') {
-   df[w_cols] <- sapply(df[w_cols], function(vec) !is.na(vec))
-   
+   df[w_cols] <- sapply(df[w_cols], function(vec) as.integer(!is.na(vec)))
+   # if we do this, some variables (labs) will be PERFECTLY or NEARLY PERFECTLY correlated
+   # we need to account for this by removing all but 1 or combining them
+   marked_for_removal <- character()
+   for (v1 in seq_along(w_cols)[-length(w_cols)]) {
+      vec1 <- df[w_cols[v1]]
+      for (v2 in seq_along(w_cols)[(v1+1):length(w_cols)]) {
+         vec2 <- df[w_cols[v2]]
+         if (cor(vec1, vec2) == 1L) {
+            marked_for_removal <- c(marked_for_removal, w_cols[v2])
+         }
+      }
+   }
+   marked_for_removal <- unique(marked_for_removal)
+   df <- df[!names(df) %in% marked_for_removal]
 }
 ##### END DEAL WITH MISSING LAB VALUES #####
 
@@ -112,7 +135,7 @@ if (include_outcome_var == 'no') {
 }
 
 
-# create knowledge file specific to this set of variables:
+##### CREATE KNOWLEDGE FILE #####
 sink('knowledge.txt')
 cat('/knowledge\n\naddtemporal\n')
 
@@ -135,6 +158,16 @@ if (include_outcome_var == 'yes') {
 cat('\nforbiddirect\n')
 cat('\nrequiredirect\n')
 sink()
+##### END #####
+
+
+##### DUMP LIST OF VARIABLES TO FILE #####
+write.table(x = names(df), 
+            file = paste0('variables_', job_num, '.txt'),
+            row.names = FALSE,
+            col.names = FALSE,
+            quote = FALSE)
+##### END #####
 
 
 

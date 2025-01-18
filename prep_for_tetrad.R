@@ -68,18 +68,30 @@ length(intersect(vars_surv, vars_trt)) # 4 LOL
 
 
 
-select_vars <- c('or1', 'or5')#, 'everything', 'and1', 'and5')
-filter_vars <- c('iDAP', 'allDAP')#, 'i1DAP', 'i2DAP', 'sDAP')
-handle_missing_vars <- c('impute')#, 'leave', 'presence')
-include_outcome_vars <- c('yes')#, 'no')
-search_alg_vars <- c('pc')#, 'fci', 'ges', 'boss', 'grasp', 'grasp-fci', 'gfci', 'rfci')
-search_alpha_vars <- c(0.05)#, 0.01, 0.1)
-params <- expand.grid(filter_vars, select_vars, handle_missing_vars, include_outcome_vars, search_alg_vars, search_alpha_vars)
-nrow(params) # 3600
+select_vars <- c('or1', 'or5', 'everything', 'and1', 'and5')
+filter_vars <- c('iDAP', 'allDAP', 'i1DAP', 'i2DAP', 'sDAP')
+handle_missing_vars <- c('impute', 'presence')#, 'leave')
+include_outcome_vars <- c('yes', 'no')
+search_alg_vars <- c('pc', 'fges', 'grasp-fci', 'fci', 'boss', 'grasp', 'gfci', 'rfci')
+search_alpha_vars <- c(0.05, 0.01, 0.1)
+params <- expand.grid(filter_var=filter_vars, 
+                      select_var=select_vars, 
+                      handle_missing_var=handle_missing_vars, 
+                      include_outcome_var=include_outcome_vars, 
+                      search_alg_var=search_alg_vars, 
+                      search_alpha_var=search_alpha_vars)
+
+# for score-based algorithms, they all have every possible p-value, but that is unecessary
+# remove the p-value and then take unique
+score_based_algs <- c('boss', 'fges')
+params$search_alpha_var[params$search_alg_var %in% score_based_algs] <- NA
+params <- unique(params)
+rownames(params) <- seq_len(nrow(params))
+nrow(params)
 
 # programatically construct the .dag file
-write.table(x = params, 
-            file = '~/Desktop/tetrad_cmd_files/MRSAbact/job_files/search.map', 
+write.table(x = params[1:3,], 
+            file = '~/Desktop/CausalDiscovery/job_files/search.map', 
             quote = FALSE,
             col.names = FALSE,
             row.names = TRUE,

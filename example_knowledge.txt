@@ -1,0 +1,10 @@
+/knowledge
+
+addtemporal
+1 AKI_1w Peritonitis_1w OsteoChronic WeightLoss Hyperlipid NumOtherIsolates RECENT_MRSA_1y
+2 TRT
+3 time
+
+forbiddirect
+
+requiredirect

@@ -1,16 +1,16 @@
 #!/bin/bash
 
 java -jar ~/Desktop/EHR/causal/causal-cmd/causal-cmd-1.12.0-jar-with-dependencies.jar \
-    --dataset datasets/data.txt \
+    --dataset trimmed_data.txt \
     --delimiter tab \
     --data-type mixed \
     --numCategories 2 \
+    --missing-marker NA \
     --knowledge knowledge.txt \
-    --algorithm pc \
-    --alpha 0.05 \
+    --algorithm grasp \
+    --score cg-bic-score \
     --test cg-lr-test \
-    --json-graph \
-    --out runs
+    --alpha 0.05 \
     #--score cg-bic-score \
     #--json-graph \
     #--resamplingWithReplacement \
