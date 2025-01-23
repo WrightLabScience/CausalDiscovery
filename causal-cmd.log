@@ -1,0 +1,232 @@
+2025-01-20 23:42:28 INFO  org.reflections.Reflections:219 - Reflections took 97 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-20 23:42:28 INFO  org.reflections.Reflections:219 - Reflections took 14 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-20 23:42:28 INFO  org.reflections.Reflections:219 - Reflections took 9 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-20 23:43:04 INFO  org.reflections.Reflections:219 - Reflections took 73 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-20 23:43:04 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-20 23:43:04 INFO  org.reflections.Reflections:219 - Reflections took 6 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-20 23:45:49 INFO  org.reflections.Reflections:219 - Reflections took 79 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-20 23:45:49 INFO  org.reflections.Reflections:219 - Reflections took 9 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-20 23:45:49 INFO  org.reflections.Reflections:219 - Reflections took 8 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-20 23:46:56 INFO  org.reflections.Reflections:219 - Reflections took 73 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-20 23:46:56 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-20 23:46:56 INFO  org.reflections.Reflections:219 - Reflections took 8 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-20 23:49:21 INFO  org.reflections.Reflections:219 - Reflections took 73 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-20 23:49:21 INFO  org.reflections.Reflections:219 - Reflections took 11 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-20 23:49:21 INFO  org.reflections.Reflections:219 - Reflections took 8 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-20 23:49:32 INFO  org.reflections.Reflections:219 - Reflections took 77 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-20 23:49:33 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-20 23:49:33 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-20 23:49:42 INFO  org.reflections.Reflections:219 - Reflections took 79 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-20 23:49:42 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-20 23:49:42 INFO  org.reflections.Reflections:219 - Reflections took 8 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-20 23:53:45 INFO  org.reflections.Reflections:219 - Reflections took 79 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-20 23:53:45 INFO  org.reflections.Reflections:219 - Reflections took 18 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-20 23:53:45 INFO  org.reflections.Reflections:219 - Reflections took 9 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-20 23:54:38 INFO  org.reflections.Reflections:219 - Reflections took 81 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-20 23:58:39 INFO  org.reflections.Reflections:219 - Reflections took 88 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-20 23:58:39 INFO  org.reflections.Reflections:219 - Reflections took 14 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-20 23:58:39 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-20 23:59:11 INFO  org.reflections.Reflections:219 - Reflections took 74 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-20 23:59:11 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-20 23:59:11 INFO  org.reflections.Reflections:219 - Reflections took 8 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-20 23:59:30 INFO  org.reflections.Reflections:219 - Reflections took 77 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-20 23:59:30 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-20 23:59:30 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-20 23:59:38 INFO  org.reflections.Reflections:219 - Reflections took 88 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-20 23:59:38 INFO  org.reflections.Reflections:219 - Reflections took 12 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-20 23:59:38 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-20 23:59:39 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - Start data validation on file trimmed_data.txt.
+2025-01-20 23:59:39 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - End data validation on file trimmed_data.txt.
+2025-01-20 23:59:39 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:109 - There are 1998 cases and 9 variables.
+2025-01-20 23:59:39 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file trimmed_data.txt.
+2025-01-20 23:59:39 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file trimmed_data.txt.
+2025-01-20 23:59:39 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - File trimmed_data.txt contains 1998 cases, 9 variables.
+2025-01-20 23:59:39 ERROR edu.pitt.dbmi.causal.cmd.CausalCmdApplication:118 - 
+java.lang.IllegalArgumentException: Target not in data: 
+	at edu.cmu.tetrad.algcomparison.algorithm.oracle.cpdag.FgesMb.search(FgesMb.java:89)
+	at edu.pitt.dbmi.causal.cmd.tetrad.TetradRunner.lambda$runSearch$3(TetradRunner.java:215)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at edu.pitt.dbmi.causal.cmd.tetrad.TetradRunner.runSearch(TetradRunner.java:214)
+	at edu.pitt.dbmi.causal.cmd.tetrad.TetradRunner.runAlgorithm(TetradRunner.java:131)
+	at edu.pitt.dbmi.causal.cmd.CausalCmdApplication.runTetrad(CausalCmdApplication.java:152)
+	at edu.pitt.dbmi.causal.cmd.CausalCmdApplication.main(CausalCmdApplication.java:116)
+2025-01-20 23:59:55 INFO  org.reflections.Reflections:219 - Reflections took 74 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-20 23:59:55 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-20 23:59:55 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-20 23:59:56 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - Start data validation on file trimmed_data.txt.
+2025-01-20 23:59:56 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - End data validation on file trimmed_data.txt.
+2025-01-20 23:59:56 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:109 - There are 1998 cases and 9 variables.
+2025-01-20 23:59:56 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file trimmed_data.txt.
+2025-01-20 23:59:56 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file trimmed_data.txt.
+2025-01-20 23:59:56 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - File trimmed_data.txt contains 1998 cases, 9 variables.
+2025-01-21 00:01:11 INFO  org.reflections.Reflections:219 - Reflections took 83 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:01:11 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:01:11 INFO  org.reflections.Reflections:219 - Reflections took 8 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:01:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - Start data validation on file trimmed_data.txt.
+2025-01-21 00:01:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - End data validation on file trimmed_data.txt.
+2025-01-21 00:01:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:109 - There are 1998 cases and 104 variables.
+2025-01-21 00:01:13 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file trimmed_data.txt.
+2025-01-21 00:01:13 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file trimmed_data.txt.
+2025-01-21 00:01:13 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - File trimmed_data.txt contains 1998 cases, 104 variables.
+2025-01-21 00:03:30 INFO  org.reflections.Reflections:219 - Reflections took 78 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:03:30 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:03:30 INFO  org.reflections.Reflections:219 - Reflections took 9 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:03:31 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - Start data validation on file trimmed_data.txt.
+2025-01-21 00:03:31 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - End data validation on file trimmed_data.txt.
+2025-01-21 00:03:31 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:109 - There are 1998 cases and 104 variables.
+2025-01-21 00:03:31 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file trimmed_data.txt.
+2025-01-21 00:03:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file trimmed_data.txt.
+2025-01-21 00:03:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - File trimmed_data.txt contains 1998 cases, 104 variables.
+2025-01-21 00:03:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file knowledge.txt.
+2025-01-21 00:03:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file knowledge.txt.
+2025-01-21 00:11:08 INFO  org.reflections.Reflections:219 - Reflections took 76 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:11:08 INFO  org.reflections.Reflections:219 - Reflections took 11 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:11:09 INFO  org.reflections.Reflections:219 - Reflections took 11 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:11:09 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - Start data validation on file trimmed_data.txt.
+2025-01-21 00:11:09 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - End data validation on file trimmed_data.txt.
+2025-01-21 00:11:09 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:109 - There are 1998 cases and 9 variables.
+2025-01-21 00:11:09 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file trimmed_data.txt.
+2025-01-21 00:11:09 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file trimmed_data.txt.
+2025-01-21 00:11:09 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - File trimmed_data.txt contains 1998 cases, 9 variables.
+2025-01-21 00:11:35 INFO  org.reflections.Reflections:219 - Reflections took 74 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:11:35 INFO  org.reflections.Reflections:219 - Reflections took 11 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:11:35 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:11:36 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - Start data validation on file trimmed_data.txt.
+2025-01-21 00:11:36 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - End data validation on file trimmed_data.txt.
+2025-01-21 00:11:36 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:109 - There are 1998 cases and 9 variables.
+2025-01-21 00:11:36 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file trimmed_data.txt.
+2025-01-21 00:11:36 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file trimmed_data.txt.
+2025-01-21 00:11:36 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - File trimmed_data.txt contains 1998 cases, 9 variables.
+2025-01-21 00:11:36 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file knowledge.txt.
+2025-01-21 00:11:36 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file knowledge.txt.
+2025-01-21 00:11:40 INFO  org.reflections.Reflections:219 - Reflections took 95 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:11:40 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:11:40 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:11:41 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - Start data validation on file trimmed_data.txt.
+2025-01-21 00:11:41 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - End data validation on file trimmed_data.txt.
+2025-01-21 00:11:41 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:109 - There are 1998 cases and 9 variables.
+2025-01-21 00:11:41 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file trimmed_data.txt.
+2025-01-21 00:11:41 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file trimmed_data.txt.
+2025-01-21 00:11:41 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - File trimmed_data.txt contains 1998 cases, 9 variables.
+2025-01-21 00:11:41 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file knowledge.txt.
+2025-01-21 00:11:41 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file knowledge.txt.
+2025-01-21 00:11:57 INFO  org.reflections.Reflections:219 - Reflections took 77 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:11:57 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:11:57 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:11:57 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - Start data validation on file trimmed_data.txt.
+2025-01-21 00:11:57 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - End data validation on file trimmed_data.txt.
+2025-01-21 00:11:57 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:109 - There are 1998 cases and 9 variables.
+2025-01-21 00:11:57 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file trimmed_data.txt.
+2025-01-21 00:11:57 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file trimmed_data.txt.
+2025-01-21 00:11:57 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - File trimmed_data.txt contains 1998 cases, 9 variables.
+2025-01-21 00:11:57 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file knowledge.txt.
+2025-01-21 00:11:58 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file knowledge.txt.
+2025-01-21 00:13:31 INFO  org.reflections.Reflections:219 - Reflections took 77 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:21:40 INFO  org.reflections.Reflections:219 - Reflections took 148 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:21:40 INFO  org.reflections.Reflections:219 - Reflections took 16 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:21:40 INFO  org.reflections.Reflections:219 - Reflections took 13 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:22:14 INFO  org.reflections.Reflections:219 - Reflections took 72 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:22:14 INFO  org.reflections.Reflections:219 - Reflections took 9 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:22:14 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:32:13 INFO  org.reflections.Reflections:219 - Reflections took 73 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:32:13 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:32:13 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:32:34 INFO  org.reflections.Reflections:219 - Reflections took 79 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:32:34 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:32:35 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:32:44 INFO  org.reflections.Reflections:219 - Reflections took 82 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:32:44 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:32:44 INFO  org.reflections.Reflections:219 - Reflections took 8 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:33:03 INFO  org.reflections.Reflections:219 - Reflections took 75 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:33:03 INFO  org.reflections.Reflections:219 - Reflections took 9 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:33:03 INFO  org.reflections.Reflections:219 - Reflections took 8 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:33:18 INFO  org.reflections.Reflections:219 - Reflections took 81 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:33:18 INFO  org.reflections.Reflections:219 - Reflections took 14 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:33:18 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:33:18 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - Start data validation on file trimmed_data.txt.
+2025-01-21 00:33:18 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - End data validation on file trimmed_data.txt.
+2025-01-21 00:33:18 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:109 - There are 1998 cases and 9 variables.
+2025-01-21 00:33:18 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file trimmed_data.txt.
+2025-01-21 00:33:19 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file trimmed_data.txt.
+2025-01-21 00:33:19 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - File trimmed_data.txt contains 1998 cases, 9 variables.
+2025-01-21 00:33:19 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file knowledge.txt.
+2025-01-21 00:33:19 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file knowledge.txt.
+2025-01-21 00:33:30 INFO  org.reflections.Reflections:219 - Reflections took 73 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:33:30 INFO  org.reflections.Reflections:219 - Reflections took 9 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:33:30 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:33:31 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - Start data validation on file trimmed_data.txt.
+2025-01-21 00:33:31 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - End data validation on file trimmed_data.txt.
+2025-01-21 00:33:31 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:109 - There are 1998 cases and 9 variables.
+2025-01-21 00:33:31 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file trimmed_data.txt.
+2025-01-21 00:33:31 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file trimmed_data.txt.
+2025-01-21 00:33:31 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - File trimmed_data.txt contains 1998 cases, 9 variables.
+2025-01-21 00:33:31 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file knowledge.txt.
+2025-01-21 00:33:31 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file knowledge.txt.
+2025-01-21 00:34:09 INFO  org.reflections.Reflections:219 - Reflections took 86 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:34:09 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:34:09 INFO  org.reflections.Reflections:219 - Reflections took 9 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:34:10 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - Start data validation on file trimmed_data.txt.
+2025-01-21 00:34:10 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - End data validation on file trimmed_data.txt.
+2025-01-21 00:34:10 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:109 - There are 1998 cases and 9 variables.
+2025-01-21 00:34:10 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file trimmed_data.txt.
+2025-01-21 00:34:10 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file trimmed_data.txt.
+2025-01-21 00:34:10 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - File trimmed_data.txt contains 1998 cases, 9 variables.
+2025-01-21 00:34:10 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file knowledge.txt.
+2025-01-21 00:34:10 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file knowledge.txt.
+2025-01-21 00:34:20 INFO  org.reflections.Reflections:219 - Reflections took 140 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:34:20 INFO  org.reflections.Reflections:219 - Reflections took 38 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:34:20 INFO  org.reflections.Reflections:219 - Reflections took 18 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:34:21 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - Start data validation on file trimmed_data.txt.
+2025-01-21 00:34:21 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - End data validation on file trimmed_data.txt.
+2025-01-21 00:34:21 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:109 - There are 1998 cases and 9 variables.
+2025-01-21 00:34:21 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file trimmed_data.txt.
+2025-01-21 00:34:21 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file trimmed_data.txt.
+2025-01-21 00:34:21 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - File trimmed_data.txt contains 1998 cases, 9 variables.
+2025-01-21 00:34:21 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file knowledge.txt.
+2025-01-21 00:34:21 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file knowledge.txt.
+2025-01-21 00:34:45 INFO  org.reflections.Reflections:219 - Reflections took 72 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:34:45 INFO  org.reflections.Reflections:219 - Reflections took 9 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:34:45 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:34:45 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - Start data validation on file trimmed_data.txt.
+2025-01-21 00:34:45 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:166 - End data validation on file trimmed_data.txt.
+2025-01-21 00:34:45 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:109 - There are 1998 cases and 9 variables.
+2025-01-21 00:34:45 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file trimmed_data.txt.
+2025-01-21 00:34:45 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file trimmed_data.txt.
+2025-01-21 00:34:45 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - File trimmed_data.txt contains 1998 cases, 9 variables.
+2025-01-21 00:34:45 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Start reading in file knowledge.txt.
+2025-01-21 00:34:45 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:166 - Finished reading in file knowledge.txt.
+2025-01-21 00:35:19 INFO  org.reflections.Reflections:219 - Reflections took 90 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:35:19 INFO  org.reflections.Reflections:219 - Reflections took 11 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:35:19 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:35:31 INFO  org.reflections.Reflections:219 - Reflections took 84 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:35:31 INFO  org.reflections.Reflections:219 - Reflections took 12 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:35:31 INFO  org.reflections.Reflections:219 - Reflections took 8 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:35:50 INFO  org.reflections.Reflections:219 - Reflections took 77 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:35:50 INFO  org.reflections.Reflections:219 - Reflections took 20 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:35:50 INFO  org.reflections.Reflections:219 - Reflections took 9 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:35:59 INFO  org.reflections.Reflections:219 - Reflections took 79 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:35:59 INFO  org.reflections.Reflections:219 - Reflections took 14 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:35:59 INFO  org.reflections.Reflections:219 - Reflections took 12 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:36:14 INFO  org.reflections.Reflections:219 - Reflections took 77 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:36:14 INFO  org.reflections.Reflections:219 - Reflections took 9 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:36:14 INFO  org.reflections.Reflections:219 - Reflections took 8 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:36:24 INFO  org.reflections.Reflections:219 - Reflections took 78 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:36:24 INFO  org.reflections.Reflections:219 - Reflections took 13 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:36:24 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:36:41 INFO  org.reflections.Reflections:219 - Reflections took 80 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:36:41 INFO  org.reflections.Reflections:219 - Reflections took 12 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:36:41 INFO  org.reflections.Reflections:219 - Reflections took 8 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:36:59 INFO  org.reflections.Reflections:219 - Reflections took 81 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:36:59 INFO  org.reflections.Reflections:219 - Reflections took 10 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:36:59 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:37:06 INFO  org.reflections.Reflections:219 - Reflections took 142 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:37:06 INFO  org.reflections.Reflections:219 - Reflections took 21 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:37:06 INFO  org.reflections.Reflections:219 - Reflections took 17 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 00:38:29 INFO  org.reflections.Reflections:219 - Reflections took 77 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 00:38:29 INFO  org.reflections.Reflections:219 - Reflections took 14 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 00:38:29 INFO  org.reflections.Reflections:219 - Reflections took 9 ms to scan 1 urls, producing 7 keys and 36 values
+2025-01-21 08:51:33 INFO  org.reflections.Reflections:219 - Reflections took 89 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 08:51:37 INFO  org.reflections.Reflections:219 - Reflections took 81 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 09:11:00 INFO  org.reflections.Reflections:219 - Reflections took 95 ms to scan 1 urls, producing 16 keys and 292 values
+2025-01-21 09:11:00 INFO  org.reflections.Reflections:219 - Reflections took 11 ms to scan 1 urls, producing 8 keys and 47 values
+2025-01-21 09:11:00 INFO  org.reflections.Reflections:219 - Reflections took 7 ms to scan 1 urls, producing 7 keys and 36 values

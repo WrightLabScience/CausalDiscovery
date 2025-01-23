@@ -1,2000 +1,700 @@
-1 iDAP or1 impute yes pc 0.05
-2 allDAP or1 impute yes pc 0.05
-3 i1DAP or1 impute yes pc 0.05
-4 i2DAP or1 impute yes pc 0.05
-5 sDAP or1 impute yes pc 0.05
-6 iDAP or5 impute yes pc 0.05
-7 allDAP or5 impute yes pc 0.05
-8 i1DAP or5 impute yes pc 0.05
-9 i2DAP or5 impute yes pc 0.05
-10 sDAP or5 impute yes pc 0.05
-11 iDAP everything impute yes pc 0.05
-12 allDAP everything impute yes pc 0.05
-13 i1DAP everything impute yes pc 0.05
-14 i2DAP everything impute yes pc 0.05
-15 sDAP everything impute yes pc 0.05
-16 iDAP and1 impute yes pc 0.05
-17 allDAP and1 impute yes pc 0.05
-18 i1DAP and1 impute yes pc 0.05
-19 i2DAP and1 impute yes pc 0.05
-20 sDAP and1 impute yes pc 0.05
-21 iDAP and5 impute yes pc 0.05
-22 allDAP and5 impute yes pc 0.05
-23 i1DAP and5 impute yes pc 0.05
-24 i2DAP and5 impute yes pc 0.05
-25 sDAP and5 impute yes pc 0.05
-26 iDAP or1 presence yes pc 0.05
-27 allDAP or1 presence yes pc 0.05
-28 i1DAP or1 presence yes pc 0.05
-29 i2DAP or1 presence yes pc 0.05
-30 sDAP or1 presence yes pc 0.05
-31 iDAP or5 presence yes pc 0.05
-32 allDAP or5 presence yes pc 0.05
-33 i1DAP or5 presence yes pc 0.05
-34 i2DAP or5 presence yes pc 0.05
-35 sDAP or5 presence yes pc 0.05
-36 iDAP everything presence yes pc 0.05
-37 allDAP everything presence yes pc 0.05
-38 i1DAP everything presence yes pc 0.05
-39 i2DAP everything presence yes pc 0.05
-40 sDAP everything presence yes pc 0.05
-41 iDAP and1 presence yes pc 0.05
-42 allDAP and1 presence yes pc 0.05
-43 i1DAP and1 presence yes pc 0.05
-44 i2DAP and1 presence yes pc 0.05
-45 sDAP and1 presence yes pc 0.05
-46 iDAP and5 presence yes pc 0.05
-47 allDAP and5 presence yes pc 0.05
-48 i1DAP and5 presence yes pc 0.05
-49 i2DAP and5 presence yes pc 0.05
-50 sDAP and5 presence yes pc 0.05
-51 iDAP or1 impute no pc 0.05
-52 allDAP or1 impute no pc 0.05
-53 i1DAP or1 impute no pc 0.05
-54 i2DAP or1 impute no pc 0.05
-55 sDAP or1 impute no pc 0.05
-56 iDAP or5 impute no pc 0.05
-57 allDAP or5 impute no pc 0.05
-58 i1DAP or5 impute no pc 0.05
-59 i2DAP or5 impute no pc 0.05
-60 sDAP or5 impute no pc 0.05
-61 iDAP everything impute no pc 0.05
-62 allDAP everything impute no pc 0.05
-63 i1DAP everything impute no pc 0.05
-64 i2DAP everything impute no pc 0.05
-65 sDAP everything impute no pc 0.05
-66 iDAP and1 impute no pc 0.05
-67 allDAP and1 impute no pc 0.05
-68 i1DAP and1 impute no pc 0.05
-69 i2DAP and1 impute no pc 0.05
-70 sDAP and1 impute no pc 0.05
-71 iDAP and5 impute no pc 0.05
-72 allDAP and5 impute no pc 0.05
-73 i1DAP and5 impute no pc 0.05
-74 i2DAP and5 impute no pc 0.05
-75 sDAP and5 impute no pc 0.05
-76 iDAP or1 presence no pc 0.05
-77 allDAP or1 presence no pc 0.05
-78 i1DAP or1 presence no pc 0.05
-79 i2DAP or1 presence no pc 0.05
-80 sDAP or1 presence no pc 0.05
-81 iDAP or5 presence no pc 0.05
-82 allDAP or5 presence no pc 0.05
-83 i1DAP or5 presence no pc 0.05
-84 i2DAP or5 presence no pc 0.05
-85 sDAP or5 presence no pc 0.05
-86 iDAP everything presence no pc 0.05
-87 allDAP everything presence no pc 0.05
-88 i1DAP everything presence no pc 0.05
-89 i2DAP everything presence no pc 0.05
-90 sDAP everything presence no pc 0.05
-91 iDAP and1 presence no pc 0.05
-92 allDAP and1 presence no pc 0.05
-93 i1DAP and1 presence no pc 0.05
-94 i2DAP and1 presence no pc 0.05
-95 sDAP and1 presence no pc 0.05
-96 iDAP and5 presence no pc 0.05
-97 allDAP and5 presence no pc 0.05
-98 i1DAP and5 presence no pc 0.05
-99 i2DAP and5 presence no pc 0.05
-100 sDAP and5 presence no pc 0.05
-101 iDAP or1 impute yes fges NA
-102 allDAP or1 impute yes fges NA
-103 i1DAP or1 impute yes fges NA
-104 i2DAP or1 impute yes fges NA
-105 sDAP or1 impute yes fges NA
-106 iDAP or5 impute yes fges NA
-107 allDAP or5 impute yes fges NA
-108 i1DAP or5 impute yes fges NA
-109 i2DAP or5 impute yes fges NA
-110 sDAP or5 impute yes fges NA
-111 iDAP everything impute yes fges NA
-112 allDAP everything impute yes fges NA
-113 i1DAP everything impute yes fges NA
-114 i2DAP everything impute yes fges NA
-115 sDAP everything impute yes fges NA
-116 iDAP and1 impute yes fges NA
-117 allDAP and1 impute yes fges NA
-118 i1DAP and1 impute yes fges NA
-119 i2DAP and1 impute yes fges NA
-120 sDAP and1 impute yes fges NA
-121 iDAP and5 impute yes fges NA
-122 allDAP and5 impute yes fges NA
-123 i1DAP and5 impute yes fges NA
-124 i2DAP and5 impute yes fges NA
-125 sDAP and5 impute yes fges NA
-126 iDAP or1 presence yes fges NA
-127 allDAP or1 presence yes fges NA
-128 i1DAP or1 presence yes fges NA
-129 i2DAP or1 presence yes fges NA
-130 sDAP or1 presence yes fges NA
-131 iDAP or5 presence yes fges NA
-132 allDAP or5 presence yes fges NA
-133 i1DAP or5 presence yes fges NA
-134 i2DAP or5 presence yes fges NA
-135 sDAP or5 presence yes fges NA
-136 iDAP everything presence yes fges NA
-137 allDAP everything presence yes fges NA
-138 i1DAP everything presence yes fges NA
-139 i2DAP everything presence yes fges NA
-140 sDAP everything presence yes fges NA
-141 iDAP and1 presence yes fges NA
-142 allDAP and1 presence yes fges NA
-143 i1DAP and1 presence yes fges NA
-144 i2DAP and1 presence yes fges NA
-145 sDAP and1 presence yes fges NA
-146 iDAP and5 presence yes fges NA
-147 allDAP and5 presence yes fges NA
-148 i1DAP and5 presence yes fges NA
-149 i2DAP and5 presence yes fges NA
-150 sDAP and5 presence yes fges NA
-151 iDAP or1 impute no fges NA
-152 allDAP or1 impute no fges NA
-153 i1DAP or1 impute no fges NA
-154 i2DAP or1 impute no fges NA
-155 sDAP or1 impute no fges NA
-156 iDAP or5 impute no fges NA
-157 allDAP or5 impute no fges NA
-158 i1DAP or5 impute no fges NA
-159 i2DAP or5 impute no fges NA
-160 sDAP or5 impute no fges NA
-161 iDAP everything impute no fges NA
-162 allDAP everything impute no fges NA
-163 i1DAP everything impute no fges NA
-164 i2DAP everything impute no fges NA
-165 sDAP everything impute no fges NA
-166 iDAP and1 impute no fges NA
-167 allDAP and1 impute no fges NA
-168 i1DAP and1 impute no fges NA
-169 i2DAP and1 impute no fges NA
-170 sDAP and1 impute no fges NA
-171 iDAP and5 impute no fges NA
-172 allDAP and5 impute no fges NA
-173 i1DAP and5 impute no fges NA
-174 i2DAP and5 impute no fges NA
-175 sDAP and5 impute no fges NA
-176 iDAP or1 presence no fges NA
-177 allDAP or1 presence no fges NA
-178 i1DAP or1 presence no fges NA
-179 i2DAP or1 presence no fges NA
-180 sDAP or1 presence no fges NA
-181 iDAP or5 presence no fges NA
-182 allDAP or5 presence no fges NA
-183 i1DAP or5 presence no fges NA
-184 i2DAP or5 presence no fges NA
-185 sDAP or5 presence no fges NA
-186 iDAP everything presence no fges NA
-187 allDAP everything presence no fges NA
-188 i1DAP everything presence no fges NA
-189 i2DAP everything presence no fges NA
-190 sDAP everything presence no fges NA
-191 iDAP and1 presence no fges NA
-192 allDAP and1 presence no fges NA
-193 i1DAP and1 presence no fges NA
-194 i2DAP and1 presence no fges NA
-195 sDAP and1 presence no fges NA
-196 iDAP and5 presence no fges NA
-197 allDAP and5 presence no fges NA
-198 i1DAP and5 presence no fges NA
-199 i2DAP and5 presence no fges NA
-200 sDAP and5 presence no fges NA
-201 iDAP or1 impute yes grasp-fci 0.05
-202 allDAP or1 impute yes grasp-fci 0.05
-203 i1DAP or1 impute yes grasp-fci 0.05
-204 i2DAP or1 impute yes grasp-fci 0.05
-205 sDAP or1 impute yes grasp-fci 0.05
-206 iDAP or5 impute yes grasp-fci 0.05
-207 allDAP or5 impute yes grasp-fci 0.05
-208 i1DAP or5 impute yes grasp-fci 0.05
-209 i2DAP or5 impute yes grasp-fci 0.05
-210 sDAP or5 impute yes grasp-fci 0.05
-211 iDAP everything impute yes grasp-fci 0.05
-212 allDAP everything impute yes grasp-fci 0.05
-213 i1DAP everything impute yes grasp-fci 0.05
-214 i2DAP everything impute yes grasp-fci 0.05
-215 sDAP everything impute yes grasp-fci 0.05
-216 iDAP and1 impute yes grasp-fci 0.05
-217 allDAP and1 impute yes grasp-fci 0.05
-218 i1DAP and1 impute yes grasp-fci 0.05
-219 i2DAP and1 impute yes grasp-fci 0.05
-220 sDAP and1 impute yes grasp-fci 0.05
-221 iDAP and5 impute yes grasp-fci 0.05
-222 allDAP and5 impute yes grasp-fci 0.05
-223 i1DAP and5 impute yes grasp-fci 0.05
-224 i2DAP and5 impute yes grasp-fci 0.05
-225 sDAP and5 impute yes grasp-fci 0.05
-226 iDAP or1 presence yes grasp-fci 0.05
-227 allDAP or1 presence yes grasp-fci 0.05
-228 i1DAP or1 presence yes grasp-fci 0.05
-229 i2DAP or1 presence yes grasp-fci 0.05
-230 sDAP or1 presence yes grasp-fci 0.05
-231 iDAP or5 presence yes grasp-fci 0.05
-232 allDAP or5 presence yes grasp-fci 0.05
-233 i1DAP or5 presence yes grasp-fci 0.05
-234 i2DAP or5 presence yes grasp-fci 0.05
-235 sDAP or5 presence yes grasp-fci 0.05
-236 iDAP everything presence yes grasp-fci 0.05
-237 allDAP everything presence yes grasp-fci 0.05
-238 i1DAP everything presence yes grasp-fci 0.05
-239 i2DAP everything presence yes grasp-fci 0.05
-240 sDAP everything presence yes grasp-fci 0.05
-241 iDAP and1 presence yes grasp-fci 0.05
-242 allDAP and1 presence yes grasp-fci 0.05
-243 i1DAP and1 presence yes grasp-fci 0.05
-244 i2DAP and1 presence yes grasp-fci 0.05
-245 sDAP and1 presence yes grasp-fci 0.05
-246 iDAP and5 presence yes grasp-fci 0.05
-247 allDAP and5 presence yes grasp-fci 0.05
-248 i1DAP and5 presence yes grasp-fci 0.05
-249 i2DAP and5 presence yes grasp-fci 0.05
-250 sDAP and5 presence yes grasp-fci 0.05
-251 iDAP or1 impute no grasp-fci 0.05
-252 allDAP or1 impute no grasp-fci 0.05
-253 i1DAP or1 impute no grasp-fci 0.05
-254 i2DAP or1 impute no grasp-fci 0.05
-255 sDAP or1 impute no grasp-fci 0.05
-256 iDAP or5 impute no grasp-fci 0.05
-257 allDAP or5 impute no grasp-fci 0.05
-258 i1DAP or5 impute no grasp-fci 0.05
-259 i2DAP or5 impute no grasp-fci 0.05
-260 sDAP or5 impute no grasp-fci 0.05
-261 iDAP everything impute no grasp-fci 0.05
-262 allDAP everything impute no grasp-fci 0.05
-263 i1DAP everything impute no grasp-fci 0.05
-264 i2DAP everything impute no grasp-fci 0.05
-265 sDAP everything impute no grasp-fci 0.05
-266 iDAP and1 impute no grasp-fci 0.05
-267 allDAP and1 impute no grasp-fci 0.05
-268 i1DAP and1 impute no grasp-fci 0.05
-269 i2DAP and1 impute no grasp-fci 0.05
-270 sDAP and1 impute no grasp-fci 0.05
-271 iDAP and5 impute no grasp-fci 0.05
-272 allDAP and5 impute no grasp-fci 0.05
-273 i1DAP and5 impute no grasp-fci 0.05
-274 i2DAP and5 impute no grasp-fci 0.05
-275 sDAP and5 impute no grasp-fci 0.05
-276 iDAP or1 presence no grasp-fci 0.05
-277 allDAP or1 presence no grasp-fci 0.05
-278 i1DAP or1 presence no grasp-fci 0.05
-279 i2DAP or1 presence no grasp-fci 0.05
-280 sDAP or1 presence no grasp-fci 0.05
-281 iDAP or5 presence no grasp-fci 0.05
-282 allDAP or5 presence no grasp-fci 0.05
-283 i1DAP or5 presence no grasp-fci 0.05
-284 i2DAP or5 presence no grasp-fci 0.05
-285 sDAP or5 presence no grasp-fci 0.05
-286 iDAP everything presence no grasp-fci 0.05
-287 allDAP everything presence no grasp-fci 0.05
-288 i1DAP everything presence no grasp-fci 0.05
-289 i2DAP everything presence no grasp-fci 0.05
-290 sDAP everything presence no grasp-fci 0.05
-291 iDAP and1 presence no grasp-fci 0.05
-292 allDAP and1 presence no grasp-fci 0.05
-293 i1DAP and1 presence no grasp-fci 0.05
-294 i2DAP and1 presence no grasp-fci 0.05
-295 sDAP and1 presence no grasp-fci 0.05
-296 iDAP and5 presence no grasp-fci 0.05
-297 allDAP and5 presence no grasp-fci 0.05
-298 i1DAP and5 presence no grasp-fci 0.05
-299 i2DAP and5 presence no grasp-fci 0.05
-300 sDAP and5 presence no grasp-fci 0.05
-301 iDAP or1 impute yes fci 0.05
-302 allDAP or1 impute yes fci 0.05
-303 i1DAP or1 impute yes fci 0.05
-304 i2DAP or1 impute yes fci 0.05
-305 sDAP or1 impute yes fci 0.05
-306 iDAP or5 impute yes fci 0.05
-307 allDAP or5 impute yes fci 0.05
-308 i1DAP or5 impute yes fci 0.05
-309 i2DAP or5 impute yes fci 0.05
-310 sDAP or5 impute yes fci 0.05
-311 iDAP everything impute yes fci 0.05
-312 allDAP everything impute yes fci 0.05
-313 i1DAP everything impute yes fci 0.05
-314 i2DAP everything impute yes fci 0.05
-315 sDAP everything impute yes fci 0.05
-316 iDAP and1 impute yes fci 0.05
-317 allDAP and1 impute yes fci 0.05
-318 i1DAP and1 impute yes fci 0.05
-319 i2DAP and1 impute yes fci 0.05
-320 sDAP and1 impute yes fci 0.05
-321 iDAP and5 impute yes fci 0.05
-322 allDAP and5 impute yes fci 0.05
-323 i1DAP and5 impute yes fci 0.05
-324 i2DAP and5 impute yes fci 0.05
-325 sDAP and5 impute yes fci 0.05
-326 iDAP or1 presence yes fci 0.05
-327 allDAP or1 presence yes fci 0.05
-328 i1DAP or1 presence yes fci 0.05
-329 i2DAP or1 presence yes fci 0.05
-330 sDAP or1 presence yes fci 0.05
-331 iDAP or5 presence yes fci 0.05
-332 allDAP or5 presence yes fci 0.05
-333 i1DAP or5 presence yes fci 0.05
-334 i2DAP or5 presence yes fci 0.05
-335 sDAP or5 presence yes fci 0.05
-336 iDAP everything presence yes fci 0.05
-337 allDAP everything presence yes fci 0.05
-338 i1DAP everything presence yes fci 0.05
-339 i2DAP everything presence yes fci 0.05
-340 sDAP everything presence yes fci 0.05
-341 iDAP and1 presence yes fci 0.05
-342 allDAP and1 presence yes fci 0.05
-343 i1DAP and1 presence yes fci 0.05
-344 i2DAP and1 presence yes fci 0.05
-345 sDAP and1 presence yes fci 0.05
-346 iDAP and5 presence yes fci 0.05
-347 allDAP and5 presence yes fci 0.05
-348 i1DAP and5 presence yes fci 0.05
-349 i2DAP and5 presence yes fci 0.05
-350 sDAP and5 presence yes fci 0.05
-351 iDAP or1 impute no fci 0.05
-352 allDAP or1 impute no fci 0.05
-353 i1DAP or1 impute no fci 0.05
-354 i2DAP or1 impute no fci 0.05
-355 sDAP or1 impute no fci 0.05
-356 iDAP or5 impute no fci 0.05
-357 allDAP or5 impute no fci 0.05
-358 i1DAP or5 impute no fci 0.05
-359 i2DAP or5 impute no fci 0.05
-360 sDAP or5 impute no fci 0.05
-361 iDAP everything impute no fci 0.05
-362 allDAP everything impute no fci 0.05
-363 i1DAP everything impute no fci 0.05
-364 i2DAP everything impute no fci 0.05
-365 sDAP everything impute no fci 0.05
-366 iDAP and1 impute no fci 0.05
-367 allDAP and1 impute no fci 0.05
-368 i1DAP and1 impute no fci 0.05
-369 i2DAP and1 impute no fci 0.05
-370 sDAP and1 impute no fci 0.05
-371 iDAP and5 impute no fci 0.05
-372 allDAP and5 impute no fci 0.05
-373 i1DAP and5 impute no fci 0.05
-374 i2DAP and5 impute no fci 0.05
-375 sDAP and5 impute no fci 0.05
-376 iDAP or1 presence no fci 0.05
-377 allDAP or1 presence no fci 0.05
-378 i1DAP or1 presence no fci 0.05
-379 i2DAP or1 presence no fci 0.05
-380 sDAP or1 presence no fci 0.05
-381 iDAP or5 presence no fci 0.05
-382 allDAP or5 presence no fci 0.05
-383 i1DAP or5 presence no fci 0.05
-384 i2DAP or5 presence no fci 0.05
-385 sDAP or5 presence no fci 0.05
-386 iDAP everything presence no fci 0.05
-387 allDAP everything presence no fci 0.05
-388 i1DAP everything presence no fci 0.05
-389 i2DAP everything presence no fci 0.05
-390 sDAP everything presence no fci 0.05
-391 iDAP and1 presence no fci 0.05
-392 allDAP and1 presence no fci 0.05
-393 i1DAP and1 presence no fci 0.05
-394 i2DAP and1 presence no fci 0.05
-395 sDAP and1 presence no fci 0.05
-396 iDAP and5 presence no fci 0.05
-397 allDAP and5 presence no fci 0.05
-398 i1DAP and5 presence no fci 0.05
-399 i2DAP and5 presence no fci 0.05
-400 sDAP and5 presence no fci 0.05
-401 iDAP or1 impute yes boss NA
-402 allDAP or1 impute yes boss NA
-403 i1DAP or1 impute yes boss NA
-404 i2DAP or1 impute yes boss NA
-405 sDAP or1 impute yes boss NA
-406 iDAP or5 impute yes boss NA
-407 allDAP or5 impute yes boss NA
-408 i1DAP or5 impute yes boss NA
-409 i2DAP or5 impute yes boss NA
-410 sDAP or5 impute yes boss NA
-411 iDAP everything impute yes boss NA
-412 allDAP everything impute yes boss NA
-413 i1DAP everything impute yes boss NA
-414 i2DAP everything impute yes boss NA
-415 sDAP everything impute yes boss NA
-416 iDAP and1 impute yes boss NA
-417 allDAP and1 impute yes boss NA
-418 i1DAP and1 impute yes boss NA
-419 i2DAP and1 impute yes boss NA
-420 sDAP and1 impute yes boss NA
-421 iDAP and5 impute yes boss NA
-422 allDAP and5 impute yes boss NA
-423 i1DAP and5 impute yes boss NA
-424 i2DAP and5 impute yes boss NA
-425 sDAP and5 impute yes boss NA
-426 iDAP or1 presence yes boss NA
-427 allDAP or1 presence yes boss NA
-428 i1DAP or1 presence yes boss NA
-429 i2DAP or1 presence yes boss NA
-430 sDAP or1 presence yes boss NA
-431 iDAP or5 presence yes boss NA
-432 allDAP or5 presence yes boss NA
-433 i1DAP or5 presence yes boss NA
-434 i2DAP or5 presence yes boss NA
-435 sDAP or5 presence yes boss NA
-436 iDAP everything presence yes boss NA
-437 allDAP everything presence yes boss NA
-438 i1DAP everything presence yes boss NA
-439 i2DAP everything presence yes boss NA
-440 sDAP everything presence yes boss NA
-441 iDAP and1 presence yes boss NA
-442 allDAP and1 presence yes boss NA
-443 i1DAP and1 presence yes boss NA
-444 i2DAP and1 presence yes boss NA
-445 sDAP and1 presence yes boss NA
-446 iDAP and5 presence yes boss NA
-447 allDAP and5 presence yes boss NA
-448 i1DAP and5 presence yes boss NA
-449 i2DAP and5 presence yes boss NA
-450 sDAP and5 presence yes boss NA
-451 iDAP or1 impute no boss NA
-452 allDAP or1 impute no boss NA
-453 i1DAP or1 impute no boss NA
-454 i2DAP or1 impute no boss NA
-455 sDAP or1 impute no boss NA
-456 iDAP or5 impute no boss NA
-457 allDAP or5 impute no boss NA
-458 i1DAP or5 impute no boss NA
-459 i2DAP or5 impute no boss NA
-460 sDAP or5 impute no boss NA
-461 iDAP everything impute no boss NA
-462 allDAP everything impute no boss NA
-463 i1DAP everything impute no boss NA
-464 i2DAP everything impute no boss NA
-465 sDAP everything impute no boss NA
-466 iDAP and1 impute no boss NA
-467 allDAP and1 impute no boss NA
-468 i1DAP and1 impute no boss NA
-469 i2DAP and1 impute no boss NA
-470 sDAP and1 impute no boss NA
-471 iDAP and5 impute no boss NA
-472 allDAP and5 impute no boss NA
-473 i1DAP and5 impute no boss NA
-474 i2DAP and5 impute no boss NA
-475 sDAP and5 impute no boss NA
-476 iDAP or1 presence no boss NA
-477 allDAP or1 presence no boss NA
-478 i1DAP or1 presence no boss NA
-479 i2DAP or1 presence no boss NA
-480 sDAP or1 presence no boss NA
-481 iDAP or5 presence no boss NA
-482 allDAP or5 presence no boss NA
-483 i1DAP or5 presence no boss NA
-484 i2DAP or5 presence no boss NA
-485 sDAP or5 presence no boss NA
-486 iDAP everything presence no boss NA
-487 allDAP everything presence no boss NA
-488 i1DAP everything presence no boss NA
-489 i2DAP everything presence no boss NA
-490 sDAP everything presence no boss NA
-491 iDAP and1 presence no boss NA
-492 allDAP and1 presence no boss NA
-493 i1DAP and1 presence no boss NA
-494 i2DAP and1 presence no boss NA
-495 sDAP and1 presence no boss NA
-496 iDAP and5 presence no boss NA
-497 allDAP and5 presence no boss NA
-498 i1DAP and5 presence no boss NA
-499 i2DAP and5 presence no boss NA
-500 sDAP and5 presence no boss NA
-501 iDAP or1 impute yes grasp 0.05
-502 allDAP or1 impute yes grasp 0.05
-503 i1DAP or1 impute yes grasp 0.05
-504 i2DAP or1 impute yes grasp 0.05
-505 sDAP or1 impute yes grasp 0.05
-506 iDAP or5 impute yes grasp 0.05
-507 allDAP or5 impute yes grasp 0.05
-508 i1DAP or5 impute yes grasp 0.05
-509 i2DAP or5 impute yes grasp 0.05
-510 sDAP or5 impute yes grasp 0.05
-511 iDAP everything impute yes grasp 0.05
-512 allDAP everything impute yes grasp 0.05
-513 i1DAP everything impute yes grasp 0.05
-514 i2DAP everything impute yes grasp 0.05
-515 sDAP everything impute yes grasp 0.05
-516 iDAP and1 impute yes grasp 0.05
-517 allDAP and1 impute yes grasp 0.05
-518 i1DAP and1 impute yes grasp 0.05
-519 i2DAP and1 impute yes grasp 0.05
-520 sDAP and1 impute yes grasp 0.05
-521 iDAP and5 impute yes grasp 0.05
-522 allDAP and5 impute yes grasp 0.05
-523 i1DAP and5 impute yes grasp 0.05
-524 i2DAP and5 impute yes grasp 0.05
-525 sDAP and5 impute yes grasp 0.05
-526 iDAP or1 presence yes grasp 0.05
-527 allDAP or1 presence yes grasp 0.05
-528 i1DAP or1 presence yes grasp 0.05
-529 i2DAP or1 presence yes grasp 0.05
-530 sDAP or1 presence yes grasp 0.05
-531 iDAP or5 presence yes grasp 0.05
-532 allDAP or5 presence yes grasp 0.05
-533 i1DAP or5 presence yes grasp 0.05
-534 i2DAP or5 presence yes grasp 0.05
-535 sDAP or5 presence yes grasp 0.05
-536 iDAP everything presence yes grasp 0.05
-537 allDAP everything presence yes grasp 0.05
-538 i1DAP everything presence yes grasp 0.05
-539 i2DAP everything presence yes grasp 0.05
-540 sDAP everything presence yes grasp 0.05
-541 iDAP and1 presence yes grasp 0.05
-542 allDAP and1 presence yes grasp 0.05
-543 i1DAP and1 presence yes grasp 0.05
-544 i2DAP and1 presence yes grasp 0.05
-545 sDAP and1 presence yes grasp 0.05
-546 iDAP and5 presence yes grasp 0.05
-547 allDAP and5 presence yes grasp 0.05
-548 i1DAP and5 presence yes grasp 0.05
-549 i2DAP and5 presence yes grasp 0.05
-550 sDAP and5 presence yes grasp 0.05
-551 iDAP or1 impute no grasp 0.05
-552 allDAP or1 impute no grasp 0.05
-553 i1DAP or1 impute no grasp 0.05
-554 i2DAP or1 impute no grasp 0.05
-555 sDAP or1 impute no grasp 0.05
-556 iDAP or5 impute no grasp 0.05
-557 allDAP or5 impute no grasp 0.05
-558 i1DAP or5 impute no grasp 0.05
-559 i2DAP or5 impute no grasp 0.05
-560 sDAP or5 impute no grasp 0.05
-561 iDAP everything impute no grasp 0.05
-562 allDAP everything impute no grasp 0.05
-563 i1DAP everything impute no grasp 0.05
-564 i2DAP everything impute no grasp 0.05
-565 sDAP everything impute no grasp 0.05
-566 iDAP and1 impute no grasp 0.05
-567 allDAP and1 impute no grasp 0.05
-568 i1DAP and1 impute no grasp 0.05
-569 i2DAP and1 impute no grasp 0.05
-570 sDAP and1 impute no grasp 0.05
-571 iDAP and5 impute no grasp 0.05
-572 allDAP and5 impute no grasp 0.05
-573 i1DAP and5 impute no grasp 0.05
-574 i2DAP and5 impute no grasp 0.05
-575 sDAP and5 impute no grasp 0.05
-576 iDAP or1 presence no grasp 0.05
-577 allDAP or1 presence no grasp 0.05
-578 i1DAP or1 presence no grasp 0.05
-579 i2DAP or1 presence no grasp 0.05
-580 sDAP or1 presence no grasp 0.05
-581 iDAP or5 presence no grasp 0.05
-582 allDAP or5 presence no grasp 0.05
-583 i1DAP or5 presence no grasp 0.05
-584 i2DAP or5 presence no grasp 0.05
-585 sDAP or5 presence no grasp 0.05
-586 iDAP everything presence no grasp 0.05
-587 allDAP everything presence no grasp 0.05
-588 i1DAP everything presence no grasp 0.05
-589 i2DAP everything presence no grasp 0.05
-590 sDAP everything presence no grasp 0.05
-591 iDAP and1 presence no grasp 0.05
-592 allDAP and1 presence no grasp 0.05
-593 i1DAP and1 presence no grasp 0.05
-594 i2DAP and1 presence no grasp 0.05
-595 sDAP and1 presence no grasp 0.05
-596 iDAP and5 presence no grasp 0.05
-597 allDAP and5 presence no grasp 0.05
-598 i1DAP and5 presence no grasp 0.05
-599 i2DAP and5 presence no grasp 0.05
-600 sDAP and5 presence no grasp 0.05
-601 iDAP or1 impute yes gfci 0.05
-602 allDAP or1 impute yes gfci 0.05
-603 i1DAP or1 impute yes gfci 0.05
-604 i2DAP or1 impute yes gfci 0.05
-605 sDAP or1 impute yes gfci 0.05
-606 iDAP or5 impute yes gfci 0.05
-607 allDAP or5 impute yes gfci 0.05
-608 i1DAP or5 impute yes gfci 0.05
-609 i2DAP or5 impute yes gfci 0.05
-610 sDAP or5 impute yes gfci 0.05
-611 iDAP everything impute yes gfci 0.05
-612 allDAP everything impute yes gfci 0.05
-613 i1DAP everything impute yes gfci 0.05
-614 i2DAP everything impute yes gfci 0.05
-615 sDAP everything impute yes gfci 0.05
-616 iDAP and1 impute yes gfci 0.05
-617 allDAP and1 impute yes gfci 0.05
-618 i1DAP and1 impute yes gfci 0.05
-619 i2DAP and1 impute yes gfci 0.05
-620 sDAP and1 impute yes gfci 0.05
-621 iDAP and5 impute yes gfci 0.05
-622 allDAP and5 impute yes gfci 0.05
-623 i1DAP and5 impute yes gfci 0.05
-624 i2DAP and5 impute yes gfci 0.05
-625 sDAP and5 impute yes gfci 0.05
-626 iDAP or1 presence yes gfci 0.05
-627 allDAP or1 presence yes gfci 0.05
-628 i1DAP or1 presence yes gfci 0.05
-629 i2DAP or1 presence yes gfci 0.05
-630 sDAP or1 presence yes gfci 0.05
-631 iDAP or5 presence yes gfci 0.05
-632 allDAP or5 presence yes gfci 0.05
-633 i1DAP or5 presence yes gfci 0.05
-634 i2DAP or5 presence yes gfci 0.05
-635 sDAP or5 presence yes gfci 0.05
-636 iDAP everything presence yes gfci 0.05
-637 allDAP everything presence yes gfci 0.05
-638 i1DAP everything presence yes gfci 0.05
-639 i2DAP everything presence yes gfci 0.05
-640 sDAP everything presence yes gfci 0.05
-641 iDAP and1 presence yes gfci 0.05
-642 allDAP and1 presence yes gfci 0.05
-643 i1DAP and1 presence yes gfci 0.05
-644 i2DAP and1 presence yes gfci 0.05
-645 sDAP and1 presence yes gfci 0.05
-646 iDAP and5 presence yes gfci 0.05
-647 allDAP and5 presence yes gfci 0.05
-648 i1DAP and5 presence yes gfci 0.05
-649 i2DAP and5 presence yes gfci 0.05
-650 sDAP and5 presence yes gfci 0.05
-651 iDAP or1 impute no gfci 0.05
-652 allDAP or1 impute no gfci 0.05
-653 i1DAP or1 impute no gfci 0.05
-654 i2DAP or1 impute no gfci 0.05
-655 sDAP or1 impute no gfci 0.05
-656 iDAP or5 impute no gfci 0.05
-657 allDAP or5 impute no gfci 0.05
-658 i1DAP or5 impute no gfci 0.05
-659 i2DAP or5 impute no gfci 0.05
-660 sDAP or5 impute no gfci 0.05
-661 iDAP everything impute no gfci 0.05
-662 allDAP everything impute no gfci 0.05
-663 i1DAP everything impute no gfci 0.05
-664 i2DAP everything impute no gfci 0.05
-665 sDAP everything impute no gfci 0.05
-666 iDAP and1 impute no gfci 0.05
-667 allDAP and1 impute no gfci 0.05
-668 i1DAP and1 impute no gfci 0.05
-669 i2DAP and1 impute no gfci 0.05
-670 sDAP and1 impute no gfci 0.05
-671 iDAP and5 impute no gfci 0.05
-672 allDAP and5 impute no gfci 0.05
-673 i1DAP and5 impute no gfci 0.05
-674 i2DAP and5 impute no gfci 0.05
-675 sDAP and5 impute no gfci 0.05
-676 iDAP or1 presence no gfci 0.05
-677 allDAP or1 presence no gfci 0.05
-678 i1DAP or1 presence no gfci 0.05
-679 i2DAP or1 presence no gfci 0.05
-680 sDAP or1 presence no gfci 0.05
-681 iDAP or5 presence no gfci 0.05
-682 allDAP or5 presence no gfci 0.05
-683 i1DAP or5 presence no gfci 0.05
-684 i2DAP or5 presence no gfci 0.05
-685 sDAP or5 presence no gfci 0.05
-686 iDAP everything presence no gfci 0.05
-687 allDAP everything presence no gfci 0.05
-688 i1DAP everything presence no gfci 0.05
-689 i2DAP everything presence no gfci 0.05
-690 sDAP everything presence no gfci 0.05
-691 iDAP and1 presence no gfci 0.05
-692 allDAP and1 presence no gfci 0.05
-693 i1DAP and1 presence no gfci 0.05
-694 i2DAP and1 presence no gfci 0.05
-695 sDAP and1 presence no gfci 0.05
-696 iDAP and5 presence no gfci 0.05
-697 allDAP and5 presence no gfci 0.05
-698 i1DAP and5 presence no gfci 0.05
-699 i2DAP and5 presence no gfci 0.05
-700 sDAP and5 presence no gfci 0.05
-701 iDAP or1 impute yes rfci 0.05
-702 allDAP or1 impute yes rfci 0.05
-703 i1DAP or1 impute yes rfci 0.05
-704 i2DAP or1 impute yes rfci 0.05
-705 sDAP or1 impute yes rfci 0.05
-706 iDAP or5 impute yes rfci 0.05
-707 allDAP or5 impute yes rfci 0.05
-708 i1DAP or5 impute yes rfci 0.05
-709 i2DAP or5 impute yes rfci 0.05
-710 sDAP or5 impute yes rfci 0.05
-711 iDAP everything impute yes rfci 0.05
-712 allDAP everything impute yes rfci 0.05
-713 i1DAP everything impute yes rfci 0.05
-714 i2DAP everything impute yes rfci 0.05
-715 sDAP everything impute yes rfci 0.05
-716 iDAP and1 impute yes rfci 0.05
-717 allDAP and1 impute yes rfci 0.05
-718 i1DAP and1 impute yes rfci 0.05
-719 i2DAP and1 impute yes rfci 0.05
-720 sDAP and1 impute yes rfci 0.05
-721 iDAP and5 impute yes rfci 0.05
-722 allDAP and5 impute yes rfci 0.05
-723 i1DAP and5 impute yes rfci 0.05
-724 i2DAP and5 impute yes rfci 0.05
-725 sDAP and5 impute yes rfci 0.05
-726 iDAP or1 presence yes rfci 0.05
-727 allDAP or1 presence yes rfci 0.05
-728 i1DAP or1 presence yes rfci 0.05
-729 i2DAP or1 presence yes rfci 0.05
-730 sDAP or1 presence yes rfci 0.05
-731 iDAP or5 presence yes rfci 0.05
-732 allDAP or5 presence yes rfci 0.05
-733 i1DAP or5 presence yes rfci 0.05
-734 i2DAP or5 presence yes rfci 0.05
-735 sDAP or5 presence yes rfci 0.05
-736 iDAP everything presence yes rfci 0.05
-737 allDAP everything presence yes rfci 0.05
-738 i1DAP everything presence yes rfci 0.05
-739 i2DAP everything presence yes rfci 0.05
-740 sDAP everything presence yes rfci 0.05
-741 iDAP and1 presence yes rfci 0.05
-742 allDAP and1 presence yes rfci 0.05
-743 i1DAP and1 presence yes rfci 0.05
-744 i2DAP and1 presence yes rfci 0.05
-745 sDAP and1 presence yes rfci 0.05
-746 iDAP and5 presence yes rfci 0.05
-747 allDAP and5 presence yes rfci 0.05
-748 i1DAP and5 presence yes rfci 0.05
-749 i2DAP and5 presence yes rfci 0.05
-750 sDAP and5 presence yes rfci 0.05
-751 iDAP or1 impute no rfci 0.05
-752 allDAP or1 impute no rfci 0.05
-753 i1DAP or1 impute no rfci 0.05
-754 i2DAP or1 impute no rfci 0.05
-755 sDAP or1 impute no rfci 0.05
-756 iDAP or5 impute no rfci 0.05
-757 allDAP or5 impute no rfci 0.05
-758 i1DAP or5 impute no rfci 0.05
-759 i2DAP or5 impute no rfci 0.05
-760 sDAP or5 impute no rfci 0.05
-761 iDAP everything impute no rfci 0.05
-762 allDAP everything impute no rfci 0.05
-763 i1DAP everything impute no rfci 0.05
-764 i2DAP everything impute no rfci 0.05
-765 sDAP everything impute no rfci 0.05
-766 iDAP and1 impute no rfci 0.05
-767 allDAP and1 impute no rfci 0.05
-768 i1DAP and1 impute no rfci 0.05
-769 i2DAP and1 impute no rfci 0.05
-770 sDAP and1 impute no rfci 0.05
-771 iDAP and5 impute no rfci 0.05
-772 allDAP and5 impute no rfci 0.05
-773 i1DAP and5 impute no rfci 0.05
-774 i2DAP and5 impute no rfci 0.05
-775 sDAP and5 impute no rfci 0.05
-776 iDAP or1 presence no rfci 0.05
-777 allDAP or1 presence no rfci 0.05
-778 i1DAP or1 presence no rfci 0.05
-779 i2DAP or1 presence no rfci 0.05
-780 sDAP or1 presence no rfci 0.05
-781 iDAP or5 presence no rfci 0.05
-782 allDAP or5 presence no rfci 0.05
-783 i1DAP or5 presence no rfci 0.05
-784 i2DAP or5 presence no rfci 0.05
-785 sDAP or5 presence no rfci 0.05
-786 iDAP everything presence no rfci 0.05
-787 allDAP everything presence no rfci 0.05
-788 i1DAP everything presence no rfci 0.05
-789 i2DAP everything presence no rfci 0.05
-790 sDAP everything presence no rfci 0.05
-791 iDAP and1 presence no rfci 0.05
-792 allDAP and1 presence no rfci 0.05
-793 i1DAP and1 presence no rfci 0.05
-794 i2DAP and1 presence no rfci 0.05
-795 sDAP and1 presence no rfci 0.05
-796 iDAP and5 presence no rfci 0.05
-797 allDAP and5 presence no rfci 0.05
-798 i1DAP and5 presence no rfci 0.05
-799 i2DAP and5 presence no rfci 0.05
-800 sDAP and5 presence no rfci 0.05
-801 iDAP or1 impute yes pc 0.01
-802 allDAP or1 impute yes pc 0.01
-803 i1DAP or1 impute yes pc 0.01
-804 i2DAP or1 impute yes pc 0.01
-805 sDAP or1 impute yes pc 0.01
-806 iDAP or5 impute yes pc 0.01
-807 allDAP or5 impute yes pc 0.01
-808 i1DAP or5 impute yes pc 0.01
-809 i2DAP or5 impute yes pc 0.01
-810 sDAP or5 impute yes pc 0.01
-811 iDAP everything impute yes pc 0.01
-812 allDAP everything impute yes pc 0.01
-813 i1DAP everything impute yes pc 0.01
-814 i2DAP everything impute yes pc 0.01
-815 sDAP everything impute yes pc 0.01
-816 iDAP and1 impute yes pc 0.01
-817 allDAP and1 impute yes pc 0.01
-818 i1DAP and1 impute yes pc 0.01
-819 i2DAP and1 impute yes pc 0.01
-820 sDAP and1 impute yes pc 0.01
-821 iDAP and5 impute yes pc 0.01
-822 allDAP and5 impute yes pc 0.01
-823 i1DAP and5 impute yes pc 0.01
-824 i2DAP and5 impute yes pc 0.01
-825 sDAP and5 impute yes pc 0.01
-826 iDAP or1 presence yes pc 0.01
-827 allDAP or1 presence yes pc 0.01
-828 i1DAP or1 presence yes pc 0.01
-829 i2DAP or1 presence yes pc 0.01
-830 sDAP or1 presence yes pc 0.01
-831 iDAP or5 presence yes pc 0.01
-832 allDAP or5 presence yes pc 0.01
-833 i1DAP or5 presence yes pc 0.01
-834 i2DAP or5 presence yes pc 0.01
-835 sDAP or5 presence yes pc 0.01
-836 iDAP everything presence yes pc 0.01
-837 allDAP everything presence yes pc 0.01
-838 i1DAP everything presence yes pc 0.01
-839 i2DAP everything presence yes pc 0.01
-840 sDAP everything presence yes pc 0.01
-841 iDAP and1 presence yes pc 0.01
-842 allDAP and1 presence yes pc 0.01
-843 i1DAP and1 presence yes pc 0.01
-844 i2DAP and1 presence yes pc 0.01
-845 sDAP and1 presence yes pc 0.01
-846 iDAP and5 presence yes pc 0.01
-847 allDAP and5 presence yes pc 0.01
-848 i1DAP and5 presence yes pc 0.01
-849 i2DAP and5 presence yes pc 0.01
-850 sDAP and5 presence yes pc 0.01
-851 iDAP or1 impute no pc 0.01
-852 allDAP or1 impute no pc 0.01
-853 i1DAP or1 impute no pc 0.01
-854 i2DAP or1 impute no pc 0.01
-855 sDAP or1 impute no pc 0.01
-856 iDAP or5 impute no pc 0.01
-857 allDAP or5 impute no pc 0.01
-858 i1DAP or5 impute no pc 0.01
-859 i2DAP or5 impute no pc 0.01
-860 sDAP or5 impute no pc 0.01
-861 iDAP everything impute no pc 0.01
-862 allDAP everything impute no pc 0.01
-863 i1DAP everything impute no pc 0.01
-864 i2DAP everything impute no pc 0.01
-865 sDAP everything impute no pc 0.01
-866 iDAP and1 impute no pc 0.01
-867 allDAP and1 impute no pc 0.01
-868 i1DAP and1 impute no pc 0.01
-869 i2DAP and1 impute no pc 0.01
-870 sDAP and1 impute no pc 0.01
-871 iDAP and5 impute no pc 0.01
-872 allDAP and5 impute no pc 0.01
-873 i1DAP and5 impute no pc 0.01
-874 i2DAP and5 impute no pc 0.01
-875 sDAP and5 impute no pc 0.01
-876 iDAP or1 presence no pc 0.01
-877 allDAP or1 presence no pc 0.01
-878 i1DAP or1 presence no pc 0.01
-879 i2DAP or1 presence no pc 0.01
-880 sDAP or1 presence no pc 0.01
-881 iDAP or5 presence no pc 0.01
-882 allDAP or5 presence no pc 0.01
-883 i1DAP or5 presence no pc 0.01
-884 i2DAP or5 presence no pc 0.01
-885 sDAP or5 presence no pc 0.01
-886 iDAP everything presence no pc 0.01
-887 allDAP everything presence no pc 0.01
-888 i1DAP everything presence no pc 0.01
-889 i2DAP everything presence no pc 0.01
-890 sDAP everything presence no pc 0.01
-891 iDAP and1 presence no pc 0.01
-892 allDAP and1 presence no pc 0.01
-893 i1DAP and1 presence no pc 0.01
-894 i2DAP and1 presence no pc 0.01
-895 sDAP and1 presence no pc 0.01
-896 iDAP and5 presence no pc 0.01
-897 allDAP and5 presence no pc 0.01
-898 i1DAP and5 presence no pc 0.01
-899 i2DAP and5 presence no pc 0.01
-900 sDAP and5 presence no pc 0.01
-901 iDAP or1 impute yes grasp-fci 0.01
-902 allDAP or1 impute yes grasp-fci 0.01
-903 i1DAP or1 impute yes grasp-fci 0.01
-904 i2DAP or1 impute yes grasp-fci 0.01
-905 sDAP or1 impute yes grasp-fci 0.01
-906 iDAP or5 impute yes grasp-fci 0.01
-907 allDAP or5 impute yes grasp-fci 0.01
-908 i1DAP or5 impute yes grasp-fci 0.01
-909 i2DAP or5 impute yes grasp-fci 0.01
-910 sDAP or5 impute yes grasp-fci 0.01
-911 iDAP everything impute yes grasp-fci 0.01
-912 allDAP everything impute yes grasp-fci 0.01
-913 i1DAP everything impute yes grasp-fci 0.01
-914 i2DAP everything impute yes grasp-fci 0.01
-915 sDAP everything impute yes grasp-fci 0.01
-916 iDAP and1 impute yes grasp-fci 0.01
-917 allDAP and1 impute yes grasp-fci 0.01
-918 i1DAP and1 impute yes grasp-fci 0.01
-919 i2DAP and1 impute yes grasp-fci 0.01
-920 sDAP and1 impute yes grasp-fci 0.01
-921 iDAP and5 impute yes grasp-fci 0.01
-922 allDAP and5 impute yes grasp-fci 0.01
-923 i1DAP and5 impute yes grasp-fci 0.01
-924 i2DAP and5 impute yes grasp-fci 0.01
-925 sDAP and5 impute yes grasp-fci 0.01
-926 iDAP or1 presence yes grasp-fci 0.01
-927 allDAP or1 presence yes grasp-fci 0.01
-928 i1DAP or1 presence yes grasp-fci 0.01
-929 i2DAP or1 presence yes grasp-fci 0.01
-930 sDAP or1 presence yes grasp-fci 0.01
-931 iDAP or5 presence yes grasp-fci 0.01
-932 allDAP or5 presence yes grasp-fci 0.01
-933 i1DAP or5 presence yes grasp-fci 0.01
-934 i2DAP or5 presence yes grasp-fci 0.01
-935 sDAP or5 presence yes grasp-fci 0.01
-936 iDAP everything presence yes grasp-fci 0.01
-937 allDAP everything presence yes grasp-fci 0.01
-938 i1DAP everything presence yes grasp-fci 0.01
-939 i2DAP everything presence yes grasp-fci 0.01
-940 sDAP everything presence yes grasp-fci 0.01
-941 iDAP and1 presence yes grasp-fci 0.01
-942 allDAP and1 presence yes grasp-fci 0.01
-943 i1DAP and1 presence yes grasp-fci 0.01
-944 i2DAP and1 presence yes grasp-fci 0.01
-945 sDAP and1 presence yes grasp-fci 0.01
-946 iDAP and5 presence yes grasp-fci 0.01
-947 allDAP and5 presence yes grasp-fci 0.01
-948 i1DAP and5 presence yes grasp-fci 0.01
-949 i2DAP and5 presence yes grasp-fci 0.01
-950 sDAP and5 presence yes grasp-fci 0.01
-951 iDAP or1 impute no grasp-fci 0.01
-952 allDAP or1 impute no grasp-fci 0.01
-953 i1DAP or1 impute no grasp-fci 0.01
-954 i2DAP or1 impute no grasp-fci 0.01
-955 sDAP or1 impute no grasp-fci 0.01
-956 iDAP or5 impute no grasp-fci 0.01
-957 allDAP or5 impute no grasp-fci 0.01
-958 i1DAP or5 impute no grasp-fci 0.01
-959 i2DAP or5 impute no grasp-fci 0.01
-960 sDAP or5 impute no grasp-fci 0.01
-961 iDAP everything impute no grasp-fci 0.01
-962 allDAP everything impute no grasp-fci 0.01
-963 i1DAP everything impute no grasp-fci 0.01
-964 i2DAP everything impute no grasp-fci 0.01
-965 sDAP everything impute no grasp-fci 0.01
-966 iDAP and1 impute no grasp-fci 0.01
-967 allDAP and1 impute no grasp-fci 0.01
-968 i1DAP and1 impute no grasp-fci 0.01
-969 i2DAP and1 impute no grasp-fci 0.01
-970 sDAP and1 impute no grasp-fci 0.01
-971 iDAP and5 impute no grasp-fci 0.01
-972 allDAP and5 impute no grasp-fci 0.01
-973 i1DAP and5 impute no grasp-fci 0.01
-974 i2DAP and5 impute no grasp-fci 0.01
-975 sDAP and5 impute no grasp-fci 0.01
-976 iDAP or1 presence no grasp-fci 0.01
-977 allDAP or1 presence no grasp-fci 0.01
-978 i1DAP or1 presence no grasp-fci 0.01
-979 i2DAP or1 presence no grasp-fci 0.01
-980 sDAP or1 presence no grasp-fci 0.01
-981 iDAP or5 presence no grasp-fci 0.01
-982 allDAP or5 presence no grasp-fci 0.01
-983 i1DAP or5 presence no grasp-fci 0.01
-984 i2DAP or5 presence no grasp-fci 0.01
-985 sDAP or5 presence no grasp-fci 0.01
-986 iDAP everything presence no grasp-fci 0.01
-987 allDAP everything presence no grasp-fci 0.01
-988 i1DAP everything presence no grasp-fci 0.01
-989 i2DAP everything presence no grasp-fci 0.01
-990 sDAP everything presence no grasp-fci 0.01
-991 iDAP and1 presence no grasp-fci 0.01
-992 allDAP and1 presence no grasp-fci 0.01
-993 i1DAP and1 presence no grasp-fci 0.01
-994 i2DAP and1 presence no grasp-fci 0.01
-995 sDAP and1 presence no grasp-fci 0.01
-996 iDAP and5 presence no grasp-fci 0.01
-997 allDAP and5 presence no grasp-fci 0.01
-998 i1DAP and5 presence no grasp-fci 0.01
-999 i2DAP and5 presence no grasp-fci 0.01
-1000 sDAP and5 presence no grasp-fci 0.01
-1001 iDAP or1 impute yes fci 0.01
-1002 allDAP or1 impute yes fci 0.01
-1003 i1DAP or1 impute yes fci 0.01
-1004 i2DAP or1 impute yes fci 0.01
-1005 sDAP or1 impute yes fci 0.01
-1006 iDAP or5 impute yes fci 0.01
-1007 allDAP or5 impute yes fci 0.01
-1008 i1DAP or5 impute yes fci 0.01
-1009 i2DAP or5 impute yes fci 0.01
-1010 sDAP or5 impute yes fci 0.01
-1011 iDAP everything impute yes fci 0.01
-1012 allDAP everything impute yes fci 0.01
-1013 i1DAP everything impute yes fci 0.01
-1014 i2DAP everything impute yes fci 0.01
-1015 sDAP everything impute yes fci 0.01
-1016 iDAP and1 impute yes fci 0.01
-1017 allDAP and1 impute yes fci 0.01
-1018 i1DAP and1 impute yes fci 0.01
-1019 i2DAP and1 impute yes fci 0.01
-1020 sDAP and1 impute yes fci 0.01
-1021 iDAP and5 impute yes fci 0.01
-1022 allDAP and5 impute yes fci 0.01
-1023 i1DAP and5 impute yes fci 0.01
-1024 i2DAP and5 impute yes fci 0.01
-1025 sDAP and5 impute yes fci 0.01
-1026 iDAP or1 presence yes fci 0.01
-1027 allDAP or1 presence yes fci 0.01
-1028 i1DAP or1 presence yes fci 0.01
-1029 i2DAP or1 presence yes fci 0.01
-1030 sDAP or1 presence yes fci 0.01
-1031 iDAP or5 presence yes fci 0.01
-1032 allDAP or5 presence yes fci 0.01
-1033 i1DAP or5 presence yes fci 0.01
-1034 i2DAP or5 presence yes fci 0.01
-1035 sDAP or5 presence yes fci 0.01
-1036 iDAP everything presence yes fci 0.01
-1037 allDAP everything presence yes fci 0.01
-1038 i1DAP everything presence yes fci 0.01
-1039 i2DAP everything presence yes fci 0.01
-1040 sDAP everything presence yes fci 0.01
-1041 iDAP and1 presence yes fci 0.01
-1042 allDAP and1 presence yes fci 0.01
-1043 i1DAP and1 presence yes fci 0.01
-1044 i2DAP and1 presence yes fci 0.01
-1045 sDAP and1 presence yes fci 0.01
-1046 iDAP and5 presence yes fci 0.01
-1047 allDAP and5 presence yes fci 0.01
-1048 i1DAP and5 presence yes fci 0.01
-1049 i2DAP and5 presence yes fci 0.01
-1050 sDAP and5 presence yes fci 0.01
-1051 iDAP or1 impute no fci 0.01
-1052 allDAP or1 impute no fci 0.01
-1053 i1DAP or1 impute no fci 0.01
-1054 i2DAP or1 impute no fci 0.01
-1055 sDAP or1 impute no fci 0.01
-1056 iDAP or5 impute no fci 0.01
-1057 allDAP or5 impute no fci 0.01
-1058 i1DAP or5 impute no fci 0.01
-1059 i2DAP or5 impute no fci 0.01
-1060 sDAP or5 impute no fci 0.01
-1061 iDAP everything impute no fci 0.01
-1062 allDAP everything impute no fci 0.01
-1063 i1DAP everything impute no fci 0.01
-1064 i2DAP everything impute no fci 0.01
-1065 sDAP everything impute no fci 0.01
-1066 iDAP and1 impute no fci 0.01
-1067 allDAP and1 impute no fci 0.01
-1068 i1DAP and1 impute no fci 0.01
-1069 i2DAP and1 impute no fci 0.01
-1070 sDAP and1 impute no fci 0.01
-1071 iDAP and5 impute no fci 0.01
-1072 allDAP and5 impute no fci 0.01
-1073 i1DAP and5 impute no fci 0.01
-1074 i2DAP and5 impute no fci 0.01
-1075 sDAP and5 impute no fci 0.01
-1076 iDAP or1 presence no fci 0.01
-1077 allDAP or1 presence no fci 0.01
-1078 i1DAP or1 presence no fci 0.01
-1079 i2DAP or1 presence no fci 0.01
-1080 sDAP or1 presence no fci 0.01
-1081 iDAP or5 presence no fci 0.01
-1082 allDAP or5 presence no fci 0.01
-1083 i1DAP or5 presence no fci 0.01
-1084 i2DAP or5 presence no fci 0.01
-1085 sDAP or5 presence no fci 0.01
-1086 iDAP everything presence no fci 0.01
-1087 allDAP everything presence no fci 0.01
-1088 i1DAP everything presence no fci 0.01
-1089 i2DAP everything presence no fci 0.01
-1090 sDAP everything presence no fci 0.01
-1091 iDAP and1 presence no fci 0.01
-1092 allDAP and1 presence no fci 0.01
-1093 i1DAP and1 presence no fci 0.01
-1094 i2DAP and1 presence no fci 0.01
-1095 sDAP and1 presence no fci 0.01
-1096 iDAP and5 presence no fci 0.01
-1097 allDAP and5 presence no fci 0.01
-1098 i1DAP and5 presence no fci 0.01
-1099 i2DAP and5 presence no fci 0.01
-1100 sDAP and5 presence no fci 0.01
-1101 iDAP or1 impute yes grasp 0.01
-1102 allDAP or1 impute yes grasp 0.01
-1103 i1DAP or1 impute yes grasp 0.01
-1104 i2DAP or1 impute yes grasp 0.01
-1105 sDAP or1 impute yes grasp 0.01
-1106 iDAP or5 impute yes grasp 0.01
-1107 allDAP or5 impute yes grasp 0.01
-1108 i1DAP or5 impute yes grasp 0.01
-1109 i2DAP or5 impute yes grasp 0.01
-1110 sDAP or5 impute yes grasp 0.01
-1111 iDAP everything impute yes grasp 0.01
-1112 allDAP everything impute yes grasp 0.01
-1113 i1DAP everything impute yes grasp 0.01
-1114 i2DAP everything impute yes grasp 0.01
-1115 sDAP everything impute yes grasp 0.01
-1116 iDAP and1 impute yes grasp 0.01
-1117 allDAP and1 impute yes grasp 0.01
-1118 i1DAP and1 impute yes grasp 0.01
-1119 i2DAP and1 impute yes grasp 0.01
-1120 sDAP and1 impute yes grasp 0.01
-1121 iDAP and5 impute yes grasp 0.01
-1122 allDAP and5 impute yes grasp 0.01
-1123 i1DAP and5 impute yes grasp 0.01
-1124 i2DAP and5 impute yes grasp 0.01
-1125 sDAP and5 impute yes grasp 0.01
-1126 iDAP or1 presence yes grasp 0.01
-1127 allDAP or1 presence yes grasp 0.01
-1128 i1DAP or1 presence yes grasp 0.01
-1129 i2DAP or1 presence yes grasp 0.01
-1130 sDAP or1 presence yes grasp 0.01
-1131 iDAP or5 presence yes grasp 0.01
-1132 allDAP or5 presence yes grasp 0.01
-1133 i1DAP or5 presence yes grasp 0.01
-1134 i2DAP or5 presence yes grasp 0.01
-1135 sDAP or5 presence yes grasp 0.01
-1136 iDAP everything presence yes grasp 0.01
-1137 allDAP everything presence yes grasp 0.01
-1138 i1DAP everything presence yes grasp 0.01
-1139 i2DAP everything presence yes grasp 0.01
-1140 sDAP everything presence yes grasp 0.01
-1141 iDAP and1 presence yes grasp 0.01
-1142 allDAP and1 presence yes grasp 0.01
-1143 i1DAP and1 presence yes grasp 0.01
-1144 i2DAP and1 presence yes grasp 0.01
-1145 sDAP and1 presence yes grasp 0.01
-1146 iDAP and5 presence yes grasp 0.01
-1147 allDAP and5 presence yes grasp 0.01
-1148 i1DAP and5 presence yes grasp 0.01
-1149 i2DAP and5 presence yes grasp 0.01
-1150 sDAP and5 presence yes grasp 0.01
-1151 iDAP or1 impute no grasp 0.01
-1152 allDAP or1 impute no grasp 0.01
-1153 i1DAP or1 impute no grasp 0.01
-1154 i2DAP or1 impute no grasp 0.01
-1155 sDAP or1 impute no grasp 0.01
-1156 iDAP or5 impute no grasp 0.01
-1157 allDAP or5 impute no grasp 0.01
-1158 i1DAP or5 impute no grasp 0.01
-1159 i2DAP or5 impute no grasp 0.01
-1160 sDAP or5 impute no grasp 0.01
-1161 iDAP everything impute no grasp 0.01
-1162 allDAP everything impute no grasp 0.01
-1163 i1DAP everything impute no grasp 0.01
-1164 i2DAP everything impute no grasp 0.01
-1165 sDAP everything impute no grasp 0.01
-1166 iDAP and1 impute no grasp 0.01
-1167 allDAP and1 impute no grasp 0.01
-1168 i1DAP and1 impute no grasp 0.01
-1169 i2DAP and1 impute no grasp 0.01
-1170 sDAP and1 impute no grasp 0.01
-1171 iDAP and5 impute no grasp 0.01
-1172 allDAP and5 impute no grasp 0.01
-1173 i1DAP and5 impute no grasp 0.01
-1174 i2DAP and5 impute no grasp 0.01
-1175 sDAP and5 impute no grasp 0.01
-1176 iDAP or1 presence no grasp 0.01
-1177 allDAP or1 presence no grasp 0.01
-1178 i1DAP or1 presence no grasp 0.01
-1179 i2DAP or1 presence no grasp 0.01
-1180 sDAP or1 presence no grasp 0.01
-1181 iDAP or5 presence no grasp 0.01
-1182 allDAP or5 presence no grasp 0.01
-1183 i1DAP or5 presence no grasp 0.01
-1184 i2DAP or5 presence no grasp 0.01
-1185 sDAP or5 presence no grasp 0.01
-1186 iDAP everything presence no grasp 0.01
-1187 allDAP everything presence no grasp 0.01
-1188 i1DAP everything presence no grasp 0.01
-1189 i2DAP everything presence no grasp 0.01
-1190 sDAP everything presence no grasp 0.01
-1191 iDAP and1 presence no grasp 0.01
-1192 allDAP and1 presence no grasp 0.01
-1193 i1DAP and1 presence no grasp 0.01
-1194 i2DAP and1 presence no grasp 0.01
-1195 sDAP and1 presence no grasp 0.01
-1196 iDAP and5 presence no grasp 0.01
-1197 allDAP and5 presence no grasp 0.01
-1198 i1DAP and5 presence no grasp 0.01
-1199 i2DAP and5 presence no grasp 0.01
-1200 sDAP and5 presence no grasp 0.01
-1201 iDAP or1 impute yes gfci 0.01
-1202 allDAP or1 impute yes gfci 0.01
-1203 i1DAP or1 impute yes gfci 0.01
-1204 i2DAP or1 impute yes gfci 0.01
-1205 sDAP or1 impute yes gfci 0.01
-1206 iDAP or5 impute yes gfci 0.01
-1207 allDAP or5 impute yes gfci 0.01
-1208 i1DAP or5 impute yes gfci 0.01
-1209 i2DAP or5 impute yes gfci 0.01
-1210 sDAP or5 impute yes gfci 0.01
-1211 iDAP everything impute yes gfci 0.01
-1212 allDAP everything impute yes gfci 0.01
-1213 i1DAP everything impute yes gfci 0.01
-1214 i2DAP everything impute yes gfci 0.01
-1215 sDAP everything impute yes gfci 0.01
-1216 iDAP and1 impute yes gfci 0.01
-1217 allDAP and1 impute yes gfci 0.01
-1218 i1DAP and1 impute yes gfci 0.01
-1219 i2DAP and1 impute yes gfci 0.01
-1220 sDAP and1 impute yes gfci 0.01
-1221 iDAP and5 impute yes gfci 0.01
-1222 allDAP and5 impute yes gfci 0.01
-1223 i1DAP and5 impute yes gfci 0.01
-1224 i2DAP and5 impute yes gfci 0.01
-1225 sDAP and5 impute yes gfci 0.01
-1226 iDAP or1 presence yes gfci 0.01
-1227 allDAP or1 presence yes gfci 0.01
-1228 i1DAP or1 presence yes gfci 0.01
-1229 i2DAP or1 presence yes gfci 0.01
-1230 sDAP or1 presence yes gfci 0.01
-1231 iDAP or5 presence yes gfci 0.01
-1232 allDAP or5 presence yes gfci 0.01
-1233 i1DAP or5 presence yes gfci 0.01
-1234 i2DAP or5 presence yes gfci 0.01
-1235 sDAP or5 presence yes gfci 0.01
-1236 iDAP everything presence yes gfci 0.01
-1237 allDAP everything presence yes gfci 0.01
-1238 i1DAP everything presence yes gfci 0.01
-1239 i2DAP everything presence yes gfci 0.01
-1240 sDAP everything presence yes gfci 0.01
-1241 iDAP and1 presence yes gfci 0.01
-1242 allDAP and1 presence yes gfci 0.01
-1243 i1DAP and1 presence yes gfci 0.01
-1244 i2DAP and1 presence yes gfci 0.01
-1245 sDAP and1 presence yes gfci 0.01
-1246 iDAP and5 presence yes gfci 0.01
-1247 allDAP and5 presence yes gfci 0.01
-1248 i1DAP and5 presence yes gfci 0.01
-1249 i2DAP and5 presence yes gfci 0.01
-1250 sDAP and5 presence yes gfci 0.01
-1251 iDAP or1 impute no gfci 0.01
-1252 allDAP or1 impute no gfci 0.01
-1253 i1DAP or1 impute no gfci 0.01
-1254 i2DAP or1 impute no gfci 0.01
-1255 sDAP or1 impute no gfci 0.01
-1256 iDAP or5 impute no gfci 0.01
-1257 allDAP or5 impute no gfci 0.01
-1258 i1DAP or5 impute no gfci 0.01
-1259 i2DAP or5 impute no gfci 0.01
-1260 sDAP or5 impute no gfci 0.01
-1261 iDAP everything impute no gfci 0.01
-1262 allDAP everything impute no gfci 0.01
-1263 i1DAP everything impute no gfci 0.01
-1264 i2DAP everything impute no gfci 0.01
-1265 sDAP everything impute no gfci 0.01
-1266 iDAP and1 impute no gfci 0.01
-1267 allDAP and1 impute no gfci 0.01
-1268 i1DAP and1 impute no gfci 0.01
-1269 i2DAP and1 impute no gfci 0.01
-1270 sDAP and1 impute no gfci 0.01
-1271 iDAP and5 impute no gfci 0.01
-1272 allDAP and5 impute no gfci 0.01
-1273 i1DAP and5 impute no gfci 0.01
-1274 i2DAP and5 impute no gfci 0.01
-1275 sDAP and5 impute no gfci 0.01
-1276 iDAP or1 presence no gfci 0.01
-1277 allDAP or1 presence no gfci 0.01
-1278 i1DAP or1 presence no gfci 0.01
-1279 i2DAP or1 presence no gfci 0.01
-1280 sDAP or1 presence no gfci 0.01
-1281 iDAP or5 presence no gfci 0.01
-1282 allDAP or5 presence no gfci 0.01
-1283 i1DAP or5 presence no gfci 0.01
-1284 i2DAP or5 presence no gfci 0.01
-1285 sDAP or5 presence no gfci 0.01
-1286 iDAP everything presence no gfci 0.01
-1287 allDAP everything presence no gfci 0.01
-1288 i1DAP everything presence no gfci 0.01
-1289 i2DAP everything presence no gfci 0.01
-1290 sDAP everything presence no gfci 0.01
-1291 iDAP and1 presence no gfci 0.01
-1292 allDAP and1 presence no gfci 0.01
-1293 i1DAP and1 presence no gfci 0.01
-1294 i2DAP and1 presence no gfci 0.01
-1295 sDAP and1 presence no gfci 0.01
-1296 iDAP and5 presence no gfci 0.01
-1297 allDAP and5 presence no gfci 0.01
-1298 i1DAP and5 presence no gfci 0.01
-1299 i2DAP and5 presence no gfci 0.01
-1300 sDAP and5 presence no gfci 0.01
-1301 iDAP or1 impute yes rfci 0.01
-1302 allDAP or1 impute yes rfci 0.01
-1303 i1DAP or1 impute yes rfci 0.01
-1304 i2DAP or1 impute yes rfci 0.01
-1305 sDAP or1 impute yes rfci 0.01
-1306 iDAP or5 impute yes rfci 0.01
-1307 allDAP or5 impute yes rfci 0.01
-1308 i1DAP or5 impute yes rfci 0.01
-1309 i2DAP or5 impute yes rfci 0.01
-1310 sDAP or5 impute yes rfci 0.01
-1311 iDAP everything impute yes rfci 0.01
-1312 allDAP everything impute yes rfci 0.01
-1313 i1DAP everything impute yes rfci 0.01
-1314 i2DAP everything impute yes rfci 0.01
-1315 sDAP everything impute yes rfci 0.01
-1316 iDAP and1 impute yes rfci 0.01
-1317 allDAP and1 impute yes rfci 0.01
-1318 i1DAP and1 impute yes rfci 0.01
-1319 i2DAP and1 impute yes rfci 0.01
-1320 sDAP and1 impute yes rfci 0.01
-1321 iDAP and5 impute yes rfci 0.01
-1322 allDAP and5 impute yes rfci 0.01
-1323 i1DAP and5 impute yes rfci 0.01
-1324 i2DAP and5 impute yes rfci 0.01
-1325 sDAP and5 impute yes rfci 0.01
-1326 iDAP or1 presence yes rfci 0.01
-1327 allDAP or1 presence yes rfci 0.01
-1328 i1DAP or1 presence yes rfci 0.01
-1329 i2DAP or1 presence yes rfci 0.01
-1330 sDAP or1 presence yes rfci 0.01
-1331 iDAP or5 presence yes rfci 0.01
-1332 allDAP or5 presence yes rfci 0.01
-1333 i1DAP or5 presence yes rfci 0.01
-1334 i2DAP or5 presence yes rfci 0.01
-1335 sDAP or5 presence yes rfci 0.01
-1336 iDAP everything presence yes rfci 0.01
-1337 allDAP everything presence yes rfci 0.01
-1338 i1DAP everything presence yes rfci 0.01
-1339 i2DAP everything presence yes rfci 0.01
-1340 sDAP everything presence yes rfci 0.01
-1341 iDAP and1 presence yes rfci 0.01
-1342 allDAP and1 presence yes rfci 0.01
-1343 i1DAP and1 presence yes rfci 0.01
-1344 i2DAP and1 presence yes rfci 0.01
-1345 sDAP and1 presence yes rfci 0.01
-1346 iDAP and5 presence yes rfci 0.01
-1347 allDAP and5 presence yes rfci 0.01
-1348 i1DAP and5 presence yes rfci 0.01
-1349 i2DAP and5 presence yes rfci 0.01
-1350 sDAP and5 presence yes rfci 0.01
-1351 iDAP or1 impute no rfci 0.01
-1352 allDAP or1 impute no rfci 0.01
-1353 i1DAP or1 impute no rfci 0.01
-1354 i2DAP or1 impute no rfci 0.01
-1355 sDAP or1 impute no rfci 0.01
-1356 iDAP or5 impute no rfci 0.01
-1357 allDAP or5 impute no rfci 0.01
-1358 i1DAP or5 impute no rfci 0.01
-1359 i2DAP or5 impute no rfci 0.01
-1360 sDAP or5 impute no rfci 0.01
-1361 iDAP everything impute no rfci 0.01
-1362 allDAP everything impute no rfci 0.01
-1363 i1DAP everything impute no rfci 0.01
-1364 i2DAP everything impute no rfci 0.01
-1365 sDAP everything impute no rfci 0.01
-1366 iDAP and1 impute no rfci 0.01
-1367 allDAP and1 impute no rfci 0.01
-1368 i1DAP and1 impute no rfci 0.01
-1369 i2DAP and1 impute no rfci 0.01
-1370 sDAP and1 impute no rfci 0.01
-1371 iDAP and5 impute no rfci 0.01
-1372 allDAP and5 impute no rfci 0.01
-1373 i1DAP and5 impute no rfci 0.01
-1374 i2DAP and5 impute no rfci 0.01
-1375 sDAP and5 impute no rfci 0.01
-1376 iDAP or1 presence no rfci 0.01
-1377 allDAP or1 presence no rfci 0.01
-1378 i1DAP or1 presence no rfci 0.01
-1379 i2DAP or1 presence no rfci 0.01
-1380 sDAP or1 presence no rfci 0.01
-1381 iDAP or5 presence no rfci 0.01
-1382 allDAP or5 presence no rfci 0.01
-1383 i1DAP or5 presence no rfci 0.01
-1384 i2DAP or5 presence no rfci 0.01
-1385 sDAP or5 presence no rfci 0.01
-1386 iDAP everything presence no rfci 0.01
-1387 allDAP everything presence no rfci 0.01
-1388 i1DAP everything presence no rfci 0.01
-1389 i2DAP everything presence no rfci 0.01
-1390 sDAP everything presence no rfci 0.01
-1391 iDAP and1 presence no rfci 0.01
-1392 allDAP and1 presence no rfci 0.01
-1393 i1DAP and1 presence no rfci 0.01
-1394 i2DAP and1 presence no rfci 0.01
-1395 sDAP and1 presence no rfci 0.01
-1396 iDAP and5 presence no rfci 0.01
-1397 allDAP and5 presence no rfci 0.01
-1398 i1DAP and5 presence no rfci 0.01
-1399 i2DAP and5 presence no rfci 0.01
-1400 sDAP and5 presence no rfci 0.01
-1401 iDAP or1 impute yes pc 0.1
-1402 allDAP or1 impute yes pc 0.1
-1403 i1DAP or1 impute yes pc 0.1
-1404 i2DAP or1 impute yes pc 0.1
-1405 sDAP or1 impute yes pc 0.1
-1406 iDAP or5 impute yes pc 0.1
-1407 allDAP or5 impute yes pc 0.1
-1408 i1DAP or5 impute yes pc 0.1
-1409 i2DAP or5 impute yes pc 0.1
-1410 sDAP or5 impute yes pc 0.1
-1411 iDAP everything impute yes pc 0.1
-1412 allDAP everything impute yes pc 0.1
-1413 i1DAP everything impute yes pc 0.1
-1414 i2DAP everything impute yes pc 0.1
-1415 sDAP everything impute yes pc 0.1
-1416 iDAP and1 impute yes pc 0.1
-1417 allDAP and1 impute yes pc 0.1
-1418 i1DAP and1 impute yes pc 0.1
-1419 i2DAP and1 impute yes pc 0.1
-1420 sDAP and1 impute yes pc 0.1
-1421 iDAP and5 impute yes pc 0.1
-1422 allDAP and5 impute yes pc 0.1
-1423 i1DAP and5 impute yes pc 0.1
-1424 i2DAP and5 impute yes pc 0.1
-1425 sDAP and5 impute yes pc 0.1
-1426 iDAP or1 presence yes pc 0.1
-1427 allDAP or1 presence yes pc 0.1
-1428 i1DAP or1 presence yes pc 0.1
-1429 i2DAP or1 presence yes pc 0.1
-1430 sDAP or1 presence yes pc 0.1
-1431 iDAP or5 presence yes pc 0.1
-1432 allDAP or5 presence yes pc 0.1
-1433 i1DAP or5 presence yes pc 0.1
-1434 i2DAP or5 presence yes pc 0.1
-1435 sDAP or5 presence yes pc 0.1
-1436 iDAP everything presence yes pc 0.1
-1437 allDAP everything presence yes pc 0.1
-1438 i1DAP everything presence yes pc 0.1
-1439 i2DAP everything presence yes pc 0.1
-1440 sDAP everything presence yes pc 0.1
-1441 iDAP and1 presence yes pc 0.1
-1442 allDAP and1 presence yes pc 0.1
-1443 i1DAP and1 presence yes pc 0.1
-1444 i2DAP and1 presence yes pc 0.1
-1445 sDAP and1 presence yes pc 0.1
-1446 iDAP and5 presence yes pc 0.1
-1447 allDAP and5 presence yes pc 0.1
-1448 i1DAP and5 presence yes pc 0.1
-1449 i2DAP and5 presence yes pc 0.1
-1450 sDAP and5 presence yes pc 0.1
-1451 iDAP or1 impute no pc 0.1
-1452 allDAP or1 impute no pc 0.1
-1453 i1DAP or1 impute no pc 0.1
-1454 i2DAP or1 impute no pc 0.1
-1455 sDAP or1 impute no pc 0.1
-1456 iDAP or5 impute no pc 0.1
-1457 allDAP or5 impute no pc 0.1
-1458 i1DAP or5 impute no pc 0.1
-1459 i2DAP or5 impute no pc 0.1
-1460 sDAP or5 impute no pc 0.1
-1461 iDAP everything impute no pc 0.1
-1462 allDAP everything impute no pc 0.1
-1463 i1DAP everything impute no pc 0.1
-1464 i2DAP everything impute no pc 0.1
-1465 sDAP everything impute no pc 0.1
-1466 iDAP and1 impute no pc 0.1
-1467 allDAP and1 impute no pc 0.1
-1468 i1DAP and1 impute no pc 0.1
-1469 i2DAP and1 impute no pc 0.1
-1470 sDAP and1 impute no pc 0.1
-1471 iDAP and5 impute no pc 0.1
-1472 allDAP and5 impute no pc 0.1
-1473 i1DAP and5 impute no pc 0.1
-1474 i2DAP and5 impute no pc 0.1
-1475 sDAP and5 impute no pc 0.1
-1476 iDAP or1 presence no pc 0.1
-1477 allDAP or1 presence no pc 0.1
-1478 i1DAP or1 presence no pc 0.1
-1479 i2DAP or1 presence no pc 0.1
-1480 sDAP or1 presence no pc 0.1
-1481 iDAP or5 presence no pc 0.1
-1482 allDAP or5 presence no pc 0.1
-1483 i1DAP or5 presence no pc 0.1
-1484 i2DAP or5 presence no pc 0.1
-1485 sDAP or5 presence no pc 0.1
-1486 iDAP everything presence no pc 0.1
-1487 allDAP everything presence no pc 0.1
-1488 i1DAP everything presence no pc 0.1
-1489 i2DAP everything presence no pc 0.1
-1490 sDAP everything presence no pc 0.1
-1491 iDAP and1 presence no pc 0.1
-1492 allDAP and1 presence no pc 0.1
-1493 i1DAP and1 presence no pc 0.1
-1494 i2DAP and1 presence no pc 0.1
-1495 sDAP and1 presence no pc 0.1
-1496 iDAP and5 presence no pc 0.1
-1497 allDAP and5 presence no pc 0.1
-1498 i1DAP and5 presence no pc 0.1
-1499 i2DAP and5 presence no pc 0.1
-1500 sDAP and5 presence no pc 0.1
-1501 iDAP or1 impute yes grasp-fci 0.1
-1502 allDAP or1 impute yes grasp-fci 0.1
-1503 i1DAP or1 impute yes grasp-fci 0.1
-1504 i2DAP or1 impute yes grasp-fci 0.1
-1505 sDAP or1 impute yes grasp-fci 0.1
-1506 iDAP or5 impute yes grasp-fci 0.1
-1507 allDAP or5 impute yes grasp-fci 0.1
-1508 i1DAP or5 impute yes grasp-fci 0.1
-1509 i2DAP or5 impute yes grasp-fci 0.1
-1510 sDAP or5 impute yes grasp-fci 0.1
-1511 iDAP everything impute yes grasp-fci 0.1
-1512 allDAP everything impute yes grasp-fci 0.1
-1513 i1DAP everything impute yes grasp-fci 0.1
-1514 i2DAP everything impute yes grasp-fci 0.1
-1515 sDAP everything impute yes grasp-fci 0.1
-1516 iDAP and1 impute yes grasp-fci 0.1
-1517 allDAP and1 impute yes grasp-fci 0.1
-1518 i1DAP and1 impute yes grasp-fci 0.1
-1519 i2DAP and1 impute yes grasp-fci 0.1
-1520 sDAP and1 impute yes grasp-fci 0.1
-1521 iDAP and5 impute yes grasp-fci 0.1
-1522 allDAP and5 impute yes grasp-fci 0.1
-1523 i1DAP and5 impute yes grasp-fci 0.1
-1524 i2DAP and5 impute yes grasp-fci 0.1
-1525 sDAP and5 impute yes grasp-fci 0.1
-1526 iDAP or1 presence yes grasp-fci 0.1
-1527 allDAP or1 presence yes grasp-fci 0.1
-1528 i1DAP or1 presence yes grasp-fci 0.1
-1529 i2DAP or1 presence yes grasp-fci 0.1
-1530 sDAP or1 presence yes grasp-fci 0.1
-1531 iDAP or5 presence yes grasp-fci 0.1
-1532 allDAP or5 presence yes grasp-fci 0.1
-1533 i1DAP or5 presence yes grasp-fci 0.1
-1534 i2DAP or5 presence yes grasp-fci 0.1
-1535 sDAP or5 presence yes grasp-fci 0.1
-1536 iDAP everything presence yes grasp-fci 0.1
-1537 allDAP everything presence yes grasp-fci 0.1
-1538 i1DAP everything presence yes grasp-fci 0.1
-1539 i2DAP everything presence yes grasp-fci 0.1
-1540 sDAP everything presence yes grasp-fci 0.1
-1541 iDAP and1 presence yes grasp-fci 0.1
-1542 allDAP and1 presence yes grasp-fci 0.1
-1543 i1DAP and1 presence yes grasp-fci 0.1
-1544 i2DAP and1 presence yes grasp-fci 0.1
-1545 sDAP and1 presence yes grasp-fci 0.1
-1546 iDAP and5 presence yes grasp-fci 0.1
-1547 allDAP and5 presence yes grasp-fci 0.1
-1548 i1DAP and5 presence yes grasp-fci 0.1
-1549 i2DAP and5 presence yes grasp-fci 0.1
-1550 sDAP and5 presence yes grasp-fci 0.1
-1551 iDAP or1 impute no grasp-fci 0.1
-1552 allDAP or1 impute no grasp-fci 0.1
-1553 i1DAP or1 impute no grasp-fci 0.1
-1554 i2DAP or1 impute no grasp-fci 0.1
-1555 sDAP or1 impute no grasp-fci 0.1
-1556 iDAP or5 impute no grasp-fci 0.1
-1557 allDAP or5 impute no grasp-fci 0.1
-1558 i1DAP or5 impute no grasp-fci 0.1
-1559 i2DAP or5 impute no grasp-fci 0.1
-1560 sDAP or5 impute no grasp-fci 0.1
-1561 iDAP everything impute no grasp-fci 0.1
-1562 allDAP everything impute no grasp-fci 0.1
-1563 i1DAP everything impute no grasp-fci 0.1
-1564 i2DAP everything impute no grasp-fci 0.1
-1565 sDAP everything impute no grasp-fci 0.1
-1566 iDAP and1 impute no grasp-fci 0.1
-1567 allDAP and1 impute no grasp-fci 0.1
-1568 i1DAP and1 impute no grasp-fci 0.1
-1569 i2DAP and1 impute no grasp-fci 0.1
-1570 sDAP and1 impute no grasp-fci 0.1
-1571 iDAP and5 impute no grasp-fci 0.1
-1572 allDAP and5 impute no grasp-fci 0.1
-1573 i1DAP and5 impute no grasp-fci 0.1
-1574 i2DAP and5 impute no grasp-fci 0.1
-1575 sDAP and5 impute no grasp-fci 0.1
-1576 iDAP or1 presence no grasp-fci 0.1
-1577 allDAP or1 presence no grasp-fci 0.1
-1578 i1DAP or1 presence no grasp-fci 0.1
-1579 i2DAP or1 presence no grasp-fci 0.1
-1580 sDAP or1 presence no grasp-fci 0.1
-1581 iDAP or5 presence no grasp-fci 0.1
-1582 allDAP or5 presence no grasp-fci 0.1
-1583 i1DAP or5 presence no grasp-fci 0.1
-1584 i2DAP or5 presence no grasp-fci 0.1
-1585 sDAP or5 presence no grasp-fci 0.1
-1586 iDAP everything presence no grasp-fci 0.1
-1587 allDAP everything presence no grasp-fci 0.1
-1588 i1DAP everything presence no grasp-fci 0.1
-1589 i2DAP everything presence no grasp-fci 0.1
-1590 sDAP everything presence no grasp-fci 0.1
-1591 iDAP and1 presence no grasp-fci 0.1
-1592 allDAP and1 presence no grasp-fci 0.1
-1593 i1DAP and1 presence no grasp-fci 0.1
-1594 i2DAP and1 presence no grasp-fci 0.1
-1595 sDAP and1 presence no grasp-fci 0.1
-1596 iDAP and5 presence no grasp-fci 0.1
-1597 allDAP and5 presence no grasp-fci 0.1
-1598 i1DAP and5 presence no grasp-fci 0.1
-1599 i2DAP and5 presence no grasp-fci 0.1
-1600 sDAP and5 presence no grasp-fci 0.1
-1601 iDAP or1 impute yes fci 0.1
-1602 allDAP or1 impute yes fci 0.1
-1603 i1DAP or1 impute yes fci 0.1
-1604 i2DAP or1 impute yes fci 0.1
-1605 sDAP or1 impute yes fci 0.1
-1606 iDAP or5 impute yes fci 0.1
-1607 allDAP or5 impute yes fci 0.1
-1608 i1DAP or5 impute yes fci 0.1
-1609 i2DAP or5 impute yes fci 0.1
-1610 sDAP or5 impute yes fci 0.1
-1611 iDAP everything impute yes fci 0.1
-1612 allDAP everything impute yes fci 0.1
-1613 i1DAP everything impute yes fci 0.1
-1614 i2DAP everything impute yes fci 0.1
-1615 sDAP everything impute yes fci 0.1
-1616 iDAP and1 impute yes fci 0.1
-1617 allDAP and1 impute yes fci 0.1
-1618 i1DAP and1 impute yes fci 0.1
-1619 i2DAP and1 impute yes fci 0.1
-1620 sDAP and1 impute yes fci 0.1
-1621 iDAP and5 impute yes fci 0.1
-1622 allDAP and5 impute yes fci 0.1
-1623 i1DAP and5 impute yes fci 0.1
-1624 i2DAP and5 impute yes fci 0.1
-1625 sDAP and5 impute yes fci 0.1
-1626 iDAP or1 presence yes fci 0.1
-1627 allDAP or1 presence yes fci 0.1
-1628 i1DAP or1 presence yes fci 0.1
-1629 i2DAP or1 presence yes fci 0.1
-1630 sDAP or1 presence yes fci 0.1
-1631 iDAP or5 presence yes fci 0.1
-1632 allDAP or5 presence yes fci 0.1
-1633 i1DAP or5 presence yes fci 0.1
-1634 i2DAP or5 presence yes fci 0.1
-1635 sDAP or5 presence yes fci 0.1
-1636 iDAP everything presence yes fci 0.1
-1637 allDAP everything presence yes fci 0.1
-1638 i1DAP everything presence yes fci 0.1
-1639 i2DAP everything presence yes fci 0.1
-1640 sDAP everything presence yes fci 0.1
-1641 iDAP and1 presence yes fci 0.1
-1642 allDAP and1 presence yes fci 0.1
-1643 i1DAP and1 presence yes fci 0.1
-1644 i2DAP and1 presence yes fci 0.1
-1645 sDAP and1 presence yes fci 0.1
-1646 iDAP and5 presence yes fci 0.1
-1647 allDAP and5 presence yes fci 0.1
-1648 i1DAP and5 presence yes fci 0.1
-1649 i2DAP and5 presence yes fci 0.1
-1650 sDAP and5 presence yes fci 0.1
-1651 iDAP or1 impute no fci 0.1
-1652 allDAP or1 impute no fci 0.1
-1653 i1DAP or1 impute no fci 0.1
-1654 i2DAP or1 impute no fci 0.1
-1655 sDAP or1 impute no fci 0.1
-1656 iDAP or5 impute no fci 0.1
-1657 allDAP or5 impute no fci 0.1
-1658 i1DAP or5 impute no fci 0.1
-1659 i2DAP or5 impute no fci 0.1
-1660 sDAP or5 impute no fci 0.1
-1661 iDAP everything impute no fci 0.1
-1662 allDAP everything impute no fci 0.1
-1663 i1DAP everything impute no fci 0.1
-1664 i2DAP everything impute no fci 0.1
-1665 sDAP everything impute no fci 0.1
-1666 iDAP and1 impute no fci 0.1
-1667 allDAP and1 impute no fci 0.1
-1668 i1DAP and1 impute no fci 0.1
-1669 i2DAP and1 impute no fci 0.1
-1670 sDAP and1 impute no fci 0.1
-1671 iDAP and5 impute no fci 0.1
-1672 allDAP and5 impute no fci 0.1
-1673 i1DAP and5 impute no fci 0.1
-1674 i2DAP and5 impute no fci 0.1
-1675 sDAP and5 impute no fci 0.1
-1676 iDAP or1 presence no fci 0.1
-1677 allDAP or1 presence no fci 0.1
-1678 i1DAP or1 presence no fci 0.1
-1679 i2DAP or1 presence no fci 0.1
-1680 sDAP or1 presence no fci 0.1
-1681 iDAP or5 presence no fci 0.1
-1682 allDAP or5 presence no fci 0.1
-1683 i1DAP or5 presence no fci 0.1
-1684 i2DAP or5 presence no fci 0.1
-1685 sDAP or5 presence no fci 0.1
-1686 iDAP everything presence no fci 0.1
-1687 allDAP everything presence no fci 0.1
-1688 i1DAP everything presence no fci 0.1
-1689 i2DAP everything presence no fci 0.1
-1690 sDAP everything presence no fci 0.1
-1691 iDAP and1 presence no fci 0.1
-1692 allDAP and1 presence no fci 0.1
-1693 i1DAP and1 presence no fci 0.1
-1694 i2DAP and1 presence no fci 0.1
-1695 sDAP and1 presence no fci 0.1
-1696 iDAP and5 presence no fci 0.1
-1697 allDAP and5 presence no fci 0.1
-1698 i1DAP and5 presence no fci 0.1
-1699 i2DAP and5 presence no fci 0.1
-1700 sDAP and5 presence no fci 0.1
-1701 iDAP or1 impute yes grasp 0.1
-1702 allDAP or1 impute yes grasp 0.1
-1703 i1DAP or1 impute yes grasp 0.1
-1704 i2DAP or1 impute yes grasp 0.1
-1705 sDAP or1 impute yes grasp 0.1
-1706 iDAP or5 impute yes grasp 0.1
-1707 allDAP or5 impute yes grasp 0.1
-1708 i1DAP or5 impute yes grasp 0.1
-1709 i2DAP or5 impute yes grasp 0.1
-1710 sDAP or5 impute yes grasp 0.1
-1711 iDAP everything impute yes grasp 0.1
-1712 allDAP everything impute yes grasp 0.1
-1713 i1DAP everything impute yes grasp 0.1
-1714 i2DAP everything impute yes grasp 0.1
-1715 sDAP everything impute yes grasp 0.1
-1716 iDAP and1 impute yes grasp 0.1
-1717 allDAP and1 impute yes grasp 0.1
-1718 i1DAP and1 impute yes grasp 0.1
-1719 i2DAP and1 impute yes grasp 0.1
-1720 sDAP and1 impute yes grasp 0.1
-1721 iDAP and5 impute yes grasp 0.1
-1722 allDAP and5 impute yes grasp 0.1
-1723 i1DAP and5 impute yes grasp 0.1
-1724 i2DAP and5 impute yes grasp 0.1
-1725 sDAP and5 impute yes grasp 0.1
-1726 iDAP or1 presence yes grasp 0.1
-1727 allDAP or1 presence yes grasp 0.1
-1728 i1DAP or1 presence yes grasp 0.1
-1729 i2DAP or1 presence yes grasp 0.1
-1730 sDAP or1 presence yes grasp 0.1
-1731 iDAP or5 presence yes grasp 0.1
-1732 allDAP or5 presence yes grasp 0.1
-1733 i1DAP or5 presence yes grasp 0.1
-1734 i2DAP or5 presence yes grasp 0.1
-1735 sDAP or5 presence yes grasp 0.1
-1736 iDAP everything presence yes grasp 0.1
-1737 allDAP everything presence yes grasp 0.1
-1738 i1DAP everything presence yes grasp 0.1
-1739 i2DAP everything presence yes grasp 0.1
-1740 sDAP everything presence yes grasp 0.1
-1741 iDAP and1 presence yes grasp 0.1
-1742 allDAP and1 presence yes grasp 0.1
-1743 i1DAP and1 presence yes grasp 0.1
-1744 i2DAP and1 presence yes grasp 0.1
-1745 sDAP and1 presence yes grasp 0.1
-1746 iDAP and5 presence yes grasp 0.1
-1747 allDAP and5 presence yes grasp 0.1
-1748 i1DAP and5 presence yes grasp 0.1
-1749 i2DAP and5 presence yes grasp 0.1
-1750 sDAP and5 presence yes grasp 0.1
-1751 iDAP or1 impute no grasp 0.1
-1752 allDAP or1 impute no grasp 0.1
-1753 i1DAP or1 impute no grasp 0.1
-1754 i2DAP or1 impute no grasp 0.1
-1755 sDAP or1 impute no grasp 0.1
-1756 iDAP or5 impute no grasp 0.1
-1757 allDAP or5 impute no grasp 0.1
-1758 i1DAP or5 impute no grasp 0.1
-1759 i2DAP or5 impute no grasp 0.1
-1760 sDAP or5 impute no grasp 0.1
-1761 iDAP everything impute no grasp 0.1
-1762 allDAP everything impute no grasp 0.1
-1763 i1DAP everything impute no grasp 0.1
-1764 i2DAP everything impute no grasp 0.1
-1765 sDAP everything impute no grasp 0.1
-1766 iDAP and1 impute no grasp 0.1
-1767 allDAP and1 impute no grasp 0.1
-1768 i1DAP and1 impute no grasp 0.1
-1769 i2DAP and1 impute no grasp 0.1
-1770 sDAP and1 impute no grasp 0.1
-1771 iDAP and5 impute no grasp 0.1
-1772 allDAP and5 impute no grasp 0.1
-1773 i1DAP and5 impute no grasp 0.1
-1774 i2DAP and5 impute no grasp 0.1
-1775 sDAP and5 impute no grasp 0.1
-1776 iDAP or1 presence no grasp 0.1
-1777 allDAP or1 presence no grasp 0.1
-1778 i1DAP or1 presence no grasp 0.1
-1779 i2DAP or1 presence no grasp 0.1
-1780 sDAP or1 presence no grasp 0.1
-1781 iDAP or5 presence no grasp 0.1
-1782 allDAP or5 presence no grasp 0.1
-1783 i1DAP or5 presence no grasp 0.1
-1784 i2DAP or5 presence no grasp 0.1
-1785 sDAP or5 presence no grasp 0.1
-1786 iDAP everything presence no grasp 0.1
-1787 allDAP everything presence no grasp 0.1
-1788 i1DAP everything presence no grasp 0.1
-1789 i2DAP everything presence no grasp 0.1
-1790 sDAP everything presence no grasp 0.1
-1791 iDAP and1 presence no grasp 0.1
-1792 allDAP and1 presence no grasp 0.1
-1793 i1DAP and1 presence no grasp 0.1
-1794 i2DAP and1 presence no grasp 0.1
-1795 sDAP and1 presence no grasp 0.1
-1796 iDAP and5 presence no grasp 0.1
-1797 allDAP and5 presence no grasp 0.1
-1798 i1DAP and5 presence no grasp 0.1
-1799 i2DAP and5 presence no grasp 0.1
-1800 sDAP and5 presence no grasp 0.1
-1801 iDAP or1 impute yes gfci 0.1
-1802 allDAP or1 impute yes gfci 0.1
-1803 i1DAP or1 impute yes gfci 0.1
-1804 i2DAP or1 impute yes gfci 0.1
-1805 sDAP or1 impute yes gfci 0.1
-1806 iDAP or5 impute yes gfci 0.1
-1807 allDAP or5 impute yes gfci 0.1
-1808 i1DAP or5 impute yes gfci 0.1
-1809 i2DAP or5 impute yes gfci 0.1
-1810 sDAP or5 impute yes gfci 0.1
-1811 iDAP everything impute yes gfci 0.1
-1812 allDAP everything impute yes gfci 0.1
-1813 i1DAP everything impute yes gfci 0.1
-1814 i2DAP everything impute yes gfci 0.1
-1815 sDAP everything impute yes gfci 0.1
-1816 iDAP and1 impute yes gfci 0.1
-1817 allDAP and1 impute yes gfci 0.1
-1818 i1DAP and1 impute yes gfci 0.1
-1819 i2DAP and1 impute yes gfci 0.1
-1820 sDAP and1 impute yes gfci 0.1
-1821 iDAP and5 impute yes gfci 0.1
-1822 allDAP and5 impute yes gfci 0.1
-1823 i1DAP and5 impute yes gfci 0.1
-1824 i2DAP and5 impute yes gfci 0.1
-1825 sDAP and5 impute yes gfci 0.1
-1826 iDAP or1 presence yes gfci 0.1
-1827 allDAP or1 presence yes gfci 0.1
-1828 i1DAP or1 presence yes gfci 0.1
-1829 i2DAP or1 presence yes gfci 0.1
-1830 sDAP or1 presence yes gfci 0.1
-1831 iDAP or5 presence yes gfci 0.1
-1832 allDAP or5 presence yes gfci 0.1
-1833 i1DAP or5 presence yes gfci 0.1
-1834 i2DAP or5 presence yes gfci 0.1
-1835 sDAP or5 presence yes gfci 0.1
-1836 iDAP everything presence yes gfci 0.1
-1837 allDAP everything presence yes gfci 0.1
-1838 i1DAP everything presence yes gfci 0.1
-1839 i2DAP everything presence yes gfci 0.1
-1840 sDAP everything presence yes gfci 0.1
-1841 iDAP and1 presence yes gfci 0.1
-1842 allDAP and1 presence yes gfci 0.1
-1843 i1DAP and1 presence yes gfci 0.1
-1844 i2DAP and1 presence yes gfci 0.1
-1845 sDAP and1 presence yes gfci 0.1
-1846 iDAP and5 presence yes gfci 0.1
-1847 allDAP and5 presence yes gfci 0.1
-1848 i1DAP and5 presence yes gfci 0.1
-1849 i2DAP and5 presence yes gfci 0.1
-1850 sDAP and5 presence yes gfci 0.1
-1851 iDAP or1 impute no gfci 0.1
-1852 allDAP or1 impute no gfci 0.1
-1853 i1DAP or1 impute no gfci 0.1
-1854 i2DAP or1 impute no gfci 0.1
-1855 sDAP or1 impute no gfci 0.1
-1856 iDAP or5 impute no gfci 0.1
-1857 allDAP or5 impute no gfci 0.1
-1858 i1DAP or5 impute no gfci 0.1
-1859 i2DAP or5 impute no gfci 0.1
-1860 sDAP or5 impute no gfci 0.1
-1861 iDAP everything impute no gfci 0.1
-1862 allDAP everything impute no gfci 0.1
-1863 i1DAP everything impute no gfci 0.1
-1864 i2DAP everything impute no gfci 0.1
-1865 sDAP everything impute no gfci 0.1
-1866 iDAP and1 impute no gfci 0.1
-1867 allDAP and1 impute no gfci 0.1
-1868 i1DAP and1 impute no gfci 0.1
-1869 i2DAP and1 impute no gfci 0.1
-1870 sDAP and1 impute no gfci 0.1
-1871 iDAP and5 impute no gfci 0.1
-1872 allDAP and5 impute no gfci 0.1
-1873 i1DAP and5 impute no gfci 0.1
-1874 i2DAP and5 impute no gfci 0.1
-1875 sDAP and5 impute no gfci 0.1
-1876 iDAP or1 presence no gfci 0.1
-1877 allDAP or1 presence no gfci 0.1
-1878 i1DAP or1 presence no gfci 0.1
-1879 i2DAP or1 presence no gfci 0.1
-1880 sDAP or1 presence no gfci 0.1
-1881 iDAP or5 presence no gfci 0.1
-1882 allDAP or5 presence no gfci 0.1
-1883 i1DAP or5 presence no gfci 0.1
-1884 i2DAP or5 presence no gfci 0.1
-1885 sDAP or5 presence no gfci 0.1
-1886 iDAP everything presence no gfci 0.1
-1887 allDAP everything presence no gfci 0.1
-1888 i1DAP everything presence no gfci 0.1
-1889 i2DAP everything presence no gfci 0.1
-1890 sDAP everything presence no gfci 0.1
-1891 iDAP and1 presence no gfci 0.1
-1892 allDAP and1 presence no gfci 0.1
-1893 i1DAP and1 presence no gfci 0.1
-1894 i2DAP and1 presence no gfci 0.1
-1895 sDAP and1 presence no gfci 0.1
-1896 iDAP and5 presence no gfci 0.1
-1897 allDAP and5 presence no gfci 0.1
-1898 i1DAP and5 presence no gfci 0.1
-1899 i2DAP and5 presence no gfci 0.1
-1900 sDAP and5 presence no gfci 0.1
-1901 iDAP or1 impute yes rfci 0.1
-1902 allDAP or1 impute yes rfci 0.1
-1903 i1DAP or1 impute yes rfci 0.1
-1904 i2DAP or1 impute yes rfci 0.1
-1905 sDAP or1 impute yes rfci 0.1
-1906 iDAP or5 impute yes rfci 0.1
-1907 allDAP or5 impute yes rfci 0.1
-1908 i1DAP or5 impute yes rfci 0.1
-1909 i2DAP or5 impute yes rfci 0.1
-1910 sDAP or5 impute yes rfci 0.1
-1911 iDAP everything impute yes rfci 0.1
-1912 allDAP everything impute yes rfci 0.1
-1913 i1DAP everything impute yes rfci 0.1
-1914 i2DAP everything impute yes rfci 0.1
-1915 sDAP everything impute yes rfci 0.1
-1916 iDAP and1 impute yes rfci 0.1
-1917 allDAP and1 impute yes rfci 0.1
-1918 i1DAP and1 impute yes rfci 0.1
-1919 i2DAP and1 impute yes rfci 0.1
-1920 sDAP and1 impute yes rfci 0.1
-1921 iDAP and5 impute yes rfci 0.1
-1922 allDAP and5 impute yes rfci 0.1
-1923 i1DAP and5 impute yes rfci 0.1
-1924 i2DAP and5 impute yes rfci 0.1
-1925 sDAP and5 impute yes rfci 0.1
-1926 iDAP or1 presence yes rfci 0.1
-1927 allDAP or1 presence yes rfci 0.1
-1928 i1DAP or1 presence yes rfci 0.1
-1929 i2DAP or1 presence yes rfci 0.1
-1930 sDAP or1 presence yes rfci 0.1
-1931 iDAP or5 presence yes rfci 0.1
-1932 allDAP or5 presence yes rfci 0.1
-1933 i1DAP or5 presence yes rfci 0.1
-1934 i2DAP or5 presence yes rfci 0.1
-1935 sDAP or5 presence yes rfci 0.1
-1936 iDAP everything presence yes rfci 0.1
-1937 allDAP everything presence yes rfci 0.1
-1938 i1DAP everything presence yes rfci 0.1
-1939 i2DAP everything presence yes rfci 0.1
-1940 sDAP everything presence yes rfci 0.1
-1941 iDAP and1 presence yes rfci 0.1
-1942 allDAP and1 presence yes rfci 0.1
-1943 i1DAP and1 presence yes rfci 0.1
-1944 i2DAP and1 presence yes rfci 0.1
-1945 sDAP and1 presence yes rfci 0.1
-1946 iDAP and5 presence yes rfci 0.1
-1947 allDAP and5 presence yes rfci 0.1
-1948 i1DAP and5 presence yes rfci 0.1
-1949 i2DAP and5 presence yes rfci 0.1
-1950 sDAP and5 presence yes rfci 0.1
-1951 iDAP or1 impute no rfci 0.1
-1952 allDAP or1 impute no rfci 0.1
-1953 i1DAP or1 impute no rfci 0.1
-1954 i2DAP or1 impute no rfci 0.1
-1955 sDAP or1 impute no rfci 0.1
-1956 iDAP or5 impute no rfci 0.1
-1957 allDAP or5 impute no rfci 0.1
-1958 i1DAP or5 impute no rfci 0.1
-1959 i2DAP or5 impute no rfci 0.1
-1960 sDAP or5 impute no rfci 0.1
-1961 iDAP everything impute no rfci 0.1
-1962 allDAP everything impute no rfci 0.1
-1963 i1DAP everything impute no rfci 0.1
-1964 i2DAP everything impute no rfci 0.1
-1965 sDAP everything impute no rfci 0.1
-1966 iDAP and1 impute no rfci 0.1
-1967 allDAP and1 impute no rfci 0.1
-1968 i1DAP and1 impute no rfci 0.1
-1969 i2DAP and1 impute no rfci 0.1
-1970 sDAP and1 impute no rfci 0.1
-1971 iDAP and5 impute no rfci 0.1
-1972 allDAP and5 impute no rfci 0.1
-1973 i1DAP and5 impute no rfci 0.1
-1974 i2DAP and5 impute no rfci 0.1
-1975 sDAP and5 impute no rfci 0.1
-1976 iDAP or1 presence no rfci 0.1
-1977 allDAP or1 presence no rfci 0.1
-1978 i1DAP or1 presence no rfci 0.1
-1979 i2DAP or1 presence no rfci 0.1
-1980 sDAP or1 presence no rfci 0.1
-1981 iDAP or5 presence no rfci 0.1
-1982 allDAP or5 presence no rfci 0.1
-1983 i1DAP or5 presence no rfci 0.1
-1984 i2DAP or5 presence no rfci 0.1
-1985 sDAP or5 presence no rfci 0.1
-1986 iDAP everything presence no rfci 0.1
-1987 allDAP everything presence no rfci 0.1
-1988 i1DAP everything presence no rfci 0.1
-1989 i2DAP everything presence no rfci 0.1
-1990 sDAP everything presence no rfci 0.1
-1991 iDAP and1 presence no rfci 0.1
-1992 allDAP and1 presence no rfci 0.1
-1993 i1DAP and1 presence no rfci 0.1
-1994 i2DAP and1 presence no rfci 0.1
-1995 sDAP and1 presence no rfci 0.1
-1996 iDAP and5 presence no rfci 0.1
-1997 allDAP and5 presence no rfci 0.1
-1998 i1DAP and5 presence no rfci 0.1
-1999 i2DAP and5 presence no rfci 0.1
-2000 sDAP and5 presence no rfci 0.1
+1 iDAP impute yes pc 0.05
+2 allDAP impute yes pc 0.05
+3 i1DAP impute yes pc 0.05
+4 i2DAP impute yes pc 0.05
+5 sDAP impute yes pc 0.05
+6 iDAP presence yes pc 0.05
+7 allDAP presence yes pc 0.05
+8 i1DAP presence yes pc 0.05
+9 i2DAP presence yes pc 0.05
+10 sDAP presence yes pc 0.05
+11 iDAP impute no pc 0.05
+12 allDAP impute no pc 0.05
+13 i1DAP impute no pc 0.05
+14 i2DAP impute no pc 0.05
+15 sDAP impute no pc 0.05
+16 iDAP presence no pc 0.05
+17 allDAP presence no pc 0.05
+18 i1DAP presence no pc 0.05
+19 i2DAP presence no pc 0.05
+20 sDAP presence no pc 0.05
+21 iDAP impute yes fges NA
+22 allDAP impute yes fges NA
+23 i1DAP impute yes fges NA
+24 i2DAP impute yes fges NA
+25 sDAP impute yes fges NA
+26 iDAP presence yes fges NA
+27 allDAP presence yes fges NA
+28 i1DAP presence yes fges NA
+29 i2DAP presence yes fges NA
+30 sDAP presence yes fges NA
+31 iDAP impute no fges NA
+32 allDAP impute no fges NA
+33 i1DAP impute no fges NA
+34 i2DAP impute no fges NA
+35 sDAP impute no fges NA
+36 iDAP presence no fges NA
+37 allDAP presence no fges NA
+38 i1DAP presence no fges NA
+39 i2DAP presence no fges NA
+40 sDAP presence no fges NA
+41 iDAP impute yes grasp-fci 0.05
+42 allDAP impute yes grasp-fci 0.05
+43 i1DAP impute yes grasp-fci 0.05
+44 i2DAP impute yes grasp-fci 0.05
+45 sDAP impute yes grasp-fci 0.05
+46 iDAP presence yes grasp-fci 0.05
+47 allDAP presence yes grasp-fci 0.05
+48 i1DAP presence yes grasp-fci 0.05
+49 i2DAP presence yes grasp-fci 0.05
+50 sDAP presence yes grasp-fci 0.05
+51 iDAP impute no grasp-fci 0.05
+52 allDAP impute no grasp-fci 0.05
+53 i1DAP impute no grasp-fci 0.05
+54 i2DAP impute no grasp-fci 0.05
+55 sDAP impute no grasp-fci 0.05
+56 iDAP presence no grasp-fci 0.05
+57 allDAP presence no grasp-fci 0.05
+58 i1DAP presence no grasp-fci 0.05
+59 i2DAP presence no grasp-fci 0.05
+60 sDAP presence no grasp-fci 0.05
+61 iDAP impute yes fci 0.05
+62 allDAP impute yes fci 0.05
+63 i1DAP impute yes fci 0.05
+64 i2DAP impute yes fci 0.05
+65 sDAP impute yes fci 0.05
+66 iDAP presence yes fci 0.05
+67 allDAP presence yes fci 0.05
+68 i1DAP presence yes fci 0.05
+69 i2DAP presence yes fci 0.05
+70 sDAP presence yes fci 0.05
+71 iDAP impute no fci 0.05
+72 allDAP impute no fci 0.05
+73 i1DAP impute no fci 0.05
+74 i2DAP impute no fci 0.05
+75 sDAP impute no fci 0.05
+76 iDAP presence no fci 0.05
+77 allDAP presence no fci 0.05
+78 i1DAP presence no fci 0.05
+79 i2DAP presence no fci 0.05
+80 sDAP presence no fci 0.05
+81 iDAP impute yes boss NA
+82 allDAP impute yes boss NA
+83 i1DAP impute yes boss NA
+84 i2DAP impute yes boss NA
+85 sDAP impute yes boss NA
+86 iDAP presence yes boss NA
+87 allDAP presence yes boss NA
+88 i1DAP presence yes boss NA
+89 i2DAP presence yes boss NA
+90 sDAP presence yes boss NA
+91 iDAP impute no boss NA
+92 allDAP impute no boss NA
+93 i1DAP impute no boss NA
+94 i2DAP impute no boss NA
+95 sDAP impute no boss NA
+96 iDAP presence no boss NA
+97 allDAP presence no boss NA
+98 i1DAP presence no boss NA
+99 i2DAP presence no boss NA
+100 sDAP presence no boss NA
+101 iDAP impute yes grasp 0.05
+102 allDAP impute yes grasp 0.05
+103 i1DAP impute yes grasp 0.05
+104 i2DAP impute yes grasp 0.05
+105 sDAP impute yes grasp 0.05
+106 iDAP presence yes grasp 0.05
+107 allDAP presence yes grasp 0.05
+108 i1DAP presence yes grasp 0.05
+109 i2DAP presence yes grasp 0.05
+110 sDAP presence yes grasp 0.05
+111 iDAP impute no grasp 0.05
+112 allDAP impute no grasp 0.05
+113 i1DAP impute no grasp 0.05
+114 i2DAP impute no grasp 0.05
+115 sDAP impute no grasp 0.05
+116 iDAP presence no grasp 0.05
+117 allDAP presence no grasp 0.05
+118 i1DAP presence no grasp 0.05
+119 i2DAP presence no grasp 0.05
+120 sDAP presence no grasp 0.05
+121 iDAP impute yes gfci 0.05
+122 allDAP impute yes gfci 0.05
+123 i1DAP impute yes gfci 0.05
+124 i2DAP impute yes gfci 0.05
+125 sDAP impute yes gfci 0.05
+126 iDAP presence yes gfci 0.05
+127 allDAP presence yes gfci 0.05
+128 i1DAP presence yes gfci 0.05
+129 i2DAP presence yes gfci 0.05
+130 sDAP presence yes gfci 0.05
+131 iDAP impute no gfci 0.05
+132 allDAP impute no gfci 0.05
+133 i1DAP impute no gfci 0.05
+134 i2DAP impute no gfci 0.05
+135 sDAP impute no gfci 0.05
+136 iDAP presence no gfci 0.05
+137 allDAP presence no gfci 0.05
+138 i1DAP presence no gfci 0.05
+139 i2DAP presence no gfci 0.05
+140 sDAP presence no gfci 0.05
+141 iDAP impute yes rfci 0.05
+142 allDAP impute yes rfci 0.05
+143 i1DAP impute yes rfci 0.05
+144 i2DAP impute yes rfci 0.05
+145 sDAP impute yes rfci 0.05
+146 iDAP presence yes rfci 0.05
+147 allDAP presence yes rfci 0.05
+148 i1DAP presence yes rfci 0.05
+149 i2DAP presence yes rfci 0.05
+150 sDAP presence yes rfci 0.05
+151 iDAP impute no rfci 0.05
+152 allDAP impute no rfci 0.05
+153 i1DAP impute no rfci 0.05
+154 i2DAP impute no rfci 0.05
+155 sDAP impute no rfci 0.05
+156 iDAP presence no rfci 0.05
+157 allDAP presence no rfci 0.05
+158 i1DAP presence no rfci 0.05
+159 i2DAP presence no rfci 0.05
+160 sDAP presence no rfci 0.05
+161 iDAP impute yes cfci 0.05
+162 allDAP impute yes cfci 0.05
+163 i1DAP impute yes cfci 0.05
+164 i2DAP impute yes cfci 0.05
+165 sDAP impute yes cfci 0.05
+166 iDAP presence yes cfci 0.05
+167 allDAP presence yes cfci 0.05
+168 i1DAP presence yes cfci 0.05
+169 i2DAP presence yes cfci 0.05
+170 sDAP presence yes cfci 0.05
+171 iDAP impute no cfci 0.05
+172 allDAP impute no cfci 0.05
+173 i1DAP impute no cfci 0.05
+174 i2DAP impute no cfci 0.05
+175 sDAP impute no cfci 0.05
+176 iDAP presence no cfci 0.05
+177 allDAP presence no cfci 0.05
+178 i1DAP presence no cfci 0.05
+179 i2DAP presence no cfci 0.05
+180 sDAP presence no cfci 0.05
+181 iDAP impute yes cpc 0.05
+182 allDAP impute yes cpc 0.05
+183 i1DAP impute yes cpc 0.05
+184 i2DAP impute yes cpc 0.05
+185 sDAP impute yes cpc 0.05
+186 iDAP presence yes cpc 0.05
+187 allDAP presence yes cpc 0.05
+188 i1DAP presence yes cpc 0.05
+189 i2DAP presence yes cpc 0.05
+190 sDAP presence yes cpc 0.05
+191 iDAP impute no cpc 0.05
+192 allDAP impute no cpc 0.05
+193 i1DAP impute no cpc 0.05
+194 i2DAP impute no cpc 0.05
+195 sDAP impute no cpc 0.05
+196 iDAP presence no cpc 0.05
+197 allDAP presence no cpc 0.05
+198 i1DAP presence no cpc 0.05
+199 i2DAP presence no cpc 0.05
+200 sDAP presence no cpc 0.05
+201 iDAP impute yes fci-max 0.05
+202 allDAP impute yes fci-max 0.05
+203 i1DAP impute yes fci-max 0.05
+204 i2DAP impute yes fci-max 0.05
+205 sDAP impute yes fci-max 0.05
+206 iDAP presence yes fci-max 0.05
+207 allDAP presence yes fci-max 0.05
+208 i1DAP presence yes fci-max 0.05
+209 i2DAP presence yes fci-max 0.05
+210 sDAP presence yes fci-max 0.05
+211 iDAP impute no fci-max 0.05
+212 allDAP impute no fci-max 0.05
+213 i1DAP impute no fci-max 0.05
+214 i2DAP impute no fci-max 0.05
+215 sDAP impute no fci-max 0.05
+216 iDAP presence no fci-max 0.05
+217 allDAP presence no fci-max 0.05
+218 i1DAP presence no fci-max 0.05
+219 i2DAP presence no fci-max 0.05
+220 sDAP presence no fci-max 0.05
+221 iDAP impute yes fges-mb 0.05
+222 allDAP impute yes fges-mb 0.05
+223 i1DAP impute yes fges-mb 0.05
+224 i2DAP impute yes fges-mb 0.05
+225 sDAP impute yes fges-mb 0.05
+226 iDAP presence yes fges-mb 0.05
+227 allDAP presence yes fges-mb 0.05
+228 i1DAP presence yes fges-mb 0.05
+229 i2DAP presence yes fges-mb 0.05
+230 sDAP presence yes fges-mb 0.05
+231 iDAP impute no fges-mb 0.05
+232 allDAP impute no fges-mb 0.05
+233 i1DAP impute no fges-mb 0.05
+234 i2DAP impute no fges-mb 0.05
+235 sDAP impute no fges-mb 0.05
+236 iDAP presence no fges-mb 0.05
+237 allDAP presence no fges-mb 0.05
+238 i1DAP presence no fges-mb 0.05
+239 i2DAP presence no fges-mb 0.05
+240 sDAP presence no fges-mb 0.05
+241 iDAP impute yes pc-mb 0.05
+242 allDAP impute yes pc-mb 0.05
+243 i1DAP impute yes pc-mb 0.05
+244 i2DAP impute yes pc-mb 0.05
+245 sDAP impute yes pc-mb 0.05
+246 iDAP presence yes pc-mb 0.05
+247 allDAP presence yes pc-mb 0.05
+248 i1DAP presence yes pc-mb 0.05
+249 i2DAP presence yes pc-mb 0.05
+250 sDAP presence yes pc-mb 0.05
+251 iDAP impute no pc-mb 0.05
+252 allDAP impute no pc-mb 0.05
+253 i1DAP impute no pc-mb 0.05
+254 i2DAP impute no pc-mb 0.05
+255 sDAP impute no pc-mb 0.05
+256 iDAP presence no pc-mb 0.05
+257 allDAP presence no pc-mb 0.05
+258 i1DAP presence no pc-mb 0.05
+259 i2DAP presence no pc-mb 0.05
+260 sDAP presence no pc-mb 0.05
+261 iDAP impute yes pc 0.01
+262 allDAP impute yes pc 0.01
+263 i1DAP impute yes pc 0.01
+264 i2DAP impute yes pc 0.01
+265 sDAP impute yes pc 0.01
+266 iDAP presence yes pc 0.01
+267 allDAP presence yes pc 0.01
+268 i1DAP presence yes pc 0.01
+269 i2DAP presence yes pc 0.01
+270 sDAP presence yes pc 0.01
+271 iDAP impute no pc 0.01
+272 allDAP impute no pc 0.01
+273 i1DAP impute no pc 0.01
+274 i2DAP impute no pc 0.01
+275 sDAP impute no pc 0.01
+276 iDAP presence no pc 0.01
+277 allDAP presence no pc 0.01
+278 i1DAP presence no pc 0.01
+279 i2DAP presence no pc 0.01
+280 sDAP presence no pc 0.01
+281 iDAP impute yes grasp-fci 0.01
+282 allDAP impute yes grasp-fci 0.01
+283 i1DAP impute yes grasp-fci 0.01
+284 i2DAP impute yes grasp-fci 0.01
+285 sDAP impute yes grasp-fci 0.01
+286 iDAP presence yes grasp-fci 0.01
+287 allDAP presence yes grasp-fci 0.01
+288 i1DAP presence yes grasp-fci 0.01
+289 i2DAP presence yes grasp-fci 0.01
+290 sDAP presence yes grasp-fci 0.01
+291 iDAP impute no grasp-fci 0.01
+292 allDAP impute no grasp-fci 0.01
+293 i1DAP impute no grasp-fci 0.01
+294 i2DAP impute no grasp-fci 0.01
+295 sDAP impute no grasp-fci 0.01
+296 iDAP presence no grasp-fci 0.01
+297 allDAP presence no grasp-fci 0.01
+298 i1DAP presence no grasp-fci 0.01
+299 i2DAP presence no grasp-fci 0.01
+300 sDAP presence no grasp-fci 0.01
+301 iDAP impute yes fci 0.01
+302 allDAP impute yes fci 0.01
+303 i1DAP impute yes fci 0.01
+304 i2DAP impute yes fci 0.01
+305 sDAP impute yes fci 0.01
+306 iDAP presence yes fci 0.01
+307 allDAP presence yes fci 0.01
+308 i1DAP presence yes fci 0.01
+309 i2DAP presence yes fci 0.01
+310 sDAP presence yes fci 0.01
+311 iDAP impute no fci 0.01
+312 allDAP impute no fci 0.01
+313 i1DAP impute no fci 0.01
+314 i2DAP impute no fci 0.01
+315 sDAP impute no fci 0.01
+316 iDAP presence no fci 0.01
+317 allDAP presence no fci 0.01
+318 i1DAP presence no fci 0.01
+319 i2DAP presence no fci 0.01
+320 sDAP presence no fci 0.01
+321 iDAP impute yes grasp 0.01
+322 allDAP impute yes grasp 0.01
+323 i1DAP impute yes grasp 0.01
+324 i2DAP impute yes grasp 0.01
+325 sDAP impute yes grasp 0.01
+326 iDAP presence yes grasp 0.01
+327 allDAP presence yes grasp 0.01
+328 i1DAP presence yes grasp 0.01
+329 i2DAP presence yes grasp 0.01
+330 sDAP presence yes grasp 0.01
+331 iDAP impute no grasp 0.01
+332 allDAP impute no grasp 0.01
+333 i1DAP impute no grasp 0.01
+334 i2DAP impute no grasp 0.01
+335 sDAP impute no grasp 0.01
+336 iDAP presence no grasp 0.01
+337 allDAP presence no grasp 0.01
+338 i1DAP presence no grasp 0.01
+339 i2DAP presence no grasp 0.01
+340 sDAP presence no grasp 0.01
+341 iDAP impute yes gfci 0.01
+342 allDAP impute yes gfci 0.01
+343 i1DAP impute yes gfci 0.01
+344 i2DAP impute yes gfci 0.01
+345 sDAP impute yes gfci 0.01
+346 iDAP presence yes gfci 0.01
+347 allDAP presence yes gfci 0.01
+348 i1DAP presence yes gfci 0.01
+349 i2DAP presence yes gfci 0.01
+350 sDAP presence yes gfci 0.01
+351 iDAP impute no gfci 0.01
+352 allDAP impute no gfci 0.01
+353 i1DAP impute no gfci 0.01
+354 i2DAP impute no gfci 0.01
+355 sDAP impute no gfci 0.01
+356 iDAP presence no gfci 0.01
+357 allDAP presence no gfci 0.01
+358 i1DAP presence no gfci 0.01
+359 i2DAP presence no gfci 0.01
+360 sDAP presence no gfci 0.01
+361 iDAP impute yes rfci 0.01
+362 allDAP impute yes rfci 0.01
+363 i1DAP impute yes rfci 0.01
+364 i2DAP impute yes rfci 0.01
+365 sDAP impute yes rfci 0.01
+366 iDAP presence yes rfci 0.01
+367 allDAP presence yes rfci 0.01
+368 i1DAP presence yes rfci 0.01
+369 i2DAP presence yes rfci 0.01
+370 sDAP presence yes rfci 0.01
+371 iDAP impute no rfci 0.01
+372 allDAP impute no rfci 0.01
+373 i1DAP impute no rfci 0.01
+374 i2DAP impute no rfci 0.01
+375 sDAP impute no rfci 0.01
+376 iDAP presence no rfci 0.01
+377 allDAP presence no rfci 0.01
+378 i1DAP presence no rfci 0.01
+379 i2DAP presence no rfci 0.01
+380 sDAP presence no rfci 0.01
+381 iDAP impute yes cfci 0.01
+382 allDAP impute yes cfci 0.01
+383 i1DAP impute yes cfci 0.01
+384 i2DAP impute yes cfci 0.01
+385 sDAP impute yes cfci 0.01
+386 iDAP presence yes cfci 0.01
+387 allDAP presence yes cfci 0.01
+388 i1DAP presence yes cfci 0.01
+389 i2DAP presence yes cfci 0.01
+390 sDAP presence yes cfci 0.01
+391 iDAP impute no cfci 0.01
+392 allDAP impute no cfci 0.01
+393 i1DAP impute no cfci 0.01
+394 i2DAP impute no cfci 0.01
+395 sDAP impute no cfci 0.01
+396 iDAP presence no cfci 0.01
+397 allDAP presence no cfci 0.01
+398 i1DAP presence no cfci 0.01
+399 i2DAP presence no cfci 0.01
+400 sDAP presence no cfci 0.01
+401 iDAP impute yes cpc 0.01
+402 allDAP impute yes cpc 0.01
+403 i1DAP impute yes cpc 0.01
+404 i2DAP impute yes cpc 0.01
+405 sDAP impute yes cpc 0.01
+406 iDAP presence yes cpc 0.01
+407 allDAP presence yes cpc 0.01
+408 i1DAP presence yes cpc 0.01
+409 i2DAP presence yes cpc 0.01
+410 sDAP presence yes cpc 0.01
+411 iDAP impute no cpc 0.01
+412 allDAP impute no cpc 0.01
+413 i1DAP impute no cpc 0.01
+414 i2DAP impute no cpc 0.01
+415 sDAP impute no cpc 0.01
+416 iDAP presence no cpc 0.01
+417 allDAP presence no cpc 0.01
+418 i1DAP presence no cpc 0.01
+419 i2DAP presence no cpc 0.01
+420 sDAP presence no cpc 0.01
+421 iDAP impute yes fci-max 0.01
+422 allDAP impute yes fci-max 0.01
+423 i1DAP impute yes fci-max 0.01
+424 i2DAP impute yes fci-max 0.01
+425 sDAP impute yes fci-max 0.01
+426 iDAP presence yes fci-max 0.01
+427 allDAP presence yes fci-max 0.01
+428 i1DAP presence yes fci-max 0.01
+429 i2DAP presence yes fci-max 0.01
+430 sDAP presence yes fci-max 0.01
+431 iDAP impute no fci-max 0.01
+432 allDAP impute no fci-max 0.01
+433 i1DAP impute no fci-max 0.01
+434 i2DAP impute no fci-max 0.01
+435 sDAP impute no fci-max 0.01
+436 iDAP presence no fci-max 0.01
+437 allDAP presence no fci-max 0.01
+438 i1DAP presence no fci-max 0.01
+439 i2DAP presence no fci-max 0.01
+440 sDAP presence no fci-max 0.01
+441 iDAP impute yes fges-mb 0.01
+442 allDAP impute yes fges-mb 0.01
+443 i1DAP impute yes fges-mb 0.01
+444 i2DAP impute yes fges-mb 0.01
+445 sDAP impute yes fges-mb 0.01
+446 iDAP presence yes fges-mb 0.01
+447 allDAP presence yes fges-mb 0.01
+448 i1DAP presence yes fges-mb 0.01
+449 i2DAP presence yes fges-mb 0.01
+450 sDAP presence yes fges-mb 0.01
+451 iDAP impute no fges-mb 0.01
+452 allDAP impute no fges-mb 0.01
+453 i1DAP impute no fges-mb 0.01
+454 i2DAP impute no fges-mb 0.01
+455 sDAP impute no fges-mb 0.01
+456 iDAP presence no fges-mb 0.01
+457 allDAP presence no fges-mb 0.01
+458 i1DAP presence no fges-mb 0.01
+459 i2DAP presence no fges-mb 0.01
+460 sDAP presence no fges-mb 0.01
+461 iDAP impute yes pc-mb 0.01
+462 allDAP impute yes pc-mb 0.01
+463 i1DAP impute yes pc-mb 0.01
+464 i2DAP impute yes pc-mb 0.01
+465 sDAP impute yes pc-mb 0.01
+466 iDAP presence yes pc-mb 0.01
+467 allDAP presence yes pc-mb 0.01
+468 i1DAP presence yes pc-mb 0.01
+469 i2DAP presence yes pc-mb 0.01
+470 sDAP presence yes pc-mb 0.01
+471 iDAP impute no pc-mb 0.01
+472 allDAP impute no pc-mb 0.01
+473 i1DAP impute no pc-mb 0.01
+474 i2DAP impute no pc-mb 0.01
+475 sDAP impute no pc-mb 0.01
+476 iDAP presence no pc-mb 0.01
+477 allDAP presence no pc-mb 0.01
+478 i1DAP presence no pc-mb 0.01
+479 i2DAP presence no pc-mb 0.01
+480 sDAP presence no pc-mb 0.01
+481 iDAP impute yes pc 0.1
+482 allDAP impute yes pc 0.1
+483 i1DAP impute yes pc 0.1
+484 i2DAP impute yes pc 0.1
+485 sDAP impute yes pc 0.1
+486 iDAP presence yes pc 0.1
+487 allDAP presence yes pc 0.1
+488 i1DAP presence yes pc 0.1
+489 i2DAP presence yes pc 0.1
+490 sDAP presence yes pc 0.1
+491 iDAP impute no pc 0.1
+492 allDAP impute no pc 0.1
+493 i1DAP impute no pc 0.1
+494 i2DAP impute no pc 0.1
+495 sDAP impute no pc 0.1
+496 iDAP presence no pc 0.1
+497 allDAP presence no pc 0.1
+498 i1DAP presence no pc 0.1
+499 i2DAP presence no pc 0.1
+500 sDAP presence no pc 0.1
+501 iDAP impute yes grasp-fci 0.1
+502 allDAP impute yes grasp-fci 0.1
+503 i1DAP impute yes grasp-fci 0.1
+504 i2DAP impute yes grasp-fci 0.1
+505 sDAP impute yes grasp-fci 0.1
+506 iDAP presence yes grasp-fci 0.1
+507 allDAP presence yes grasp-fci 0.1
+508 i1DAP presence yes grasp-fci 0.1
+509 i2DAP presence yes grasp-fci 0.1
+510 sDAP presence yes grasp-fci 0.1
+511 iDAP impute no grasp-fci 0.1
+512 allDAP impute no grasp-fci 0.1
+513 i1DAP impute no grasp-fci 0.1
+514 i2DAP impute no grasp-fci 0.1
+515 sDAP impute no grasp-fci 0.1
+516 iDAP presence no grasp-fci 0.1
+517 allDAP presence no grasp-fci 0.1
+518 i1DAP presence no grasp-fci 0.1
+519 i2DAP presence no grasp-fci 0.1
+520 sDAP presence no grasp-fci 0.1
+521 iDAP impute yes fci 0.1
+522 allDAP impute yes fci 0.1
+523 i1DAP impute yes fci 0.1
+524 i2DAP impute yes fci 0.1
+525 sDAP impute yes fci 0.1
+526 iDAP presence yes fci 0.1
+527 allDAP presence yes fci 0.1
+528 i1DAP presence yes fci 0.1
+529 i2DAP presence yes fci 0.1
+530 sDAP presence yes fci 0.1
+531 iDAP impute no fci 0.1
+532 allDAP impute no fci 0.1
+533 i1DAP impute no fci 0.1
+534 i2DAP impute no fci 0.1
+535 sDAP impute no fci 0.1
+536 iDAP presence no fci 0.1
+537 allDAP presence no fci 0.1
+538 i1DAP presence no fci 0.1
+539 i2DAP presence no fci 0.1
+540 sDAP presence no fci 0.1
+541 iDAP impute yes grasp 0.1
+542 allDAP impute yes grasp 0.1
+543 i1DAP impute yes grasp 0.1
+544 i2DAP impute yes grasp 0.1
+545 sDAP impute yes grasp 0.1
+546 iDAP presence yes grasp 0.1
+547 allDAP presence yes grasp 0.1
+548 i1DAP presence yes grasp 0.1
+549 i2DAP presence yes grasp 0.1
+550 sDAP presence yes grasp 0.1
+551 iDAP impute no grasp 0.1
+552 allDAP impute no grasp 0.1
+553 i1DAP impute no grasp 0.1
+554 i2DAP impute no grasp 0.1
+555 sDAP impute no grasp 0.1
+556 iDAP presence no grasp 0.1
+557 allDAP presence no grasp 0.1
+558 i1DAP presence no grasp 0.1
+559 i2DAP presence no grasp 0.1
+560 sDAP presence no grasp 0.1
+561 iDAP impute yes gfci 0.1
+562 allDAP impute yes gfci 0.1
+563 i1DAP impute yes gfci 0.1
+564 i2DAP impute yes gfci 0.1
+565 sDAP impute yes gfci 0.1
+566 iDAP presence yes gfci 0.1
+567 allDAP presence yes gfci 0.1
+568 i1DAP presence yes gfci 0.1
+569 i2DAP presence yes gfci 0.1
+570 sDAP presence yes gfci 0.1
+571 iDAP impute no gfci 0.1
+572 allDAP impute no gfci 0.1
+573 i1DAP impute no gfci 0.1
+574 i2DAP impute no gfci 0.1
+575 sDAP impute no gfci 0.1
+576 iDAP presence no gfci 0.1
+577 allDAP presence no gfci 0.1
+578 i1DAP presence no gfci 0.1
+579 i2DAP presence no gfci 0.1
+580 sDAP presence no gfci 0.1
+581 iDAP impute yes rfci 0.1
+582 allDAP impute yes rfci 0.1
+583 i1DAP impute yes rfci 0.1
+584 i2DAP impute yes rfci 0.1
+585 sDAP impute yes rfci 0.1
+586 iDAP presence yes rfci 0.1
+587 allDAP presence yes rfci 0.1
+588 i1DAP presence yes rfci 0.1
+589 i2DAP presence yes rfci 0.1
+590 sDAP presence yes rfci 0.1
+591 iDAP impute no rfci 0.1
+592 allDAP impute no rfci 0.1
+593 i1DAP impute no rfci 0.1
+594 i2DAP impute no rfci 0.1
+595 sDAP impute no rfci 0.1
+596 iDAP presence no rfci 0.1
+597 allDAP presence no rfci 0.1
+598 i1DAP presence no rfci 0.1
+599 i2DAP presence no rfci 0.1
+600 sDAP presence no rfci 0.1
+601 iDAP impute yes cfci 0.1
+602 allDAP impute yes cfci 0.1
+603 i1DAP impute yes cfci 0.1
+604 i2DAP impute yes cfci 0.1
+605 sDAP impute yes cfci 0.1
+606 iDAP presence yes cfci 0.1
+607 allDAP presence yes cfci 0.1
+608 i1DAP presence yes cfci 0.1
+609 i2DAP presence yes cfci 0.1
+610 sDAP presence yes cfci 0.1
+611 iDAP impute no cfci 0.1
+612 allDAP impute no cfci 0.1
+613 i1DAP impute no cfci 0.1
+614 i2DAP impute no cfci 0.1
+615 sDAP impute no cfci 0.1
+616 iDAP presence no cfci 0.1
+617 allDAP presence no cfci 0.1
+618 i1DAP presence no cfci 0.1
+619 i2DAP presence no cfci 0.1
+620 sDAP presence no cfci 0.1
+621 iDAP impute yes cpc 0.1
+622 allDAP impute yes cpc 0.1
+623 i1DAP impute yes cpc 0.1
+624 i2DAP impute yes cpc 0.1
+625 sDAP impute yes cpc 0.1
+626 iDAP presence yes cpc 0.1
+627 allDAP presence yes cpc 0.1
+628 i1DAP presence yes cpc 0.1
+629 i2DAP presence yes cpc 0.1
+630 sDAP presence yes cpc 0.1
+631 iDAP impute no cpc 0.1
+632 allDAP impute no cpc 0.1
+633 i1DAP impute no cpc 0.1
+634 i2DAP impute no cpc 0.1
+635 sDAP impute no cpc 0.1
+636 iDAP presence no cpc 0.1
+637 allDAP presence no cpc 0.1
+638 i1DAP presence no cpc 0.1
+639 i2DAP presence no cpc 0.1
+640 sDAP presence no cpc 0.1
+641 iDAP impute yes fci-max 0.1
+642 allDAP impute yes fci-max 0.1
+643 i1DAP impute yes fci-max 0.1
+644 i2DAP impute yes fci-max 0.1
+645 sDAP impute yes fci-max 0.1
+646 iDAP presence yes fci-max 0.1
+647 allDAP presence yes fci-max 0.1
+648 i1DAP presence yes fci-max 0.1
+649 i2DAP presence yes fci-max 0.1
+650 sDAP presence yes fci-max 0.1
+651 iDAP impute no fci-max 0.1
+652 allDAP impute no fci-max 0.1
+653 i1DAP impute no fci-max 0.1
+654 i2DAP impute no fci-max 0.1
+655 sDAP impute no fci-max 0.1
+656 iDAP presence no fci-max 0.1
+657 allDAP presence no fci-max 0.1
+658 i1DAP presence no fci-max 0.1
+659 i2DAP presence no fci-max 0.1
+660 sDAP presence no fci-max 0.1
+661 iDAP impute yes fges-mb 0.1
+662 allDAP impute yes fges-mb 0.1
+663 i1DAP impute yes fges-mb 0.1
+664 i2DAP impute yes fges-mb 0.1
+665 sDAP impute yes fges-mb 0.1
+666 iDAP presence yes fges-mb 0.1
+667 allDAP presence yes fges-mb 0.1
+668 i1DAP presence yes fges-mb 0.1
+669 i2DAP presence yes fges-mb 0.1
+670 sDAP presence yes fges-mb 0.1
+671 iDAP impute no fges-mb 0.1
+672 allDAP impute no fges-mb 0.1
+673 i1DAP impute no fges-mb 0.1
+674 i2DAP impute no fges-mb 0.1
+675 sDAP impute no fges-mb 0.1
+676 iDAP presence no fges-mb 0.1
+677 allDAP presence no fges-mb 0.1
+678 i1DAP presence no fges-mb 0.1
+679 i2DAP presence no fges-mb 0.1
+680 sDAP presence no fges-mb 0.1
+681 iDAP impute yes pc-mb 0.1
+682 allDAP impute yes pc-mb 0.1
+683 i1DAP impute yes pc-mb 0.1
+684 i2DAP impute yes pc-mb 0.1
+685 sDAP impute yes pc-mb 0.1
+686 iDAP presence yes pc-mb 0.1
+687 allDAP presence yes pc-mb 0.1
+688 i1DAP presence yes pc-mb 0.1
+689 i2DAP presence yes pc-mb 0.1
+690 sDAP presence yes pc-mb 0.1
+691 iDAP impute no pc-mb 0.1
+692 allDAP impute no pc-mb 0.1
+693 i1DAP impute no pc-mb 0.1
+694 i2DAP impute no pc-mb 0.1
+695 sDAP impute no pc-mb 0.1
+696 iDAP presence no pc-mb 0.1
+697 allDAP presence no pc-mb 0.1
+698 i1DAP presence no pc-mb 0.1
+699 i2DAP presence no pc-mb 0.1
+700 sDAP presence no pc-mb 0.1

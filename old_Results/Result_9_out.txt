@@ -1,0 +1,481 @@
+================================================================================
+PC (Tue, January 21, 2025 05:45:16 AM)
+================================================================================
+
+Runtime Parameters
+--------------------------------------------------------------------------------
+number of threads: 15
+
+Dataset
+--------------------------------------------------------------------------------
+file: trimmed_data.txt
+header: yes
+delimiter: tab
+quote char: none
+missing marker: NA
+comment marker: none
+
+Knowledge
+--------------------------------------------------------------------------------
+file: knowledge.txt
+
+Algorithm Run
+--------------------------------------------------------------------------------
+algorithm: PC
+test of independence: CG-LRT (Conditional Gaussian Likelihood Ratio Test)
+
+Algorithm Parameters
+--------------------------------------------------------------------------------
+addOriginalDataset: no
+alpha: 0.01
+conflictRule: 1
+depth: -1
+discretize: no
+meekPreventCycles: no
+numberResampling: 0
+numCategoriesToDiscretize: 3
+pcHeuristic: 0
+percentResampleSize: 100
+resamplingEnsemble: 1
+resamplingWithReplacement: no
+saveBootstrapGraphs: no
+seed: -1
+stableFAS: no
+timeLag: 0
+useMaxPHeuristic: no
+verbose: no
+
+
+Tue, January 21, 2025 05:45:16 AM: Start data validation on file trimmed_data.txt.
+Tue, January 21, 2025 05:45:16 AM: End data validation on file trimmed_data.txt.
+There are 2278 cases and 104 variables.
+
+Tue, January 21, 2025 05:45:16 AM: Start reading in file trimmed_data.txt.
+Tue, January 21, 2025 05:45:16 AM: Finished reading in file trimmed_data.txt.
+Tue, January 21, 2025 05:45:16 AM: File trimmed_data.txt contains 2278 cases, 104 variables.
+Tue, January 21, 2025 05:45:16 AM: Start reading in file knowledge.txt.
+Tue, January 21, 2025 05:45:16 AM: Finished reading in file knowledge.txt.
+
+Start search: Tue, January 21, 2025 05:45:16 AM
+End search: Tue, January 21, 2025 07:00:37 AM
+
+================================================================================
+Graph Nodes:
+TRT;time;OTHER_ABX;TIME_BW_ADMIT_ORDER;HOSP_ACQ;EARLY_CULTURE;NURSING_HOME;EMERGENCY_DEPT;AGE;SepticShock_1w;Sepsis_1w;AKI_1w;Endocarditis_1w;Osteomyelitis_1w;Cellulitis_1w;Peritonitis_1w;Respiratory_1w;PulmCircDis_1m;CPD_1m;MyocInfarc_1m;MetastSolidTumor_1m;Malignancy_1m;OsteoChronic;OnDialysis;Obesity;WeightLoss;Anemia;Hypothyroid;FluidElectroDis;Coagulopathy;Alcohol;Drugs;Psychoses;Depression;NeuroDisease;CardiacArrythm;MyocInfarc;CompHypertension;UncompHypertension;CongHeartFailure;PeriphVasDis;CereVasDis;Dementia;CPD_Pneum;RheumaticDis;PepticUlcerDis;MildLiverDis;Diabetes;HemiParaplegia;RenalDis;Malignancy;ModSevLivDis;MetastSolidTumor;AIDS_HIV;Hyperlipid;Smoking;NumOtherIsolates;VRE;MSSA;ESBL;FEMALE;CATEGORY;RECENT_MRSA_1y;PRE_ABS_BASOPHILS;PRE_ABS_EOSINOPHILS;PRE_ABS_LYMPHOCYTES;PRE_ABS_MONOCYTES;PRE_ABS_NEUTROPHILS;PRE_ALBUMIN;PRE_ALP;PRE_ALT;PRE_ANION_GAP;PRE_AST;PRE_CALCIUM;PRE_CARBON_DIOXIDE;PRE_CHLORIDE;PRE_CREATININE;PRE_EGFR;PRE_GLUCOSE;PRE_HEMATOCRIT;PRE_HEMOGLOBIN_A1C;PRE_INR;PRE_MCH;PRE_MCHC;PRE_MCV;PRE_MEAN_PLATELET_VOLUME;PRE_PCT_BASOPHILS;PRE_PCT_EOSINOPHILS;PRE_PCT_LYMPHOCYTES;PRE_PCT_MONOCYTES;PRE_PCT_NEUTROPHILS;PRE_PLATELETS;PRE_POTASSIUM;PRE_PROTHROMBIN_TIME;PRE_RBC;PRE_RDW;PRE_SODIUM;PRE_TOTAL_BILIRUBIN;PRE_TOTAL_PROTEIN;PRE_UREA_NITROGEN;PRE_WBC;PRE_PHOSPHORUS;PRE_LACTATE;PRE_HEMOGLOBIN
+
+Graph Edges:
+1. AGE --> CATEGORY
+2. AGE --> CardiacArrythm
+3. AGE --> Dementia
+4. AGE --> Drugs
+5. AGE --> Hyperlipid
+6. AGE --- Hypothyroid
+7. AGE --> Malignancy
+8. AGE --> PeriphVasDis
+9. AGE --> RenalDis
+10. AGE --> UncompHypertension
+11. AGE --> time
+12. AIDS_HIV --> PepticUlcerDis
+13. AKI_1w --> FluidElectroDis
+14. AKI_1w --> ModSevLivDis
+15. AKI_1w --> OnDialysis
+16. AKI_1w --> Osteomyelitis_1w
+17. AKI_1w --> RenalDis
+18. Alcohol --> CATEGORY
+19. Alcohol --> Drugs
+20. Alcohol --> FEMALE
+21. Alcohol --> MildLiverDis
+22. Alcohol --> ModSevLivDis
+23. Alcohol --> Smoking
+24. Anemia --> CATEGORY
+25. Anemia --> Depression
+26. Anemia --> HemiParaplegia
+27. Anemia --> Malignancy
+28. Anemia --> MildLiverDis
+29. Anemia --> NeuroDisease
+30. Anemia --> RECENT_MRSA_1y
+31. Anemia --> RenalDis
+32. CATEGORY --> TRT
+33. CPD_1m --> CPD_Pneum
+34. CPD_1m --> Smoking
+35. CPD_Pneum --> RheumaticDis
+36. CPD_Pneum --> Smoking
+37. CardiacArrythm --> PeriphVasDis
+38. Cellulitis_1w --> Osteomyelitis_1w
+39. CereVasDis --> Dementia
+40. CereVasDis --> HemiParaplegia
+41. CereVasDis --> Hyperlipid
+42. Coagulopathy --> CardiacArrythm
+43. Coagulopathy --> MildLiverDis
+44. Coagulopathy --> ModSevLivDis
+45. Coagulopathy --> time
+46. CompHypertension --> CongHeartFailure
+47. CompHypertension --> Hyperlipid
+48. CompHypertension --> MyocInfarc
+49. CompHypertension --> RenalDis
+50. CongHeartFailure --> CPD_Pneum
+51. CongHeartFailure --> CardiacArrythm
+52. CongHeartFailure --> PeriphVasDis
+53. Depression --> CPD_Pneum
+54. Depression --> Dementia
+55. Depression --> FEMALE
+56. Depression --> MildLiverDis
+57. Diabetes --> CATEGORY
+58. Diabetes --> Hyperlipid
+59. Diabetes --> RenalDis
+60. Drugs --> Depression
+61. Drugs --> MildLiverDis
+62. Drugs --> Smoking
+63. EARLY_CULTURE --> Osteomyelitis_1w
+64. EARLY_CULTURE --> RECENT_MRSA_1y
+65. EARLY_CULTURE --> Sepsis_1w
+66. EARLY_CULTURE --> TRT
+67. EMERGENCY_DEPT --> CATEGORY
+68. EMERGENCY_DEPT --> MetastSolidTumor_1m
+69. ESBL --> NumOtherIsolates
+70. Endocarditis_1w --> CereVasDis
+71. Endocarditis_1w --> Drugs
+72. Endocarditis_1w --> Obesity
+73. Endocarditis_1w --> PulmCircDis_1m
+74. Endocarditis_1w --> UncompHypertension
+75. FluidElectroDis --> CPD_Pneum
+76. FluidElectroDis --> Depression
+77. FluidElectroDis --> NeuroDisease
+78. FluidElectroDis --> RECENT_MRSA_1y
+79. FluidElectroDis --> RenalDis
+80. FluidElectroDis --> UncompHypertension
+81. HOSP_ACQ --> CATEGORY
+82. HOSP_ACQ --> Coagulopathy
+83. HOSP_ACQ --> Osteomyelitis_1w
+84. HemiParaplegia --> NumOtherIsolates
+85. Hyperlipid --> UncompHypertension
+86. Hypothyroid --> FEMALE
+87. Hypothyroid --> Hyperlipid
+88. Hypothyroid --> NeuroDisease
+89. MSSA --> NumOtherIsolates
+90. Malignancy --> Malignancy_1m
+91. Malignancy --> MetastSolidTumor
+92. Malignancy_1m --> MetastSolidTumor_1m
+93. MetastSolidTumor_1m --> MetastSolidTumor
+94. MildLiverDis --> ModSevLivDis
+95. MyocInfarc --> CardiacArrythm
+96. MyocInfarc --> Hyperlipid
+97. MyocInfarc --> MyocInfarc_1m
+98. MyocInfarc --> PeriphVasDis
+99. MyocInfarc_1m --> AKI_1w
+100. MyocInfarc_1m --> CPD_1m
+101. NURSING_HOME --- AGE
+102. NURSING_HOME --> Dementia
+103. NURSING_HOME --> NeuroDisease
+104. NURSING_HOME --> time
+105. NeuroDisease --> CereVasDis
+106. NeuroDisease --> Dementia
+107. NeuroDisease --> time
+108. OTHER_ABX --> PepticUlcerDis
+109. OTHER_ABX --> TRT
+110. Obesity --> CompHypertension
+111. Obesity --> Diabetes
+112. Obesity --> UncompHypertension
+113. OnDialysis --> Coagulopathy
+114. OnDialysis --> CompHypertension
+115. OnDialysis --> RECENT_MRSA_1y
+116. OnDialysis --> RenalDis
+117. OsteoChronic --> Diabetes
+118. OsteoChronic --> HemiParaplegia
+119. OsteoChronic --> RECENT_MRSA_1y
+120. Osteomyelitis_1w --> Diabetes
+121. Osteomyelitis_1w --> FEMALE
+122. Osteomyelitis_1w --> OsteoChronic
+123. Osteomyelitis_1w --> time
+124. PRE_ABS_BASOPHILS --- PRE_ABS_LYMPHOCYTES
+125. PRE_ABS_BASOPHILS --- PRE_ABS_NEUTROPHILS
+126. PRE_ABS_BASOPHILS --> PRE_AST
+127. PRE_ABS_BASOPHILS --> PRE_CHLORIDE
+128. PRE_ABS_BASOPHILS --> PRE_HEMOGLOBIN_A1C
+129. PRE_ABS_BASOPHILS --> PRE_INR
+130. PRE_ABS_BASOPHILS --> PRE_LACTATE
+131. PRE_ABS_BASOPHILS --> PRE_PCT_BASOPHILS
+132. PRE_ABS_BASOPHILS --> PRE_PCT_EOSINOPHILS
+133. PRE_ABS_BASOPHILS --> PRE_POTASSIUM
+134. PRE_ABS_BASOPHILS --> PRE_RDW
+135. PRE_ABS_BASOPHILS --> PRE_WBC
+136. PRE_ABS_EOSINOPHILS --- PRE_ABS_MONOCYTES
+137. PRE_ABS_EOSINOPHILS --- PRE_ALBUMIN
+138. PRE_ABS_EOSINOPHILS --> PRE_CALCIUM
+139. PRE_ABS_EOSINOPHILS --> PRE_CREATININE
+140. PRE_ABS_EOSINOPHILS --> PRE_HEMOGLOBIN
+141. PRE_ABS_EOSINOPHILS --> PRE_INR
+142. PRE_ABS_EOSINOPHILS --> PRE_MCH
+143. PRE_ABS_EOSINOPHILS --> PRE_PCT_EOSINOPHILS
+144. PRE_ABS_EOSINOPHILS --> PRE_PCT_LYMPHOCYTES
+145. PRE_ABS_EOSINOPHILS --> PRE_PHOSPHORUS
+146. PRE_ABS_EOSINOPHILS --> PRE_PROTHROMBIN_TIME
+147. PRE_ABS_EOSINOPHILS --> PRE_SODIUM
+148. PRE_ABS_LYMPHOCYTES --- PRE_ABS_NEUTROPHILS
+149. PRE_ABS_LYMPHOCYTES --- PRE_ALP
+150. PRE_ABS_LYMPHOCYTES --> PRE_CARBON_DIOXIDE
+151. PRE_ABS_LYMPHOCYTES --> PRE_EGFR
+152. PRE_ABS_LYMPHOCYTES --> PRE_LACTATE
+153. PRE_ABS_LYMPHOCYTES --> PRE_MCH
+154. PRE_ABS_LYMPHOCYTES --> PRE_MCHC
+155. PRE_ABS_LYMPHOCYTES --> PRE_PCT_LYMPHOCYTES
+156. PRE_ABS_LYMPHOCYTES --> PRE_PCT_MONOCYTES
+157. PRE_ABS_LYMPHOCYTES --> PRE_RBC
+158. PRE_ABS_LYMPHOCYTES --> PRE_TOTAL_BILIRUBIN
+159. PRE_ABS_MONOCYTES --- PRE_ALBUMIN
+160. PRE_ABS_MONOCYTES --- PRE_ALT
+161. PRE_ABS_MONOCYTES --> PRE_CHLORIDE
+162. PRE_ABS_MONOCYTES --> PRE_GLUCOSE
+163. PRE_ABS_MONOCYTES --> PRE_HEMOGLOBIN
+164. PRE_ABS_MONOCYTES --> PRE_MCHC
+165. PRE_ABS_MONOCYTES --> PRE_MCV
+166. PRE_ABS_MONOCYTES --> PRE_PCT_MONOCYTES
+167. PRE_ABS_MONOCYTES --> PRE_PCT_NEUTROPHILS
+168. PRE_ABS_MONOCYTES --> PRE_RDW
+169. PRE_ABS_MONOCYTES --> PRE_TOTAL_PROTEIN
+170. PRE_ABS_NEUTROPHILS --- PRE_ALP
+171. PRE_ABS_NEUTROPHILS --- PRE_ANION_GAP
+172. PRE_ABS_NEUTROPHILS --> PRE_CREATININE
+173. PRE_ABS_NEUTROPHILS --> PRE_HEMATOCRIT
+174. PRE_ABS_NEUTROPHILS --> PRE_MCV
+175. PRE_ABS_NEUTROPHILS --> PRE_MEAN_PLATELET_VOLUME
+176. PRE_ABS_NEUTROPHILS --> PRE_PCT_NEUTROPHILS
+177. PRE_ABS_NEUTROPHILS --> PRE_PLATELETS
+178. PRE_ABS_NEUTROPHILS --> PRE_SODIUM
+179. PRE_ABS_NEUTROPHILS --> PRE_UREA_NITROGEN
+180. PRE_ALBUMIN --- PRE_ALT
+181. PRE_ALBUMIN --> PRE_AST
+182. PRE_ALBUMIN --> PRE_EGFR
+183. PRE_ALBUMIN --> PRE_HEMOGLOBIN_A1C
+184. PRE_ALBUMIN --> PRE_MEAN_PLATELET_VOLUME
+185. PRE_ALBUMIN --> PRE_PCT_BASOPHILS
+186. PRE_ALBUMIN --> PRE_PLATELETS
+187. PRE_ALBUMIN --> PRE_POTASSIUM
+188. PRE_ALBUMIN --> PRE_TOTAL_BILIRUBIN
+189. PRE_ALBUMIN --> PRE_WBC
+190. PRE_ALP --- PRE_ANION_GAP
+191. PRE_ALP --> PRE_CALCIUM
+192. PRE_ALP --> PRE_GLUCOSE
+193. PRE_ALP --> PRE_INR
+194. PRE_ALP --> PRE_PCT_BASOPHILS
+195. PRE_ALP --> PRE_PCT_EOSINOPHILS
+196. PRE_ALP --> PRE_PHOSPHORUS
+197. PRE_ALP --> PRE_POTASSIUM
+198. PRE_ALP --> PRE_PROTHROMBIN_TIME
+199. PRE_ALP --> PRE_TOTAL_PROTEIN
+200. PRE_ALT --> PRE_AST
+201. PRE_ALT --> PRE_CARBON_DIOXIDE
+202. PRE_ALT --> PRE_HEMATOCRIT
+203. PRE_ALT --> PRE_LACTATE
+204. PRE_ALT --> PRE_MCH
+205. PRE_ALT --> PRE_PCT_EOSINOPHILS
+206. PRE_ALT --> PRE_PCT_LYMPHOCYTES
+207. PRE_ALT --> PRE_PROTHROMBIN_TIME
+208. PRE_ALT --> PRE_RBC
+209. PRE_ALT --> PRE_UREA_NITROGEN
+210. PRE_ANION_GAP --> PRE_CALCIUM
+211. PRE_ANION_GAP --> PRE_CHLORIDE
+212. PRE_ANION_GAP --> PRE_HEMOGLOBIN
+213. PRE_ANION_GAP --> PRE_HEMOGLOBIN_A1C
+214. PRE_ANION_GAP --> PRE_MCHC
+215. PRE_ANION_GAP --> PRE_PCT_LYMPHOCYTES
+216. PRE_ANION_GAP --> PRE_PCT_MONOCYTES
+217. PRE_ANION_GAP --> PRE_RBC
+218. PRE_ANION_GAP --> PRE_RDW
+219. PRE_ANION_GAP --> PRE_WBC
+220. PRE_AST --> PRE_CARBON_DIOXIDE
+221. PRE_AST --> PRE_CREATININE
+222. PRE_AST --> PRE_INR
+223. PRE_AST --> PRE_MCV
+224. PRE_AST --> PRE_PCT_MONOCYTES
+225. PRE_AST --> PRE_PCT_NEUTROPHILS
+226. PRE_AST --> PRE_PHOSPHORUS
+227. PRE_AST --> PRE_RDW
+228. PRE_AST --> PRE_SODIUM
+229. PRE_CALCIUM --> PRE_CHLORIDE
+230. PRE_CALCIUM --> PRE_EGFR
+231. PRE_CALCIUM --> PRE_LACTATE
+232. PRE_CALCIUM --> PRE_MCH
+233. PRE_CALCIUM --> PRE_MEAN_PLATELET_VOLUME
+234. PRE_CALCIUM --> PRE_PCT_NEUTROPHILS
+235. PRE_CALCIUM --> PRE_PLATELETS
+236. PRE_CALCIUM --> PRE_SODIUM
+237. PRE_CALCIUM --> PRE_TOTAL_BILIRUBIN
+238. PRE_CARBON_DIOXIDE --> PRE_CREATININE
+239. PRE_CARBON_DIOXIDE --> PRE_GLUCOSE
+240. PRE_CARBON_DIOXIDE --> PRE_HEMOGLOBIN
+241. PRE_CARBON_DIOXIDE --> PRE_MCHC
+242. PRE_CARBON_DIOXIDE --> PRE_PCT_BASOPHILS
+243. PRE_CARBON_DIOXIDE --> PRE_PLATELETS
+244. PRE_CARBON_DIOXIDE --> PRE_POTASSIUM
+245. PRE_CARBON_DIOXIDE --> PRE_TOTAL_BILIRUBIN
+246. PRE_CARBON_DIOXIDE --> PRE_TOTAL_PROTEIN
+247. PRE_CHLORIDE --> PRE_EGFR
+248. PRE_CHLORIDE --> PRE_HEMATOCRIT
+249. PRE_CHLORIDE --> PRE_MCV
+250. PRE_CHLORIDE --> PRE_PCT_EOSINOPHILS
+251. PRE_CHLORIDE --> PRE_POTASSIUM
+252. PRE_CHLORIDE --> PRE_PROTHROMBIN_TIME
+253. PRE_CHLORIDE --> PRE_TOTAL_PROTEIN
+254. PRE_CHLORIDE --> PRE_UREA_NITROGEN
+255. PRE_CREATININE --> PRE_GLUCOSE
+256. PRE_CREATININE --> PRE_HEMOGLOBIN_A1C
+257. PRE_CREATININE --> PRE_MEAN_PLATELET_VOLUME
+258. PRE_CREATININE --> PRE_PCT_LYMPHOCYTES
+259. PRE_CREATININE --> PRE_PROTHROMBIN_TIME
+260. PRE_CREATININE --> PRE_RBC
+261. PRE_CREATININE --> PRE_UREA_NITROGEN
+262. PRE_CREATININE --> PRE_WBC
+263. PRE_EGFR --> PRE_HEMATOCRIT
+264. PRE_EGFR --> PRE_INR
+265. PRE_EGFR --> PRE_PCT_BASOPHILS
+266. PRE_EGFR --> PRE_PCT_MONOCYTES
+267. PRE_EGFR --> PRE_PHOSPHORUS
+268. PRE_EGFR --> PRE_RBC
+269. PRE_EGFR --> PRE_RDW
+270. PRE_EGFR --> PRE_WBC
+271. PRE_GLUCOSE --> PRE_HEMOGLOBIN_A1C
+272. PRE_GLUCOSE --> PRE_LACTATE
+273. PRE_GLUCOSE --> PRE_MCH
+274. PRE_GLUCOSE --> PRE_PCT_EOSINOPHILS
+275. PRE_GLUCOSE --> PRE_PCT_NEUTROPHILS
+276. PRE_GLUCOSE --> PRE_PHOSPHORUS
+277. PRE_GLUCOSE --> PRE_RDW
+278. PRE_GLUCOSE --> PRE_SODIUM
+279. PRE_HEMATOCRIT --> PRE_HEMOGLOBIN
+280. PRE_HEMATOCRIT --> PRE_INR
+281. PRE_HEMATOCRIT --> PRE_LACTATE
+282. PRE_HEMATOCRIT --> PRE_MCHC
+283. PRE_HEMATOCRIT --> PRE_PCT_LYMPHOCYTES
+284. PRE_HEMATOCRIT --> PRE_PLATELETS
+285. PRE_HEMATOCRIT --> PRE_SODIUM
+286. PRE_HEMATOCRIT --> PRE_TOTAL_BILIRUBIN
+287. PRE_HEMOGLOBIN_A1C --> PRE_HEMOGLOBIN
+288. PRE_HEMOGLOBIN_A1C --> PRE_MCH
+289. PRE_HEMOGLOBIN_A1C --> PRE_MCV
+290. PRE_HEMOGLOBIN_A1C --> PRE_PCT_MONOCYTES
+291. PRE_HEMOGLOBIN_A1C --> PRE_POTASSIUM
+292. PRE_HEMOGLOBIN_A1C --> PRE_TOTAL_BILIRUBIN
+293. PRE_HEMOGLOBIN_A1C --> PRE_TOTAL_PROTEIN
+294. PRE_INR --> PRE_MCHC
+295. PRE_INR --> PRE_MEAN_PLATELET_VOLUME
+296. PRE_INR --> PRE_PCT_NEUTROPHILS
+297. PRE_INR --> PRE_PROTHROMBIN_TIME
+298. PRE_INR --> PRE_TOTAL_PROTEIN
+299. PRE_INR --> PRE_UREA_NITROGEN
+300. PRE_MCH --> PRE_MCV
+301. PRE_MCH --> PRE_PCT_BASOPHILS
+302. PRE_MCH --> PRE_PLATELETS
+303. PRE_MCH --> PRE_RBC
+304. PRE_MCH --> PRE_UREA_NITROGEN
+305. PRE_MCH --> PRE_WBC
+306. PRE_MCHC --> PRE_MEAN_PLATELET_VOLUME
+307. PRE_MCHC --> PRE_PCT_EOSINOPHILS
+308. PRE_MCHC --> PRE_PHOSPHORUS
+309. PRE_MCHC --> PRE_POTASSIUM
+310. PRE_MCHC --> PRE_RDW
+311. PRE_MCHC --> PRE_WBC
+312. PRE_MCV --> PRE_LACTATE
+313. PRE_MCV --> PRE_PCT_BASOPHILS
+314. PRE_MCV --> PRE_PCT_LYMPHOCYTES
+315. PRE_MCV --> PRE_PHOSPHORUS
+316. PRE_MCV --> PRE_PROTHROMBIN_TIME
+317. PRE_MCV --> PRE_SODIUM
+318. PRE_MEAN_PLATELET_VOLUME --> PRE_HEMOGLOBIN
+319. PRE_MEAN_PLATELET_VOLUME --> PRE_LACTATE
+320. PRE_MEAN_PLATELET_VOLUME --> PRE_PCT_EOSINOPHILS
+321. PRE_MEAN_PLATELET_VOLUME --> PRE_PCT_MONOCYTES
+322. PRE_MEAN_PLATELET_VOLUME --> PRE_RBC
+323. PRE_MEAN_PLATELET_VOLUME --> PRE_TOTAL_BILIRUBIN
+324. PRE_PCT_BASOPHILS --> PRE_HEMOGLOBIN
+325. PRE_PCT_BASOPHILS --> PRE_PCT_LYMPHOCYTES
+326. PRE_PCT_BASOPHILS --> PRE_PCT_NEUTROPHILS
+327. PRE_PCT_BASOPHILS --> PRE_RDW
+328. PRE_PCT_BASOPHILS --> PRE_TOTAL_PROTEIN
+329. PRE_PCT_EOSINOPHILS --> PRE_PCT_MONOCYTES
+330. PRE_PCT_EOSINOPHILS --> PRE_PLATELETS
+331. PRE_PCT_EOSINOPHILS --> PRE_SODIUM
+332. PRE_PCT_EOSINOPHILS --> PRE_UREA_NITROGEN
+333. PRE_PCT_LYMPHOCYTES --> PRE_PCT_NEUTROPHILS
+334. PRE_PCT_LYMPHOCYTES --> PRE_POTASSIUM
+335. PRE_PCT_LYMPHOCYTES --> PRE_TOTAL_BILIRUBIN
+336. PRE_PCT_LYMPHOCYTES --> PRE_WBC
+337. PRE_PCT_MONOCYTES --> PRE_PHOSPHORUS
+338. PRE_PCT_MONOCYTES --> PRE_PLATELETS
+339. PRE_PCT_MONOCYTES --> PRE_PROTHROMBIN_TIME
+340. PRE_PCT_MONOCYTES --> PRE_TOTAL_PROTEIN
+341. PRE_PCT_NEUTROPHILS --> PRE_LACTATE
+342. PRE_PCT_NEUTROPHILS --> PRE_POTASSIUM
+343. PRE_PCT_NEUTROPHILS --> PRE_RBC
+344. PRE_PCT_NEUTROPHILS --> PRE_UREA_NITROGEN
+345. PRE_PHOSPHORUS --> PRE_HEMOGLOBIN
+346. PRE_PLATELETS --> PRE_HEMOGLOBIN
+347. PRE_PLATELETS --> PRE_PROTHROMBIN_TIME
+348. PRE_PLATELETS --> PRE_RDW
+349. PRE_PLATELETS --> PRE_WBC
+350. PRE_POTASSIUM --> PRE_PHOSPHORUS
+351. PRE_POTASSIUM --> PRE_RBC
+352. PRE_POTASSIUM --> PRE_SODIUM
+353. PRE_PROTHROMBIN_TIME --> PRE_LACTATE
+354. PRE_PROTHROMBIN_TIME --> PRE_RDW
+355. PRE_PROTHROMBIN_TIME --> PRE_TOTAL_BILIRUBIN
+356. PRE_RBC --> PRE_HEMOGLOBIN
+357. PRE_RBC --> PRE_SODIUM
+358. PRE_RBC --> PRE_TOTAL_PROTEIN
+359. PRE_RDW --> PRE_TOTAL_BILIRUBIN
+360. PRE_RDW --> PRE_UREA_NITROGEN
+361. PRE_SODIUM --> PRE_TOTAL_PROTEIN
+362. PRE_SODIUM --> PRE_WBC
+363. PRE_TOTAL_BILIRUBIN --> PRE_PHOSPHORUS
+364. PRE_TOTAL_BILIRUBIN --> PRE_UREA_NITROGEN
+365. PRE_TOTAL_PROTEIN --> PRE_LACTATE
+366. PRE_TOTAL_PROTEIN --> PRE_WBC
+367. PRE_UREA_NITROGEN --> PRE_HEMOGLOBIN
+368. PRE_UREA_NITROGEN --> PRE_PHOSPHORUS
+369. PRE_WBC --> PRE_LACTATE
+370. PepticUlcerDis --> MildLiverDis
+371. PepticUlcerDis --> ModSevLivDis
+372. PeriphVasDis --> FEMALE
+373. PeriphVasDis --> Hyperlipid
+374. PeriphVasDis --> RECENT_MRSA_1y
+375. PeriphVasDis --> RenalDis
+376. Peritonitis_1w --> MetastSolidTumor_1m
+377. Peritonitis_1w --> ModSevLivDis
+378. Peritonitis_1w --> time
+379. Psychoses --> Dementia
+380. Psychoses --> NeuroDisease
+381. PulmCircDis_1m --> CPD_1m
+382. PulmCircDis_1m --> CPD_Pneum
+383. PulmCircDis_1m --> Drugs
+384. Respiratory_1w --> CPD_1m
+385. RheumaticDis --> FEMALE
+386. Sepsis_1w --> AKI_1w
+387. Sepsis_1w --> Endocarditis_1w
+388. Sepsis_1w --> FluidElectroDis
+389. Sepsis_1w --> PulmCircDis_1m
+390. SepticShock_1w --> AKI_1w
+391. SepticShock_1w --> CardiacArrythm
+392. SepticShock_1w --> Coagulopathy
+393. SepticShock_1w --> Endocarditis_1w
+394. SepticShock_1w --> NeuroDisease
+395. SepticShock_1w --- Respiratory_1w
+396. SepticShock_1w --> Sepsis_1w
+397. SepticShock_1w --> time
+398. Smoking --> FEMALE
+399. TIME_BW_ADMIT_ORDER --- EARLY_CULTURE
+400. TIME_BW_ADMIT_ORDER --- HOSP_ACQ
+401. TIME_BW_ADMIT_ORDER --> Sepsis_1w
+402. TIME_BW_ADMIT_ORDER --- WeightLoss
+403. UncompHypertension --> Diabetes
+404. UncompHypertension --> PeriphVasDis
+405. VRE --> NumOtherIsolates
+406. WeightLoss --- Anemia
+407. WeightLoss --> CardiacArrythm
+408. WeightLoss --> Coagulopathy
+409. WeightLoss --> Dementia
+410. WeightLoss --> FluidElectroDis
+411. WeightLoss --> HemiParaplegia
+412. WeightLoss --> PepticUlcerDis
+
+Graph Attributes:
+BIC: -210228.624199

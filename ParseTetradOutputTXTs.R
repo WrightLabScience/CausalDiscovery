@@ -2,7 +2,7 @@
 # do some analysis here
 
 setwd('~/Desktop/CausalDiscovery/')
-lf <- list.files(path = 'Results/', pattern='txt')
+lf <- list.files(path = 'Results/', pattern='_out\\.txt')
 
 params <- read.table('job_files/search.map',
                      sep=' ', 
@@ -27,15 +27,17 @@ calcVennCounts <- function(df, edge_type) {
 }
 
 for (i in seq_along(lf)) {
-   print(params[i,])
-   cat('\n')
+   which_run <- gsub('Result_([0-9]+)_out\\.txt', '\\1', lf[i])
+   print(params[which(rownames(params) == which_run),])
+   cat(i, which_run, '\n')
    
    out <- readLines(con = paste0('Results/', lf[i]))
    start_edges <- grep('Graph Edges:', out) + 1
-   end_edges <- grep('Graph Attributes:', out) - 2
+   end_edges <- grep('Ambiguous triples|Graph Attributes:', out) - 2
    if (length(end_edges) == 0L)
       end_edges <- length(out)
    edges <- out[start_edges:end_edges]
+   edges <- edges[edges != '']
    edges <- gsub('^[0-9]+\\. ', '', edges)
    edge_types <- gsub('[A-z0-9]+ (.+) [A-z0-9]+', '\\1', edges)
    edge_list <- strsplit(edges, split=' [-o<>]{3} ')
@@ -45,30 +47,30 @@ for (i in seq_along(lf)) {
       type = edge_types
    )
    all_variables <- unique(c(df$cause, df$effect))
-   
+
    cat('Total number of edges:', nrow(df), '\n')
    # distribution of edge types
    cat('Distribution of edge types:')
    print(table(df$type))
    cat('\n')
-   
-   
+
+
    # check for temporal order violations?
    if (any(df$cause == 'time' | (df$cause == 'TRT' & df$effect != 'time'))) {
       cat('Error: temporal violation.\n')
    }
-   
+
    # does TRT cause time?
    if (any(df$cause == 'TRT' & df$effect == 'time')) {
       cat('Success: TRT causes time.\n')
    } else {
-      cat('Warning: TRT does not cause time.\n') 
+      cat('Warning: TRT does not cause time.\n')
    }
-   
+
    for (edge_type in unique(df$type)) {
       calcVennCounts(df, edge_type)
    }
-   
+
    cat('\n__________________________________________\n\n')
 }
 

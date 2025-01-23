@@ -1,0 +1,139 @@
+================================================================================
+PC-MB (Wed, January 22, 2025 03:18:27 PM)
+================================================================================
+
+Runtime Parameters
+--------------------------------------------------------------------------------
+number of threads: 23
+
+Dataset
+--------------------------------------------------------------------------------
+file: trimmed_data.txt
+header: yes
+delimiter: tab
+quote char: none
+missing marker: NA
+comment marker: none
+
+Knowledge
+--------------------------------------------------------------------------------
+file: knowledge.txt
+
+Algorithm Run
+--------------------------------------------------------------------------------
+algorithm: PC-MB
+test of independence: CG-LRT (Conditional Gaussian Likelihood Ratio Test)
+
+Algorithm Parameters
+--------------------------------------------------------------------------------
+addOriginalDataset: no
+alpha: 0.05
+depth: -1
+discretize: no
+mb: no
+numberResampling: 0
+numCategoriesToDiscretize: 3
+percentResampleSize: 100
+resamplingEnsemble: 1
+resamplingWithReplacement: no
+saveBootstrapGraphs: no
+seed: -1
+targets: time,TRT
+verbose: no
+
+
+Wed, January 22, 2025 03:18:27 PM: Start data validation on file trimmed_data.txt.
+Wed, January 22, 2025 03:18:28 PM: End data validation on file trimmed_data.txt.
+There are 2278 cases and 104 variables.
+
+Wed, January 22, 2025 03:18:28 PM: Start reading in file trimmed_data.txt.
+Wed, January 22, 2025 03:18:28 PM: Finished reading in file trimmed_data.txt.
+Wed, January 22, 2025 03:18:28 PM: File trimmed_data.txt contains 2278 cases, 104 variables.
+Wed, January 22, 2025 03:18:28 PM: Start reading in file knowledge.txt.
+Wed, January 22, 2025 03:18:28 PM: Finished reading in file knowledge.txt.
+
+Start search: Wed, January 22, 2025 03:18:28 PM
+End search: Wed, January 22, 2025 03:19:03 PM
+
+================================================================================
+Graph Nodes:
+time;TRT;NURSING_HOME;AGE;SepticShock_1w;Osteomyelitis_1w;Peritonitis_1w;PulmCircDis_1m;MetastSolidTumor_1m;Coagulopathy;NeuroDisease;OTHER_ABX;EARLY_CULTURE;OsteoChronic;MyocInfarc;VRE;CATEGORY;RECENT_MRSA_1y;PRE_ABS_NEUTROPHILS
+
+Graph Edges:
+1. AGE --> time
+2. CATEGORY --> TRT
+3. Coagulopathy --> time
+4. EARLY_CULTURE --> TRT
+5. MetastSolidTumor_1m --> time
+6. MyocInfarc --> TRT
+7. NURSING_HOME --> time
+8. NeuroDisease --> time
+9. OTHER_ABX --> TRT
+10. OsteoChronic --> TRT
+11. Osteomyelitis_1w --> time
+12. PRE_ABS_NEUTROPHILS --> TRT
+13. Peritonitis_1w --> time
+14. PulmCircDis_1m --> time
+15. RECENT_MRSA_1y --> TRT
+16. SepticShock_1w --> time
+17. VRE --> TRT
+
+
+
+Ambiguous triples (i.e. list of triples for which there is ambiguous data about whether they are colliders or not):
+<SepticShock_1w, time, Peritonitis_1w>
+<RECENT_MRSA_1y, TRT, EARLY_CULTURE>
+<VRE, TRT, MyocInfarc>
+<EARLY_CULTURE, TRT, MyocInfarc>
+<SepticShock_1w, time, NURSING_HOME>
+<NURSING_HOME, time, Coagulopathy>
+<SepticShock_1w, time, PulmCircDis_1m>
+<SepticShock_1w, time, MetastSolidTumor_1m>
+<Peritonitis_1w, time, NURSING_HOME>
+<NeuroDisease, time, Peritonitis_1w>
+<VRE, TRT, EARLY_CULTURE>
+<CATEGORY, TRT, OTHER_ABX>
+<Peritonitis_1w, time, AGE>
+<CATEGORY, TRT, PRE_ABS_NEUTROPHILS>
+<PulmCircDis_1m, time, AGE>
+<NeuroDisease, time, Osteomyelitis_1w>
+<NURSING_HOME, time, AGE>
+<RECENT_MRSA_1y, TRT, PRE_ABS_NEUTROPHILS>
+<RECENT_MRSA_1y, TRT, CATEGORY>
+<PRE_ABS_NEUTROPHILS, TRT, EARLY_CULTURE>
+<OsteoChronic, TRT, EARLY_CULTURE>
+<PRE_ABS_NEUTROPHILS, TRT, OsteoChronic>
+<MetastSolidTumor_1m, time, Osteomyelitis_1w>
+<CATEGORY, TRT, OsteoChronic>
+<PulmCircDis_1m, time, Osteomyelitis_1w>
+<Peritonitis_1w, time, Osteomyelitis_1w>
+<Osteomyelitis_1w, time, Coagulopathy>
+<NeuroDisease, time, NURSING_HOME>
+<NURSING_HOME, time, PulmCircDis_1m>
+<RECENT_MRSA_1y, TRT, OsteoChronic>
+<SepticShock_1w, time, Coagulopathy>
+<NeuroDisease, time, AGE>
+<OTHER_ABX, TRT, EARLY_CULTURE>
+<Peritonitis_1w, time, Coagulopathy>
+<PRE_ABS_NEUTROPHILS, TRT, MyocInfarc>
+<Peritonitis_1w, time, PulmCircDis_1m>
+<PulmCircDis_1m, time, Coagulopathy>
+<RECENT_MRSA_1y, TRT, VRE>
+<MetastSolidTumor_1m, time, NURSING_HOME>
+<NeuroDisease, time, MetastSolidTumor_1m>
+<NeuroDisease, time, Coagulopathy>
+<NURSING_HOME, time, Osteomyelitis_1w>
+<SepticShock_1w, time, NeuroDisease>
+<OsteoChronic, TRT, VRE>
+<MetastSolidTumor_1m, time, Coagulopathy>
+<OsteoChronic, TRT, MyocInfarc>
+<OTHER_ABX, TRT, MyocInfarc>
+<OsteoChronic, TRT, OTHER_ABX>
+<Osteomyelitis_1w, time, AGE>
+<RECENT_MRSA_1y, TRT, MyocInfarc>
+<PRE_ABS_NEUTROPHILS, TRT, VRE>
+<MetastSolidTumor_1m, time, Peritonitis_1w>
+<OTHER_ABX, TRT, VRE>
+<CATEGORY, TRT, VRE>
+<CATEGORY, TRT, MyocInfarc>
+<PRE_ABS_NEUTROPHILS, TRT, OTHER_ABX>

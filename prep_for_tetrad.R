@@ -68,17 +68,19 @@ length(intersect(vars_surv, vars_trt)) # 4 LOL
 
 
 
-select_vars <- c('or1', 'or5', 'everything', 'and1', 'and5')
 filter_vars <- c('iDAP', 'allDAP', 'i1DAP', 'i2DAP', 'sDAP')
+#select_vars <- c('everything')#, 'or1', 'or5', 'and1', 'and5')
 handle_missing_vars <- c('impute', 'presence')#, 'leave')
-include_outcome_vars <- c('yes', 'no')
-search_alg_vars <- c('pc', 'fges', 'grasp-fci', 'fci', 'boss', 'grasp', 'gfci', 'rfci')
+require_trt_effect_vars <- c('yes', 'no')
+#include_outcome_vars <- c('yes', 'no')
+search_alg_vars <- c('pc', 'fges', 'grasp-fci', 'fci', 'boss', 'grasp', 'gfci', 'rfci', 'cfci', 'cpc', 'fci-max', 'fges-mb', 'pc-mb')
 search_alpha_vars <- c(0.05, 0.01, 0.1)
 params <- expand.grid(filter_var=filter_vars, 
-                      select_var=select_vars, 
-                      handle_missing_var=handle_missing_vars, 
-                      include_outcome_var=include_outcome_vars, 
-                      search_alg_var=search_alg_vars, 
+                      #select_var=select_vars[3], 
+                      handle_missing_var=handle_missing_vars,
+                      require_trt_effect_var=require_trt_effect_vars,
+                      #include_outcome_var=include_outcome_vars[1],
+                      search_alg_var=search_alg_vars,
                       search_alpha_var=search_alpha_vars)
 
 # for score-based algorithms, they all have every possible p-value, but that is unecessary
@@ -90,13 +92,14 @@ rownames(params) <- seq_len(nrow(params))
 nrow(params)
 
 # programatically construct the .dag file
-write.table(x = params, 
+write.table(x = params,
             file = '~/Desktop/CausalDiscovery/job_files/search.map', 
             quote = FALSE,
             col.names = FALSE,
             row.names = TRUE,
             sep = ' ')
 
+rm(params, filter_vars, handle_missing_vars, search_alg_vars, search_alpha_vars, score_based_algs, require_trt_effect_vars)
 
 
 

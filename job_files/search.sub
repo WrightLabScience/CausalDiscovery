@@ -4,11 +4,12 @@ error = log_files/$(Cluster).$(Process).err
 output = log_files/$(Cluster).$(Process).out
 
 executable = search.sh
-arguments = $(job_num) $(filter_var) $(select_var) $(handle_missing_var) $(include_outcome_var) $(search_alg_var) $(search_alpha_var)
+arguments = $(job_num) $(filter_var) $(handle_missing_var) $(require_trt_effect_var) $(search_alg_var) $(search_alpha_var)
 transfer_input_files = FULL_MRSA_BACT.txt, dataset_trimmer.R, causal-cmd-1.12.0-jar-with-dependencies.jar
 transfer_output_remaps = "Result_$(job_num)_out.txt = Results/Result_$(job_num)_out.txt; variables_$(job_num).txt = Results/variables_$(job_num).txt"
 
-request_cpus = 1
+allowed_execute_duration = 259200
+request_cpus = 4
 request_memory = 8GB
 request_disk = 8GB
 
@@ -16,4 +17,4 @@ requirements = HAS_SINGULARITY == True && OSG_HOST_KERNEL_VERSION >= 31000 && Ar
 
 +SingularityImage = "/cvmfs/singularity.opensciencegrid.org/npcooley/synextend:tetrad.1.20.0"
 
-queue job_num filter_var select_var handle_missing_var include_outcome_var search_alg_var search_alpha_var from search.map
+queue job_num filter_var handle_missing_var require_trt_effect_var search_alg_var search_alpha_var from search.map

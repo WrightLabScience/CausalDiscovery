@@ -1,0 +1,78 @@
+================================================================================
+FGES-MB (Wed, January 22, 2025 03:17:09 PM)
+================================================================================
+
+Runtime Parameters
+--------------------------------------------------------------------------------
+number of threads: 127
+
+Dataset
+--------------------------------------------------------------------------------
+file: trimmed_data.txt
+header: yes
+delimiter: tab
+quote char: none
+missing marker: NA
+comment marker: none
+
+Knowledge
+--------------------------------------------------------------------------------
+file: knowledge.txt
+
+Algorithm Run
+--------------------------------------------------------------------------------
+algorithm: FGES-MB
+score: CG-BIC (Conditional Gaussian BIC Score)
+
+Algorithm Parameters
+--------------------------------------------------------------------------------
+addOriginalDataset: no
+discretize: no
+faithfulnessAssumed: no
+maxDegree: 1000
+numberOfExpansions: 2
+numberResampling: 0
+numCategoriesToDiscretize: 3
+penaltyDiscount: 2.0
+percentResampleSize: 100
+resamplingEnsemble: 1
+resamplingWithReplacement: no
+saveBootstrapGraphs: no
+seed: -1
+structurePrior: 0.0
+targets: time,TRT
+trimmingStyle: 3
+verbose: no
+
+
+Wed, January 22, 2025 03:17:10 PM: Start data validation on file trimmed_data.txt.
+Wed, January 22, 2025 03:17:10 PM: End data validation on file trimmed_data.txt.
+There are 2278 cases and 104 variables.
+
+Wed, January 22, 2025 03:17:10 PM: Start reading in file trimmed_data.txt.
+Wed, January 22, 2025 03:17:10 PM: Finished reading in file trimmed_data.txt.
+Wed, January 22, 2025 03:17:10 PM: File trimmed_data.txt contains 2278 cases, 104 variables.
+Wed, January 22, 2025 03:17:10 PM: Start reading in file knowledge.txt.
+Wed, January 22, 2025 03:17:10 PM: Finished reading in file knowledge.txt.
+
+Start search: Wed, January 22, 2025 03:17:11 PM
+End search: Wed, January 22, 2025 03:45:18 PM
+
+================================================================================
+Graph Nodes:
+TRT;time;OTHER_ABX;AGE;SepticShock_1w;PulmCircDis_1m;Coagulopathy;MetastSolidTumor
+
+Graph Edges:
+1. AGE --> time
+2. Coagulopathy --> SepticShock_1w
+3. Coagulopathy --> time
+4. MetastSolidTumor --> time
+5. OTHER_ABX --> TRT
+6. PulmCircDis_1m --> time
+7. SepticShock_1w --> time
+
+Graph Attributes:
+Score: -1132778.115912
+
+Graph Node Attributes:
+Score: [TRT: -2129.291238839812;time: -14881.898853719315;OTHER_ABX: 4326.0029733685715;AGE: -19217.816097967294;SepticShock_1w: -1429.046097247487;PulmCircDis_1m: -1623.9642192907525;Coagulopathy: -2626.1899061356403;MetastSolidTumor: 666.4441045412038]
